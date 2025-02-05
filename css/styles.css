@@ -13,7 +13,8 @@ ul,ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
-  line-height: 110%;
+  margin-left: 3em; /* was blank */
+  line-height: 125%;  /* 110% */
 }
 
 p { 
@@ -176,7 +177,7 @@ pre[href]:hover  {
   text-decoration: none;
 }
 pre:hover, pre:focus {
-  width: fit-content;  /* min-content */
+  width: 50%;  /* was: fit-content; before that; width: min-content */
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
