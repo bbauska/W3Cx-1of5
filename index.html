@@ -826,7 +826,7 @@ site</a> (made with lots of CSS) looks like now!</p>
     elements and a single style sheet could apply to multiple documents.</li>
 </ul>
 
-<p>In the video below, you will hear from Bert Bos, the co-creator of CSS, about 
+<p>In the lesson below, you will learn about Bert Bos, the co-creator of CSS, about 
 how he and Håkon Lie developed CSS.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18b. css intro logo (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1853,12 +1853,15 @@ pass in https://www.w3.org (the W3C's homepage), you see the
 following:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 26. html validator output for w3.org (48) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://www.w3.org" target="_blank"
+  rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image026.webp?raw=true"
   loading="lazy"
   style="width:35%;"
   title="HTML validator output for w3.org"
   alt="HTML validator output for w3.org." />
+</a>
 
 <p>If you start to try out other URLs, you might find this is a very rare result ;)</p>
 <p>Try passing in your favorite Web address and see what comes up. For
@@ -1871,13 +1874,14 @@ href="https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes"
 target="_blank" rel="noopener noreferrer">Use CSS instead</a>".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. image of obsolete html error (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes" 
+target="_blank" rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image027.webp?raw=true"
   loading="lazy"
   style="width:35%;"
   title="Image of obsolete HTML error"
-  alt="Image of obsolete HTML error." />
-
+  alt="Image of obsolete HTML error." /></a>
 <p>For this activity, please try out some of your favorite Web addresses in this 
 validator and see what happens. Find a page that has one of these types 
 of errors and answer the following questions in the discussion board:</p>
@@ -1934,25 +1938,21 @@ first CSS style specifically for a given HTML Web site.</p>
 
 <h4>Selector</h4>
 
-<p>This is the portion of the rule before the first open curly brace (
-"{" character). This is what tells the browser what HTML tags this rule
-applies to. Often, you'll just see a selector that matches an HTML tag,
-like in this instance- our selector is just "p". However, as we get
-further into this course, you'll find that there are many ways to target
-specific HTML elements and many different ways to structure selectors so
-that you are targeting exactly the part of your site you want to
-style.</p>
+<p>This is the portion of the rule before the first open curly brace ("{" character). This is what 
+tells the browser what HTML tags this rule applies to. Often, you'll just see a selector that 
+matches an HTML tag, like in this instance- our selector is just "p". However, as we get further 
+into this course, you'll find that there are many ways to target specific HTML elements and many 
+different ways to structure selectors so that you are targeting exactly the part of your site you 
+want to style.</p>
 
 <h4>Property</h4>
 
-<p>This is the portion of the rule between the two curly braces. This is
-what tells the browser how to style the HTML tag that has been selected.
-This can be as many lines of code as you choose, each of which has two
-parts- the property and the value you want that property to be.</p>
+<p>This is the portion of the rule between the two curly braces. This is what tells the browser 
+how to style the HTML tag that has been selected. This can be as many lines of code as you choose, 
+each of which has two parts- the property and the value you want that property to be.</p>
 
-<p>For our example, "color" is the property and "blue" is the value, but we could
-also have had a value of "black" or "#FFFFFF" (which is HEX code for
-white). Each property line is constructed so:</p>
+<p>For our example, "color" is the property and "blue" is the value, but we could also have had a 
+value of "black" or "#FFFFFF" (which is HEX code for white). Each property line is constructed so:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28b. property anatomy (53) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -1962,15 +1962,13 @@ white). Each property line is constructed so:</p>
   title="Anatomy of property: how to style a tag"
   alt="Anatomy of property: how to style a tag." />
 
-<p>The style for your page will consist of a list of many CSS rules put
-together. As we move through this course we will help you build up these
-rules to style your entire page.</p>
+<p>The style for your page will consist of a list of many CSS rules put together. As we move 
+through this course we will help you build up these rules to style your entire page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3-3">2.3.3 Activity - Building your first CSS rule set</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Now that you have a basic understanding of how to put the pieces of a
-CSS rule together, let's do some practice. Here is some HTML for a page
-you will style:</p>
+<p>Now that you have a basic understanding of how to put the pieces of a CSS rule together, 
+let's do some practice. Here is some HTML for a page you will style:</p>
 
 <details>
   <summary>HTML code extract!</summary>
@@ -2002,8 +2000,7 @@ you will style:</p>
 <p><a href="https://codepen.io/w3devcampus/pen/zovzwE" target="_blank" rel="noopener noreferrer">HTML in Code
 Pen</a></p>
 
-<p>Your goal is to get this HTML to look like the following image in the
-browser:</p>
+<p>Your goal is to get this HTML to look like the following image in the browser:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 29. codepen resulting image (activity 2.3) (54) ~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/zovzwE" target="_blank" rel="noopener noreferrer">
@@ -2014,8 +2011,7 @@ browser:</p>
   title="CodePen resulting image (Activity 2.3)"
   alt="CodePen resulting image (Activity 2.3)." /></a>
 
-<p>To do so, you will need to write 4 CSS Rules. You will need to use
-the following 4 selectors:</p>
+<p>To do so, you will need to write 4 CSS Rules. You will need to use the following 4 selectors:</p>
 
 <ul>
   <li>body</li>
@@ -2037,21 +2033,19 @@ the following 4 selectors:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-1">2.4.1 Attaching CSS using a selector</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that 
-tells the browser on which HTML element to apply the defined style.</p>
+<p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on 
+which HTML element to apply the defined style.</p>
 
-<p>When your HTML is simple, the selectors can be simple as well. The most basic 
-selectors simply mirror the HTML tag. For example "p" attaches to all &lt;p&gt; 
-tags, "img" will attach to all &lt;img&gt; tags and so on. As you can imagine, 
-there will often be times when you don't want every single HTML element of a 
-particular type to have identical style. In Module 3, we'll discuss a variety 
-of ways to use selectors to attach to specific HTML elements.</p>
+<p>When your HTML is simple, the selectors can be simple as well. The most basic selectors simply 
+mirror the HTML tag. For example "p" attaches to all &lt;p&gt; tags, "img" will attach to all 
+&lt;img&gt; tags and so on. As you can imagine, there will often be times when you don't want 
+every single HTML element of a particular type to have identical style. In Module 3, we'll 
+discuss a variety of ways to use selectors to attach to specific HTML elements.</p>
 
-<p>In unit 2.2, we briefly mentioned the fact that properties apply to the 
-entire hierarchy of HTML elements to which they are attached. This means that 
-you will have to be very careful which selectors you choose to use in combination 
-with your chosen style. When choosing your selector you might want to keep the 
-following aspects of an HTML element in mind:</p>
+<p>In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of 
+HTML elements to which they are attached. This means that you will have to be very careful which 
+selectors you choose to use in combination with your chosen style. When choosing your selector 
+you might want to keep the following aspects of an HTML element in mind:</p>
 
 <ul>
   <li>How many of these HTML elements are on my page? Do I want this style 
