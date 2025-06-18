@@ -1248,3 +1248,5 @@ In module 3, you will then learn:
 - contextual selectors
 - pseudo classes
 
+[Module 3](module3.md)
+
