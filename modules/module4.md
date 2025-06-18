@@ -581,3 +581,5 @@ Footer 3
 This final design flows with the overall structure of the page, but limits the content to a single simple contact link.
 
 Footer design 3
+
+[Module 5](module5.md)
