@@ -1,4 +1,4 @@
-/* styles.css of w3cx-1of5 */
+/* styles.css of W3Cx-1of5 making W3Cx-1of5.bauska.org */
 img.displayed {
   display: block;
   margin: 0 auto; 
@@ -74,13 +74,13 @@ h5 {
   margin-left: 15px;
 }
 h6 { 
-  font-size: 10px;
+  font-size: 12px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   margin-left: 15px;
 }
 
 details {
-  font: 10px Inter, sans-serif, Bahnschrift, Calibri;
+  font: 14px Bahnschrift, Inter, sans-serif, Calibri;
   width: 65%;
 }
 details > summary {
@@ -90,6 +90,7 @@ details > summary {
   border: none;
   box-shadow: 3px 3px 4px #00008b;  /* dark blue */
   cursor: pointer;
+  margin-left: 15px;
 }
 details > p {
   border-radius: 0 0 10px 10px;
@@ -106,7 +107,7 @@ background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93
 
 body {
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
-  font-size: 14.5px;  /* 1.2rem; */
+  font-size: 13.5px;  /* 1.2rem; */
   background-color: #eee;  /* very light gray */
   color: #000000;  /* black */
   text-align: left;
@@ -133,6 +134,24 @@ body {
   background-color: #555;  /* very dark gray */
 }
 
+th, td {
+  border: 1px solid #000;
+}
+table {
+  border-collapse: collapse;
+  margin-left: 15px;
+  border: 1px solid #000;
+}
+
+pre {
+  font: normal normal 10px/12px consolas,Courier,Monospace;
+  background-color: #eee;
+  overflow: auto;
+  margin: 0 0 1em;
+  padding: .5em 1em;
+  white-space: pre-wraps;
+  overflow-x: auto;
+}
 pre > code {
   display: block;
   margin-left: 15px;  /* 10px */
@@ -142,7 +161,7 @@ pre > code {
 pre code,
 pre .line-number {
   font: normal normal 10px/12px consolas,Courier,Monospace;
-  color: black;
+  color: #000;
   display: block;
 }
 pre .line-number {
@@ -162,20 +181,21 @@ pre .cl {
   clear: both;
 }
 pre {
-  font:normal normal 10px/12px consolas,Courier,Monospace;
-  background-color:#eee;
-  overflow:auto;
-  margin:0 0 1em;
-  padding:.5em 1em;
-  white-space: pre-wraps;
-  overflow-x: auto;
+  width: 400px;
   overflow: auto;
 }
 pre[href]:hover  {
   text-decoration: none;
 }
-pre:hover, pre:focus { 
-  width: 400px; 
+pre:hover, pre:focus {
+  width: 400px;  /* was: 50%, fit-content; before that; width: min-content */
+}
+
+@media all and (max-width: 500px) {
+  img.frame { 
+    border-width: 0px;
+    width: 100%; 
+  }
 }
 @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
   div.example {
