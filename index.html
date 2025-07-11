@@ -43,10 +43,10 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <script>
-  <!-- Get the button -->
+  /** Get the button */
   var mybutton = document.getElementById("myBtn");
 
-  <!-- When the user scrolls down 10px from the top of the document, show the button -->
+  /** When the user scrolls down 10px from the top of the document, show the button */
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
@@ -238,10 +238,10 @@ of five modules, including lots of hands-on practice.</p>
 <ul>
   <li>In <b>Module 3</b>, we are going to build slightly more complex Web pages using 
     contextual selectors, IDs, classes and pseudo-classes. The idea is to combine some 
-	selectors together into one or more CSS rules. And thanks to the "cascading" part 
-	of <i>Cascading Style Sheets</i>, it won't be a problem to have multiple CSS 
-	rules competing for importance. Even with multiple rules that apply to the same 
-	HTML tag, the browser will know how to make it look!</li>
+    selectors together into one or more CSS rules. And thanks to the "cascading" part 
+    of <i>Cascading Style Sheets</i>, it won't be a problem to have multiple CSS 
+    rules competing for importance. Even with multiple rules that apply to the same 
+    HTML tag, the browser will know how to make it look!</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. image of the css box model (04) -~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1029,13 +1029,13 @@ having to even touch the style.</p>
     can address updates in isolation,</li>
   <li>Over time more and more devices have become internet-capable, and now there are so 
     many different orientations in which your user can view your content. With CSS, you can 
-	specifically cater the style to each device to ensure an optimal experience,</li>
+    specifically cater the style to each device to ensure an optimal experience,</li>
   <li>Some users have specific presentation needs based on personal or technological limitations 
     or preferences. Separating content from presentation allows these users the option to 
-	control how they view content, and</li>
+    control how they view content, and</li>
   <li>Before CSS visual elements were almost always achieved with static images, which can 
     have a big affect on network performance. CSS provides an optimized way to style your 
-	page so it can load complex visuals quickly.</li>
+    page so it can load complex visuals quickly.</li>
 </ul>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1502,15 +1502,22 @@ is called an HTML <b>element</b>.</p>
 <details>
   <summary>HTML code extract!</summary>
   
-<pre>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be HTML 5 type--&gt;
-&lt;html lang=&quot;en&quot;&gt; &lt;!--All your HTML content must be within this tag--&gt;
-  &lt;head&gt; &lt;!--Anything in the header provides information about the document, no content here--&gt;
+<pre>&lt;!DOCTYPE html&gt; &lt;!-- Doctype declares the document to be 
+HTML 5 type--&gt;
+&lt;html lang=&quot;en&quot;&gt; &lt;!--All your HTML content must be within this 
+tag--&gt;
+  &lt;head&gt; &lt;!--Anything in the header provides information about the 
+    document, no content here--&gt;
     &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;title&gt;Page Title&lt;/title&gt; &lt;!--This text will show up on the tab of the browser for this page--&gt;
+    &lt;title&gt;Page Title&lt;/title&gt; &lt;!--This text will show up on the 
+      tab of the browser for this page--&gt;
   &lt;/head&gt; &lt;!--end for the header section--\&gt;
-  &lt;body&gt; &lt;!--start tag for the body section, this is where to put all your content to be displayed--&gt;
-    &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;!--content in a h1 tag is a &quot;heading&quot; of the top level--&gt;
-    &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;!--content in a p tag is normal or &quot;paragraph&quot; level text--&gt;
+  &lt;body&gt; &lt;!--start tag for the body section, this is where to put 
+    all your content to be displayed--&gt;
+    &lt;h1&gt;My First Heading&lt;/h1&gt; &lt;!--content in a h1 tag is a 
+      &quot;heading&quot; of the top level--&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt; &lt;!--content in a p tag is normal 
+      or &quot;paragraph&quot; level text--&gt;
   &lt;/body&gt;
 &lt;/html&gt;</pre>
 
@@ -1820,8 +1827,8 @@ multiple different types of content. </p>
 <pre>&lt;div&gt;
   &lt;h1&gt; Title for Content &lt;/h1&gt;
   &lt;img src=&quot;images/contentImage.jpg&quot; /&gt;
-  &lt;p&gt; This is a paragraph explaining this section of content associated with the above image 
-    and title&lt;/p&gt;
+  &lt;p&gt; This is a paragraph explaining this section of content 
+    associated with the above image and title&lt;/p&gt;
 &lt;/div&gt;</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-3">2.2.3 Next steps - learn more HTML</h3>
@@ -1999,9 +2006,9 @@ let's do some practice. Here is some HTML for a page you will style:</p>
   &lt;/head&gt;
   &lt;body&gt;
     &lt;h1&gt;My H1 header&lt;/h1&gt;
-    &lt;p&gt; This is a block of text to represent a paragraph that you will want to style. 
-      This might be an explanation of the list that follows, it is all contained within a 
-      single paragraph tag.
+    &lt;p&gt; This is a block of text to represent a paragraph that you 
+      will want to style. This might be an explanation of the list that 
+	  follows, it is all contained within a single paragraph tag.
     &lt;/p&gt;
     &lt;ul&gt;
       &lt;li&gt;This is list item 1&lt;/li&gt;
@@ -2123,18 +2130,20 @@ related CodePen online</a>).</p>
   &lt;body&gt;
     &lt;h1&gt;Title&lt;/h1&gt;
     &lt;p&gt;
-      In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells 
-      the browser on which HTML element to apply the defined style.
+      In unit 2.3, we defined a CSS selector as the portion of the 
+	  CSS rule that tells the browser on which HTML element to 
+	  apply the defined style.
       &lt;a href=&quot;https://www.microsoft.com&quot;&gt;Click Here!&lt;/a&gt;
     &lt;/p&gt;
     &lt;ul&gt;
-      &lt;li&gt;When your HTML is simple, the selectors can be simple as well&lt;/li&gt;
+      &lt;li&gt;When your HTML is simple, the selectors can be simple as 
+	    well&lt;/li&gt;
       &lt;li&gt;The most basic selectors simply mirror the HTML tag&lt;/li&gt;
       &lt;li&gt;For example &quot;p&quot; attaches to all tags, &quot;img&quot; will attach 
         to all tags and so on&lt;/li&gt;
       &lt;li&gt;As you can imagine, there will often be times&lt;/li&gt;
-      &lt;li&gt;when you don&#39;t want every single HTML element of a particular type to have 
-        identical style&lt;/li&gt;
+      &lt;li&gt;when you don&#39;t want every single HTML element of a 
+	    particular type to have identical style&lt;/li&gt;
     &lt;/ul&gt;
     &lt;p&gt;</pre>
  
@@ -2158,16 +2167,19 @@ tag name. For example, here are some example selectors we’ll use in this modul
 <details>
   <summary>HTML code extract!</summary>
 
-<pre>  &lt;/p&gt;
-    &lt;ol&gt;
-      &lt;li&gt;This would affect the style of all link tags on the page&lt;/li&gt;
-      &lt;li&gt;This would affect the style of all paragraph tags on the page&lt;/li&gt;
-      &lt;li&gt;and the style of elements contained within the paragraph tag&lt;/li&gt;
-      &lt;li&gt;This would apply style to the body tag&lt;/li&gt;
-      &lt;li&gt;as well as allow the elements inside the body tag to inherit certain styles 
-        applied here.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/body&gt;
+<pre>&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;This would affect the style of all link tags on the 
+	  page&lt;/li&gt;
+    &lt;li&gt;This would affect the style of all paragraph tags on 
+	  the page&lt;/li&gt;
+    &lt;li&gt;and the style of elements contained within the paragraph 
+	  tag&lt;/li&gt;
+    &lt;li&gt;This would apply style to the body tag&lt;/li&gt;
+    &lt;li&gt;as well as allow the elements inside the body tag to 
+	  inherit certain styles applied here.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/body&gt;
 &lt;/html&gt;</pre>
 
 </details>
@@ -2178,16 +2190,19 @@ tag name. For example, here are some example selectors we’ll use in this modul
   <summary>CSS code extract!</summary>
   
 <pre>body {
-  color: red; /* Every element inherits this except a tags, which don&#39;t inherit by default. */
+  color: red; /* Every element inherits this except a tags, 
+                 which don&#39;t inherit by default. */
  }
 ul {
   color: blue; /* li elements inherit this color. */
 }
 p {
-  font-style: italic; /* This even the a tags inherit within the paragraphs. */
+  font-style: italic; /* This even the a tags inherit within the 
+                         paragraphs. */
 }
 li {
-  text-decoration: line-through; /* Applies to all li elements, in both ul and ol tags. */
+  text-decoration: line-through; /* Applies to all li elements, 
+                                    in both ul and ol tags. */
 }</pre>
 
 </details>
@@ -2416,15 +2431,19 @@ h3,ol {
   &lt;h1&gt;Title 1&lt;/h1&gt;
   &lt;h2&gt;Title 2&lt;/h2&gt;
   &lt;ul&gt;
-    &lt;li&gt;Part of the reason a well structured HTML document is so important&lt;/li&gt;
+    &lt;li&gt;Part of the reason a well structured HTML document is so 
+	  important&lt;/li&gt;
     &lt;li&gt;is because HTML elements inherit stylistic properties&lt;/li&gt;
-    &lt;li&gt;You can see it&#39;s basic structure from the way I have formatted the tags with tabbing&lt;/li&gt;
+    &lt;li&gt;You can see it&#39;s basic structure from the way I have 
+	  formatted the tags with tabbing&lt;/li&gt;
   &lt;/ul&gt;
   &lt;h3&gt;Title 3&lt;/h3&gt;
   &lt;ol&gt;
-    &lt;li&gt;but here is a more visual representation of the hierarchy of tags&lt;/li&gt;
+    &lt;li&gt;but here is a more visual representation of the hierarchy 
+	  of tags&lt;/li&gt;
     &lt;li&gt;Tags that contain other tags are parents&lt;/li&gt;
-    &lt;li&gt;and the tags inside of them are their children in the following tree representation&lt;/li&gt;
+    &lt;li&gt;and the tags inside of them are their children in the 
+	  following tree representation&lt;/li&gt;
   &lt;/ol&gt;
 &lt;/body&gt;
 &lt;/html&gt;</pre>
@@ -2482,7 +2501,8 @@ aspects of an HTML element in mind</p>
   &lt;h2&gt;Sub Title 1&lt;/h2&gt;
   &lt;ul&gt;
     &lt;li&gt;How many of these HTML elements are on my page?&lt;/li&gt;
-    &lt;li&gt;Do I want this style to apply to every one of these elements?&lt;/li&gt;
+    &lt;li&gt;Do I want this style to apply to every one of these 
+      elements?&lt;/li&gt;
     &lt;li&gt;What are this HTML element&#39;s children&lt;/li&gt;
   &lt;/ul&gt;
   &lt;h2&gt;Sub Title 2&lt;/h2&gt;
@@ -2916,16 +2936,20 @@ or on top, <i>overline</i>.</p>
     &lt;h1&gt;Main title&lt;/h1&gt;
     &lt;h2&gt;Sub title&lt;/h2&gt;
     &lt;p&gt;
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia consequat nibh, 
-      non commodo neque maximus semper. Vivamus non ultricies massa, vel convallis nunc. Aenean 
-      tempus risus at orci faucibus, eget hendrerit elit sodales. Quisque imperdiet diam nibh, 
-      ut semper enim dapibus et. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-      Aenean in feugiat neque. Nunc eget libero mauris. Maecenas condimentum luctus nulla.
-      Nulla a sem orci. Cras eget neque viverra, condimentum nulla et, tincidunt libero. 
-      In sit amet quam purus. Aliquam erat volutpat. Sed hendrerit urna quis sapien mattis 
-      dictum. Etiam vehicula tortor eu libero finibus dapibus. Mauris nunc neque, sodales 
-      nec est sed, gravida convallis sem. Nam vulputate sed est sed eleifend. Quisque sodales 
-      elit at ornare vulputate.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis 
+      lacinia consequat nibh, non commodo neque maximus semper. 
+	  Vivamus non ultricies massa, vel convallis nunc. Aenean 
+      tempus risus at orci faucibus, eget hendrerit elit sodales. 
+	  Quisque imperdiet diam nibh, ut semper enim dapibus et. 
+	  Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+      Aenean in feugiat neque. Nunc eget libero mauris. Maecenas 
+	  condimentum luctus nulla. Nulla a sem orci. Cras eget neque 
+	  viverra, condimentum nulla et, tincidunt libero. In sit amet 
+	  quam purus. Aliquam erat volutpat. Sed hendrerit urna quis 
+	  sapien mattis dictum. Etiam vehicula tortor eu libero 
+	  finibus dapibus. Mauris nunc neque, sodales nec est sed, 
+	  gravida convallis sem. Nam vulputate sed est sed eleifend. 
+	  Quisque sodales elit at ornare vulputate.
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;</pre>
@@ -3153,25 +3177,32 @@ Codepen</a>:</p>
   &lt;h1&gt;Adding Properties&lt;/h1&gt;
   &lt;h2&gt;Using Colors, Fonts and Spacing&lt;/h2&gt;
   &lt;p&gt;          
-    There is a huge array of different aspects you can style: color, font, size, spacing and much 
-    more! For a complete list of official CSS properties, please check: 
-    https://www.w3.org/Style/CSS/all-properties#list or https://meiert.com/en/indices/css-properties/
+    There is a huge array of different aspects you can style: 
+	color, font, size, spacing and much more! For a complete 
+	list of official CSS properties, please check: 
+    https://www.w3.org/Style/CSS/all-properties#list 
+	or https://meiert.com/en/indices/css-properties/
   &lt;/p&gt;
   &lt;ol&gt;
-    &lt;li&gt;Make sure to look up what the available values are before using a property&lt;/li&gt;
-    &lt;li&gt;because if the browser doesn&#39;t understand your value it will typically just skip 
-       applying any style&lt;/li&gt;
-    &lt;li&gt;This is where programs like Visual Studio Code come in handy&lt;/li&gt;
-    &lt;li&gt;because as you type out the property the program will automatically suggest possible 
-      values for you &lt;/li&gt;
-    &lt;li&gt;Sometimes the easiest way to learn about different properties is to explore the style 
-    on one of your favorite websites&lt;/li&gt;
+    &lt;li&gt;Make sure to look up what the available values are 
+      before using a property&lt;/li&gt;
+    &lt;li&gt;because if the browser doesn&#39;t understand your value 
+      it will typically just skip applying any style&lt;/li&gt;
+    &lt;li&gt;This is where programs like Visual Studio Code come in 
+      handy&lt;/li&gt;
+    &lt;li&gt;because as you type out the property the program will 
+      automatically suggest possible values for you &lt;/li&gt;
+    &lt;li&gt;Sometimes the easiest way to learn about different 
+	  properties is to explore the style on one of your favorite 
+	  websites&lt;/li&gt;
   &lt;/ol&gt;
   &lt;p&gt;
-     If you aren&#39;t sure how to do this refer to the demo in unit 1.3 to see this in action while 
-     inspecting CSS Zen Garden designs.
-     As you can see, the browser tools display the value of the properties, and if you click into that 
-     space it will even give you some of the different value options and you can even change them and watch the Web site update dynamically.
+     If you aren&#39;t sure how to do this refer to the demo in unit 
+	 1.3 to see this in action while inspecting CSS Zen Garden designs.
+     As you can see, the browser tools display the value of the 
+	 properties, and if you click into that space it will even give 
+	 you some of the different value options and you can even change 
+	 them and watch the Web site update dynamically.
   &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</pre>
@@ -3574,7 +3605,7 @@ choices that make your titles and buttons not as effective...</p>
    busy, and</li>
   <li>Buttons should send a clear message that they need to be interacted with. If 
     a button doesn't show up as a rectangle, a user typically won't understand that 
-	it's a button.</li>
+    it's a button.</li>
 </ul>
 
 <p>For this activity, please find a Web page that has either titles or
@@ -3847,25 +3878,29 @@ like in the code below:</p>
     the same HTML type.
   &lt;/p&gt;
   &lt;p class=&quot;odd&quot;&gt;
-    Classes are an HTML attribute that specifies a name for a group of 
-    elements on the page. You can apply the class name to as many elements 
-    as you like, even if they are of different HTML tag types. 
-    You can use the class name with a period in front as the selector.
+    Classes are an HTML attribute that specifies a name for a group 
+    of elements on the page. You can apply the class name to as many 
+	elements as you like, even if they are of different HTML tag 
+	types. You can use the class name with a period in front as the 
+	selector.
   &lt;/p&gt;
   &lt;p class=&quot;even&quot;&gt;
-    Class names must be single words, but you can include digits and dashes 
-    as long as the name begins with a letter. Note that names are case sensitive.
+    Class names must be single words, but you can include digits and 
+    dashes as long as the name begins with a letter. Note that names 
+	are case sensitive.
   &lt;/p&gt;
   &lt;p class=&quot;odd&quot;&gt;
-    An ID is an HTML attribute that specifies a name or unique identifier for a 
-    particular HTML element. They are like classes with a very important 
-    distinction: the value of the ID attribute must be unique throughout 
-    the document. This lets you target a single HTML element for styling.
+    An ID is an HTML attribute that specifies a name or unique 
+    identifier for a particular HTML element. They are like classes 
+	with a very important distinction: the value of the ID attribute 
+	must be unique throughout the document. This lets you target a 
+	single HTML element for styling.
   &lt;/p&gt;
   &lt;p class=&quot;even&quot;&gt;
-    ID names have the same rules as class names: start with a letter, can include 
-    numbers and dashes, no spaces. The way to create a selector for an ID is also 
-    similar to how you create a selector for a class, except you replace the period 
+    ID names have the same rules as class names: start with a 
+    letter, can include numbers and dashes, no spaces. The way 
+	to create a selector for an ID is also similar to how you 
+	create a selector for a class, except you replace the period 
     with a hash symbol (&quot;#&quot;).
   &lt;/p&gt;
 &lt;/body&gt;
@@ -4140,7 +4175,8 @@ the following HTML:</p>
     &lt;p&gt;
       This is my paragraph full of useful information
       &lt;img src=&quot;images/pic2.jpg&quot; alt=&quot;pic 2&quot; /&gt;
-      Since there is text around these images, they should be styled a little differently.
+      Since there is text around these images, they should be styled 
+      a little differently.
       &lt;img src=&quot;images/pic3.jpg&quot; alt=&quot;pic 3&quot; /&gt;
     &lt;/p&gt;
     &lt;img src=&quot;images/pic4.jpg&quot; alt=&quot;pic 4&quot; /&gt;
@@ -4305,14 +4341,14 @@ the most specific rule wins!</p>
 <ul>
   <li>A rule is generally more specific if it applies to a fewer number of elements than 
     another rule that encompasses those elements. The more facets a rule has the more specific 
-	it is,<br/>
+    it is,<br/>
   <ul>
     <li>When pseudo-classes are applied this is more specific than without the pseudo-class. 
       For example, p:hover will win over just p,</li>
     <li>Contextual selection is more specific because it scopes the rule to elements within 
       a certain subset of those on the page. For example, a rule that applies to all the 
-	  paragraphs within articles is more specific than a rule that applies to all the paragraphs 
-	  on the page,</li>
+      paragraphs within articles is more specific than a rule that applies to all the paragraphs 
+      on the page,</li>
     <li>IDs are most specific because you are directly applying them to the desired HTML element. 
       The rule based on an ID will always win over other rules.</li>
   </ul></li>
@@ -4480,7 +4516,7 @@ images: what format and how large are they? </p>
     large files so try to use sparingly!</li>
   <li>WEBP - Increases Website performance, Saves bandwidth, increases search engine optimization, yet
     still shows high-quality images, supports both transparent and animated images.
-	Offers 25-34% smaller file size at an equivalent SSIM quality index to PNG & JPEG.</li>
+    Offers 25-34% smaller file size at an equivalent SSIM quality index to PNG & JPEG.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Sizing</h4>
@@ -4566,9 +4602,9 @@ like this "Bad Image" example:</p>
       &lt;p&gt;
         Here is an image that is unformatted, so the surrounding text
         directly touches it.
-	  &lt;/p&gt;
+      &lt;/p&gt;
       &lt;p&gt;
-	    &lt;img src="https://www.w3c.fr/wp-content/uploads/2016/12/26420235490_7ae150d467_b.jpg" 
+        &lt;img src="https://www.w3c.fr/wp-content/uploads/2016/12/26420235490_7ae150d467_b.jpg" 
         width="300" alt="rows of people sitting in a theatre and wearing virtual reality devices." &gt;&lt;/p&gt;
         &lt;p&gt;It also doesn't integrate well with the text content, so it does not
         flow with your other content.&lt;/p&gt;
@@ -4774,16 +4810,19 @@ content still be easily consumable.</p>
   &lt;/head&gt;
   &lt;body&gt;
     &lt;div id=&quot;images3&quot;&gt;
-      &lt;p&gt; Here is some body text that is now on top of an image because it is set 
-           as the background. When using an image as a background try to pick an image that 
-		   is not overly busy, this can make your text or other images difficult to read when 
-		   placed on top of.
+      &lt;p&gt; Here is some body text that is now on top of an image because 
+	    it is set as the background. When using an image as a background try 
+        to pick an image that is not overly busy, this can make your text or 
+		other images difficult to read when placed on top of.
       &lt;/p&gt;
     &lt;div id=&quot;navBox&quot;&gt;
       &lt;div id=&quot;clickHere&quot;&gt; &lt;a href=&quot;https://www.w3.org&quot;&gt;Click 
-            The Image&lt;/a&gt; &lt;/div&gt;
-        &lt;a href=&quot;www.w3.org&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_5_solid_arrow-circle-right.svg/512px-Font_Awesome_5_solid_arrow-circle-right.svg.png&quot; 
-  width=&quot;80&quot; alt=&quot;A solid-weight icon from Font Awesome, a free web icon font&quot; /&gt;&lt;/a&gt;
+        The Image&lt;/a&gt; &lt;/div&gt;
+      &lt;a href=&quot;www.w3.org&quot;&gt;
+	  &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Font_Awesome_
+	  5_solid_arrow-circle-right.svg/512px-Font_Awesome_5_solid_arrow-circle-right.svg.png&quot; 
+      width=&quot;80&quot; alt=&quot;A solid-weight icon from Font Awesome, a free web icon font&quot; 
+     /&gt;&lt;/a&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/body&gt;
@@ -6309,13 +6348,15 @@ happen with the element that is next to a floating element.">Documentation</a>]<
       This div is floating right, but no width is set.
     &lt;/div&gt;
     &lt;div id=&quot;floatRightTooWide&quot;&gt;
-      This div is floating right, but the text is very very very long. 
-      This makes the div fill the horizontal space of the page by default, 
+      This div is floating right, but the text is very very 
+      very long. 
+      This makes the div fill the horizontal space of the page 
+      by default, 
       so when it is floated it doesn&#39;t look like it goes anywhere.
     &lt;/div&gt;
     &lt;div id=&quot;noFloatWidthSet&quot;&gt;
-      This div isn&#39;t floating, and its width is set to 40%. Floating 
-      elements can overlap.
+      This div isn&#39;t floating, and its width is set to 40%. 
+      Floating elements can overlap.
     &lt;/div&gt;
     &lt;div id=&quot;floatRightWidthSet&quot;&gt;
       This div is floating right, and its width is set to 30%
@@ -6413,16 +6454,17 @@ rel="noopener noreferrer">
     &lt;/section&gt;
     &lt;section id=&quot;content&quot;&gt;
       &lt;div id=&quot;topRight&quot;&gt;
-        If your elements are still not exactly where you want them to be 
-        after adjusting the padding, margins and alignment, then you can 
-        try out the float property. The &quot;float&quot; property is one 
-        of the most powerful tools you can master when learning CSS.
+        If your elements are still not exactly where you want them 
+        to be after adjusting the padding, margins and alignment, 
+        then you can try out the float property. The &quot;float&quot; 
+        property is one of the most powerful tools you can master 
+        when learning CSS.
       &lt;/div&gt;
       &lt;div id=&quot;topLeft&quot;&gt;
         Up until now, we haven&#39;t moved elements very far from 
-        wherever the web browser automatically places them, but as 
-        you&#39;ve probably noticed this has left our page very left 
-        side heavy.
+        wherever the web browser automatically places them, 
+        but as you&#39;ve probably noticed this has left our page 
+        very left side heavy.
       &lt;/div&gt;
       &lt;div id=&quot;bottomRight&quot;&gt;
         The float property liberates an element from its automatic position 
@@ -6431,9 +6473,11 @@ rel="noopener noreferrer">
         default of none.
       &lt;/div&gt;
       &lt;div id=&quot;bottomLeft&quot;&gt;
-        Elements underneath a floating object will automatically wrap themselves 
-        around the content. For example, if you float an image, the text underneath 
-        will wrap around it so that none of it is actually obscured underneath the image.
+        Elements underneath a floating object will automatically 
+        wrap themselves around the content. For example, if you 
+        float an image, the text underneath will wrap around it 
+        so that none of it is actually obscured underneath the 
+        image.
       &lt;/div&gt;
     &lt;/section&gt;
   &lt;/body&gt;
@@ -6528,27 +6572,30 @@ everything looking like the final image below:</p>
     &lt;/section&gt;
     &lt;section id=&quot;content&quot;&gt;
       &lt;div id=&quot;topRight&quot;&gt;
-        If your elements are still not exactly where you want them to be 
-        after adjusting the padding, margins and alignment, then you can 
-        try out the float property. The &quot;float&quot; property is one 
-        of the most powerful tools you can master when learning CSS.
+        If your elements are still not exactly where you want them 
+        to be after adjusting the padding, margins and alignment, 
+        then you can try out the float property. The &quot;float&quot; 
+        property is one of the most powerful tools you can master 
+        when learning CSS.
       &lt;/div&gt;
       &lt;div id=&quot;topLeft&quot;&gt;
-        Up until now, we haven&#39;t moved elements very far from wherever 
-    the web browser automatically places them, but as you&#39;ve probably 
-    noticed this has left our page very left side heavy.
+        Up until now, we haven&#39;t moved elements very far from 
+        wherever the web browser automatically places them, but as 
+        you&#39;ve probably noticed this has left our page very 
+        left side heavy.
       &lt;/div&gt;
       &lt;div id=&quot;bottomRight&quot;&gt;
-        The float property liberates an element from its automatic position 
-        and lifts it up to &quot;float&quot; on top of  other elements in 
-        the direction you specify. You can pecify float either right, left 
-        or the default of none.
+        The float property liberates an element from its automatic 
+        position and lifts it up to &quot;float&quot; on top of 
+        other elements in the direction you specify. You can 
+        pecify float either right, left or the default of none.
       &lt;/div&gt;
       &lt;div id=&quot;bottomLeft&quot;&gt;
-        Elements underneath a floating object will automatically wrap 
-    themselves around the content. For example, if you float an image, 
-    the text underneath will wrap around it so that none of it is actually 
-    obscured underneath the image.
+        Elements underneath a floating object will automatically 
+        wrap themselves around the content. For example, if you 
+        float an image, the text underneath will wrap around it 
+        so that none of it is actually obscured underneath the 
+        image.
       &lt;/div&gt;
     &lt;/section&gt;
   &lt;/body&gt;
@@ -6653,18 +6700,18 @@ elements are placed on the page.</p>
 <ul>
   <li><b>relative</b> - This is the position setting we will be discussing 
     in detail as it is the best way to build on the dynamic layout methods we have 
-	learned thus far. This lets you specify where an HTML element should be relative 
-	to where it would be by default.</li>
+    learned thus far. This lets you specify where an HTML element should be relative 
+    to where it would be by default.</li>
   <li><b>static</b> - This is the default setting and will place an element 
     wherever the web browser computes it should be.</li>
   <li><b>fixed</b> - This places an element in a specific location within 
     the window. You can use this to set an element to remain where it is regardless 
-	of scrolling. This was used heavily when "frames" were popular, however now it 
-	should be used very sparingly.</li>
+    of scrolling. This was used heavily when "frames" were popular, however now it 
+    should be used very sparingly.</li>
   <li><b>absolute</b> - This allows you to position elements relative to 
     their containing box. This removes an element from its normal flow (just like a 
-	floating element) so it can be difficult to control and make a layout that is 
-	truly dynamic.</li>
+    floating element) so it can be difficult to control and make a layout that is 
+    truly dynamic.</li>
 </ul>
 
 <pre>div {
@@ -8028,15 +8075,15 @@ a:hover, img:active {
         for Area Manager&lt;/h3&gt;
         &lt;p&gt;
           Provide customized reporting on multiple functions within 
-		  delivery operations pertaining to status of all 12 offices 
-		  under the Area Managers scope.
+          delivery operations pertaining to status of all 12 offices 
+          under the Area Managers scope.
         &lt;/p&gt;
         &lt;h3 class=&quot;year&quot;&gt;2016&lt;/h3&gt;
         &lt;h3 class=&quot;textColorOffset workPosition&quot;&gt;USPS Supervisor 
     Customer Services&lt;/h3&gt;
         &lt;p&gt;
           Supervise, schedule, support, and provide reporting about 
-		  team of 45 people.
+          team of 45 people.
         &lt;/p&gt;
         &lt;h3 class=&quot;year&quot;&gt;2015-2000&lt;/h3&gt;
         &lt;h3 class=&quot;textColorOffset workPosition&quot;&gt;Norris Computer Consulting&lt;/h3&gt;
@@ -8265,7 +8312,7 @@ engine testing and development for Gecko and managing the CSS test suites at W3C
 <ul>
   <li><b>Logical source order:</b><br/>The order of the HTML content should make sense 
     even without the CSS: for accessibility, mobile optimization, device adaptability, 
-	and long-term maintainability,</li>
+    and long-term maintainability,</li>
   <li><b>Liquid layouts and relativity:</b><br/>Use smart relative 
     sizing: to optimize layouts while minimizing media query code forks,</li>
   <li><b>Media queries:</b><br/>Adapt to screen size changes; get font size adaptation 
@@ -8526,9 +8573,9 @@ color wheel:</p>
     create infinite intermediary colors, and</li>
   <li>However, as you've seen for the Web, we define all colors as combinations 
     of <a href="https://en.wikipedia.org/wiki/RGB_color_space" target="_blank" 
-	rel="noopener noreferrer">Red, Green and Blue</a> (green, not yellow). The 
-	short answer for this is because that is how the human eye perceives color, 
-	something that was unknown when the historical color wheel was made.</li>
+    rel="noopener noreferrer">Red, Green and Blue</a> (green, not yellow). The 
+    short answer for this is because that is how the human eye perceives color, 
+    something that was unknown when the historical color wheel was made.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="build-a-palette-based-on-the-color-wheel">Build a palette based on the color wheel</h3>
@@ -8845,9 +8892,9 @@ from a particular culture would expect.</p>
 <ul>
   <li>It is already possible to make text run vertically in CSS for languages such 
     as Chinese, Japanese, Korean and Mongolian. For  more information see 
-	<a href="https://www.w3.org/International/articles/vertical-text/" target="_blank" 
-	rel="noopener noreferrer">Styling vertical Chinese, Japanese, Korean and Mongolian 
-	text</a>,</li>
+    <a href="https://www.w3.org/International/articles/vertical-text/" target="_blank" 
+    rel="noopener noreferrer">Styling vertical Chinese, Japanese, Korean and Mongolian 
+    text</a>,</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 108. vertically set mongolian text (215) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8882,10 +8929,10 @@ from a particular culture would expect.</p>
 <ul>
   <li>When you want to justify text so that the lines are straight on both sides of 
     your column, different strategies are used for different scripts. Most Western 
-	typography puts an emphasis on adjusting inter-word spaces, but Chinese doesn't 
-	use spaces between words, so you generally do <i>inter-character</i> spacing. 
-	In text written using the arabic script it is common to stretch the baseline 
-	that joins letters, or use other techniques to balance the line,</li>
+    typography puts an emphasis on adjusting inter-word spaces, but Chinese doesn't 
+    use spaces between words, so you generally do <i>inter-character</i> spacing. 
+    In text written using the arabic script it is common to stretch the baseline 
+    that joins letters, or use other techniques to balance the line,</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 111. arabic justification (216) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8905,12 +8952,12 @@ line during hyphenation.)</p>
 <ul>
   <li>Text decoration and text style features can vary in applicability from script 
     to script. For example, Japanese characters are fairly complicated so, rather 
-	than italicise their text for emphasis, which can make it harder to read at 
-	small sizes, they have a tradition of placing special marks alongside the 
-	emphasised text (see the middle line of the Japanese example below). Also, 
-	it may be important to avoid underlines running over descenders in some scripts, 
-	since it can obscure important marks attached to a base character, so CSS allows 
-	you to skip 'ink' as shown in the Burmese example below.</li>
+    than italicise their text for emphasis, which can make it harder to read at 
+    small sizes, they have a tradition of placing special marks alongside the 
+    emphasised text (see the middle line of the Japanese example below). Also, 
+    it may be important to avoid underlines running over descenders in some scripts, 
+    since it can obscure important marks attached to a base character, so CSS allows 
+    you to skip 'ink' as shown in the Burmese example below.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 112. emphasis (in japanese) (217) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9373,120 +9420,120 @@ section {
       &lt;h1&gt;Section 1&lt;/h1&gt;
       &lt;p&gt;
         In show dull give need so held. One order all scale sense her 
-		gay style wrote. Incommode our not one ourselves residence. 
-		Shall there whose those stand she end. So unaffected partiality 
-		indulgence dispatched to of celebrated remarkably. Unfeeling 
-		are had allowance own perceived abilities.
+        gay style wrote. Incommode our not one ourselves residence. 
+        Shall there whose those stand she end. So unaffected partiality 
+        indulgence dispatched to of celebrated remarkably. Unfeeling 
+        are had allowance own perceived abilities.
       &lt;/p&gt;
       &lt;p&gt;
-	  Are own design entire former get should. Advantages boisterous 
-	  day excellence boy. Out between our two waiting wishing. Pursuit 
-	  he he garrets greater towards amiable so placing. Nothing off how 
-	  norland delight. Abode shy shade she hours forth its use. Up whole 
-	  of fancy ye quiet do. Justice fortune no to is if winding morning 
-	  forming.
+      Are own design entire former get should. Advantages boisterous 
+      day excellence boy. Out between our two waiting wishing. Pursuit 
+      he he garrets greater towards amiable so placing. Nothing off how 
+      norland delight. Abode shy shade she hours forth its use. Up whole 
+      of fancy ye quiet do. Justice fortune no to is if winding morning 
+      forming.
     &lt;/p&gt;
     &lt;p&gt;
       Meant balls it if up doubt small purse. Required his you put the 
-	  outlived answered position. An pleasure exertion if believed 
-	  provided to. All led out world these music while asked. Paid mind 
-	  even sons does he door no. Attended overcame repeated it is 
-	  perceive marianne in. In am think on style child of. Servants 
-	  moreover in sensible he it ye possible.
+      outlived answered position. An pleasure exertion if believed 
+      provided to. All led out world these music while asked. Paid mind 
+      even sons does he door no. Attended overcame repeated it is 
+      perceive marianne in. In am think on style child of. Servants 
+      moreover in sensible he it ye possible.
     &lt;/p&gt;
     &lt;p&gt;
-	  Ignorant saw her her drawings marriage laughter. Case oh an 
-	  that or away sigh do here upon. Acuteness you exquisite 
-	  ourselves now end forfeited. Enquire ye without it garrets 
-	  up himself. Interest our nor received followed was. Cultivated 
-	  an up solicitude mr unpleasant.
+      Ignorant saw her her drawings marriage laughter. Case oh an 
+      that or away sigh do here upon. Acuteness you exquisite 
+      ourselves now end forfeited. Enquire ye without it garrets 
+      up himself. Interest our nor received followed was. Cultivated 
+      an up solicitude mr unpleasant.
     &lt;/p&gt;
     &lt;p&gt;
       So if on advanced addition absolute received replying throwing 
-	  he. Delighted consisted newspaper of unfeeling as neglected so. 
-	  Tell size come hard mrs and four fond are. Of in commanded 
-	  earnestly resources it. At quitting in strictly up wandered of 
-	  relation answered felicity. Side need at in what dear ever upon 
-	  if. Same down want joy neat ask pain help she. Alone three 
-	  stuff use law walls fat asked. Near do that he help.
+      he. Delighted consisted newspaper of unfeeling as neglected so. 
+      Tell size come hard mrs and four fond are. Of in commanded 
+      earnestly resources it. At quitting in strictly up wandered of 
+      relation answered felicity. Side need at in what dear ever upon 
+      if. Same down want joy neat ask pain help she. Alone three 
+      stuff use law walls fat asked. Near do that he help.
     &lt;/p&gt;
   &lt;section&gt;
   &lt;section id=&quot;section2&quot;&gt;
     &lt;h1&gt;Section 2&lt;/h1&gt;
     &lt;p&gt;
       At ourselves direction believing do he departure. Celebrated 
-	  her had sentiments understood are projection set. Possession 
-	  yes no mr unaffected remarkably at. Wrote house in never fruit 
-	  up. Pasture imagine my garrets an he. However distant she 
-	  request behaved see nothing. Talking settled at pleased an of 
-	  me brother weather.
+      her had sentiments understood are projection set. Possession 
+      yes no mr unaffected remarkably at. Wrote house in never fruit 
+      up. Pasture imagine my garrets an he. However distant she 
+      request behaved see nothing. Talking settled at pleased an of 
+      me brother weather.
     &lt;/p&gt;
     &lt;p&gt;
       Still court no small think death so an wrote. Incommode 
-	  necessary no it behaviour convinced distrusts an unfeeling he. 
-	  Could death since do we hoped is in. Exquisite no my attention 
-	  extensive. The determine conveying moonlight age. Avoid for 
-	  see marry sorry child. Sitting so totally forbade hundred to.
+      necessary no it behaviour convinced distrusts an unfeeling he. 
+      Could death since do we hoped is in. Exquisite no my attention 
+      extensive. The determine conveying moonlight age. Avoid for 
+      see marry sorry child. Sitting so totally forbade hundred to.
     &lt;/p&gt;
     &lt;p&gt;
       Do to be agreeable conveying oh assurance. Wicket longer admire 
-	  do barton vanity itself do in it. Preferred to sportsmen it 
-	  engrossed listening. Park gate sell they west hard for the. 
-	  Abode stuff noisy manor blush yet the far. Up colonel so 
-	  between removed so do. Years use place decay sex worth drift 
-	  age. Men lasting out end article express fortune demands own 
-	  charmed. About are are money ask how seven.
+      do barton vanity itself do in it. Preferred to sportsmen it 
+      engrossed listening. Park gate sell they west hard for the. 
+      Abode stuff noisy manor blush yet the far. Up colonel so 
+      between removed so do. Years use place decay sex worth drift 
+      age. Men lasting out end article express fortune demands own 
+      charmed. About are are money ask how seven.
       Nulla cursus volutpat nisl in dictum.
     &lt;/p&gt;
     &lt;p&gt;
       Comfort reached gay perhaps chamber his six detract besides 
-	  add. Moonlight newspaper up he it enjoyment agreeable 
-	  depending. Timed voice share led his widen noisy young. On 
-	  weddings believed laughing although material do exercise of. 
-	  Up attempt offered ye civilly so sitting to. She new course 
-	  get living within elinor joy. She her rapturous suffering 
-	  concealed.
+      add. Moonlight newspaper up he it enjoyment agreeable 
+      depending. Timed voice share led his widen noisy young. On 
+      weddings believed laughing although material do exercise of. 
+      Up attempt offered ye civilly so sitting to. She new course 
+      get living within elinor joy. She her rapturous suffering 
+      concealed.
     &lt;/p&gt;
     &lt;p&gt;
       Am of mr friendly by strongly peculiar juvenile. Unpleasant 
-	  it sufficient simplicity am by friendship no inhabiting. 
-	  Goodness doubtful material has denoting suitable she two. 
-	  Dear mean she way and poor bred they come. He otherwise me 
-	  incommode explained so in remaining. Polite barton in it 
-	  warmly do county length an.
+      it sufficient simplicity am by friendship no inhabiting. 
+      Goodness doubtful material has denoting suitable she two. 
+      Dear mean she way and poor bred they come. He otherwise me 
+      incommode explained so in remaining. Polite barton in it 
+      warmly do county length an.
     &lt;/p&gt;
   &lt;/section&gt;
   &lt;section id=&quot;section3&quot;&gt;
     &lt;h1&gt;Section 3&lt;/h1&gt;
     &lt;p&gt;
       Lorem Ipsum comes from a latin text written in 45BC by Roman 
-	  statesman, lawyer, scholar, and philosopher, Marcus Tullius 
-	  Cicero. The text is titled "de Finibus Bonorum et Malorum" 
-	  which means "The Extremes of Good and Evil". The most common 
-	  form of Lorem ipsum is the following:
+      statesman, lawyer, scholar, and philosopher, Marcus Tullius 
+      Cicero. The text is titled "de Finibus Bonorum et Malorum" 
+      which means "The Extremes of Good and Evil". The most common 
+      form of Lorem ipsum is the following:
     &lt;/p&gt;
     &lt;p&gt;
       Random Text Generator is a web application which provides true 
-	  random text which you can use in your documents or web 
-	  designs. How does it work? First we took many books available 
-	  on project Gutenberg and stored their contents in a database. 
-	  Then a computer algorithm takes the words we stored earlier 
-	  and shuffles them into sentences and paragraphs.
+      random text which you can use in your documents or web 
+      designs. How does it work? First we took many books available 
+      on project Gutenberg and stored their contents in a database. 
+      Then a computer algorithm takes the words we stored earlier 
+      and shuffles them into sentences and paragraphs.
     &lt;/p&gt;
     &lt;p&gt;
      The algorithm takes care to create text that looks similar to 
-	 an ordinary book but without any real meaning. The reason we 
-	 want our text to be meaningless is that we want the person 
-	 viewing the resulting random text to focus on the design we 
-	 are presenting, rather than try to read and understand the 
-	 text.
+     an ordinary book but without any real meaning. The reason we 
+     want our text to be meaningless is that we want the person 
+     viewing the resulting random text to focus on the design we 
+     are presenting, rather than try to read and understand the 
+     text.
     &lt;/p&gt;
     &lt;p&gt;
       Lorem ipsum is widely in use since the 14th century and up to 
-	  today as the default dummy "random" text of the typesetting 
-	  and web development industry. In fact not only it has survived 
-	  the test of time but it thrived and can be found in many 
-	  software products, from Microsoft Word to WordPress.
+      today as the default dummy "random" text of the typesetting 
+      and web development industry. In fact not only it has survived 
+      the test of time but it thrived and can be found in many 
+      software products, from Microsoft Word to WordPress.
     &lt;/p&gt;
     &lt;p&gt;
 
@@ -9496,31 +9543,31 @@ section {
     &lt;h1&gt;Section 4&lt;/h1&gt;
     &lt;p&gt;
       Random Text Generator is a web application which provides true 
-	  random text which you can use in your documents or web designs. 
-	  How does it work? First we took many books available on project 
-	  Gutenberg and stored their contents in a database. Then a 
-	  computer algorithm takes the words we stored earlier and 
-	  shuffles them into sentences and paragraphs.
+      random text which you can use in your documents or web designs. 
+      How does it work? First we took many books available on project 
+      Gutenberg and stored their contents in a database. Then a 
+      computer algorithm takes the words we stored earlier and 
+      shuffles them into sentences and paragraphs.
     &lt;/p&gt;
     &lt;p&gt;
 
     &lt;/p&gt;
     &lt;p&gt;
       The algorithm takes care to create text that looks similar to 
-	  an ordinary book but without any real meaning. The reason we 
-	  want our text to be meaningless is that we want the person 
-	  viewing the resulting random text to focus on the design we 
-	  are presenting, rather than try to read and understand the 
-	  text.
+      an ordinary book but without any real meaning. The reason we 
+      want our text to be meaningless is that we want the person 
+      viewing the resulting random text to focus on the design we 
+      are presenting, rather than try to read and understand the 
+      text.
     &lt;/p&gt;
     &lt;p&gt;
 
     &lt;/p&gt;
     &lt;p&gt;
       It's better than Lorem ipsum because it can produce text in 
-	  many languages and in particular: Chinese, Dutch, English, 
-	  Finnish, French, German, Greek, Hebrew, Italian, Japanese, 
-	  Latin, Polish, Portuguese, Russian, Serbian and Spanish.
+      many languages and in particular: Chinese, Dutch, English, 
+      Finnish, French, German, Greek, Hebrew, Italian, Japanese, 
+      Latin, Polish, Portuguese, Russian, Serbian and Spanish.
       &lt;/p&gt;
     &lt;/section&gt;
   &lt;/body&gt;
