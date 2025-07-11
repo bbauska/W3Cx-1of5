@@ -161,7 +161,7 @@ pre > code {
 pre code,
 pre .line-number {
   font: normal normal 10px/12px consolas,Courier,Monospace;
-  color: #000;
+  color: #000;  /* black */
   display: block;
 }
 pre .line-number {
@@ -170,7 +170,7 @@ pre .line-number {
   margin: 0 1em 0 -1em;
   border-right: 1px solid;
   text-align: right;
-  color: red;
+  color: #ff0000;  /* pure (or mostly pure) red */
 }
 pre .line-number span {
   display: block;
