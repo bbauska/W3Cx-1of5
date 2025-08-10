@@ -1164,7 +1164,9 @@ to indicate that the computer ignores that code.
    alt="Comments in green with visual studio and notepad++." />
 </p>
 
-Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very least at the top of sets of rules that apply to a single category or section of your Web page. 
+Generally, it is a good idea to put a comment at the top of each CSS rule, or at the very 
+least at the top of sets of rules that apply to a single category or section of your Web 
+page. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch-1-4-3">1.4.3 Module 1 project - Hello your world</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1229,11 +1231,11 @@ Now change the HTML and CSS files so that it says "Hello &lt;your name&gt;, welc
 to my first CSS Web page" in your favorite color! Here's what mine looks like:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 24. an image of hello kasey in green text (32) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.png"
-   style="width:36%"
-   alt="An image of Hello Kasey in green text." />
+  style="width:36%"
+  title="An image of Hello Kasey in green text"
+  alt="An image of Hello Kasey in green text." />
 </p>
 
 **HINT**: Is your favorite color not working? Not all color names are recognized by CSS. 
@@ -1322,28 +1324,41 @@ is that HTML does a really bad job with style. That&#39;s where CSS comes in.
 Once you&#39;ve tagged all of your content as a specific type, you can use CSS 
 to attach to that HTML.
 
-In this course, we&#39;re always going give you the HTML but let&#39;s take a look at some sample code, so you know what it&#39;s looks like. Here is just some basic text content.
-I&#39;ve got some titles and I&#39;ve got a couple paragraphs.
+In this course, we&#39;re always going give you the HTML but let&#39;s take a look at 
+some sample code, so you know what it&#39;s looks like. Here is just some basic text 
+content. I&#39;ve got some titles and I&#39;ve got a couple paragraphs.
 
-I want the browser to know: this text is a little more important than the rest of the text, say a title, so that I can display it differently using my CSS.
+I want the browser to know: this text is a little more important than the rest of the 
+text, say a title, so that I can display it differently using my CSS.
 I&#39;m going to tell the browser this is the title by using something called the tag.
-It starts with an angle bracket and then it has a name, and then another angle bracket on the other side.
-And then, I put that in front of the content, and then I also have to add a closing tag at the end of the content.
+It starts with an angle bracket and then it has a name, and then another angle bracket 
+on the other side.
+And then, I put that in front of the content, and then I also have to add a closing tag 
+at the end of the content.
 
-Here, I&#39;ve used the h1 tag for my title that stands for header 1. It means this is a very important title.
-I can also use the p, or paragraph tag, to tell the browser: this is a block of body text.
-Not only can use HTML to categorize existing text content, but you can use it to insert new elements into your page.
-Elements like images or videos, buttons, drop-downs, all of that can be inserted with special HTML tags.
-For example, here&#39;s the text so that you can add an image.
+Here, I&#39;ve used the h1 tag for my title that stands for header 1. It means this 
+is a very important title.
+I can also use the p, or paragraph tag, to tell the browser: this is a block of body 
+text.
+Not only can use HTML to categorize existing text content, but you can use it to 
+insert new elements into your page.
+Elements like images or videos, buttons, drop-downs, all of that can be inserted 
+with special HTML tags. For example, here&#39;s the text so that you can add an image.
 
-Now that you&#39;ve seen what HTML looks like, it will make more sense when we start writing the CSS that corresponds to it.
+Now that you&#39;ve seen what HTML looks like, it will make more sense when we start 
+writing the CSS that corresponds to it.
 Because the HTML has to come first.
 
-In this course, we&#39;re just talking about CSS, but if you&#39;re not familiar with HTML I really encourage you to look online, and learn a bit more because a well-structured HTML document is going to make your CSS a lot nicer.
+In this course, we&#39;re just talking about CSS, but if you&#39;re not familiar with 
+HTML I really encourage you to look online, and learn a bit more because a well-
+structured HTML document is going to make your CSS a lot nicer.
 
 <h4>HTML 101</h4>
 
-HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and tags. These tags describe the content so that the web browser understands the structure of the page. HTML tags typically come in pairs, an opening tag before and a closing tag after content like so:
+HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of content and 
+tags. These tags describe the content so that the web browser understands the structure 
+of the page. HTML tags typically come in pairs, an opening tag before and a closing tag 
+after content like so:
 
 ```
 <tagname>
@@ -1351,7 +1366,8 @@ HTML (**H**yper **T**ext **M**arkup **L**anguage) documents are made up of co
 </tagname>
 ```
 
-When these three pieces are combined (start tag, content, and end tag), you have what is called an HTML **element**. 
+When these three pieces are combined (start tag, content, and end tag), you have what 
+is called an HTML **element**. 
 
 Here is a sample HTML doc:
 
@@ -1369,10 +1385,14 @@ Here is a sample HTML doc:
 </html>
 ```
 
-<b>NOTE: In the code above, the text contained within the &lt;!&mdash;- and &mdash;-&gt; start and end sequences are comments. Each of them is explaining each tag.</b>
+<b>NOTE: In the code above, the text contained within the &lt;!&mdash;- and &mdash;-&gt; 
+start and end sequences are comments. Each of them is explaining each tag.</b>
 
-Tags can be nested inside of other tags. This creates a parent/child relationship between HTML elements and forms the overall structure of your HTML document into a tree. This structure has a big effect on your CSS as styles are typically inherited from parent to child. We will take a closer look at style inheritance later in this unit. 
-
+Tags can be nested inside of other tags. This creates a parent/child relationship 
+between HTML elements and forms the overall structure of your HTML document into a 
+tree. This structure has a big effect on your CSS as styles are typically inherited 
+from parent to child. We will take a closer look at style inheritance later in this 
+unit.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 25. the minimal structure of an html5 document (36) ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1382,13 +1402,17 @@ Tags can be nested inside of other tags. This creates a parent/child relationshi
   alt="The minimal structure of an HTML5 document." />
 </p>
 
-There are other types of tags that are called &ldquo;self-closing&rdquo;, meaning they don&#39;t come in an open/close pair. Typically, self-closing tags insert content into your page as opposed to surround content. They look like this:
+There are other types of tags that are called &ldquo;self-closing&rdquo;, meaning they 
+don&#39;t come in an open/close pair. Typically, self-closing tags insert content into 
+your page as opposed to surround content. They look like this:
 
 ```
 <img src="images/pic1.png" alt="pic1" />
 ```
 
-These types of tags rely on &ldquo;attributes&rdquo;, these are added modifiers on the tag that have their own values. In the above example, we use the src attribute to set the source for the image.
+These types of tags rely on &ldquo;attributes&rdquo;, these are added modifiers on the 
+tag that have their own values. In the above example, we use the src attribute to set 
+the source for the image.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2-2">2.2.2 Common HTML tags</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1403,9 +1427,15 @@ us use throughout this course.
 
 &lbrack;[*Documentation*](https://www.w3.org/TR/html52/semantics.html#the-html-element)&rbrack;
 
-The root element of a document is &lt;html&gt;, and this is the first tag you&#39;ll need in your document (after the DOCTYPE, of course!). All your other HTML tags should go inside this one, meaning all HTML documents should start with &lt;html&gt; at the top and end with &lt;/html&gt; at the bottom.
+The root element of a document is &lt;html&gt;, and this is the first tag you&#39;ll 
+need in your document (after the DOCTYPE, of course!). All your other HTML tags should 
+go inside this one, meaning all HTML documents should start with &lt;html&gt; at the 
+top and end with &lt;/html&gt; at the bottom.
 
-You&#39;ll notice in the below code that we set the language to English (&lt;html lang=&ldquo;en&rdquo;&gt;) . You can [set another language](https://www.w3.org/International/tutorials/language-decl/#Slide0140) of the text in your page using language attributes (see also [this resource](https://www.w3.org/International/questions/qa-html-language-declarations)).
+You&#39;ll notice in the below code that we set the language to English (&lt;html 
+lang=&ldquo;en&rdquo;&gt;) . You can [set another language](https://www.w3.org/International/tutorials/language-decl/#Slide0140)
+of the text in your page using language attributes (see also 
+[this resource](https://www.w3.org/International/questions/qa-html-language-declarations)).
 
 It is important that you take care to use the lang attribute to indicate the actual language of text in your page because many CSS features will function differently, depending on what language is declared here.
 
@@ -1422,9 +1452,14 @@ It is important that you take care to use the lang attribute to indicate the act
 
 &lbrack;[*Documentation*](https://www.w3.org/TR/html52/document-metadata.html#the-head-element)&rbrack;
 
-This is the element that contains all the metadata for your site, such as your link to your CSS, the page&#39;s title and links to other files. This should be the first tag in your document, and there should only be one per document.
+This is the element that contains all the metadata for your site, such as your link to 
+your CSS, the page&#39;s title and links to other files. This should be the first tag 
+in your document, and there should only be one per document.
 
-Note that this is where you will also set the charset to &ldquo;utf-8&rdquo; (&lt;meta charset=&ldquo;utf-8&rdquo;&gt;). This shows that you saved the markup using the UTF-8 character encoding, which has many characters outside English, so it should be able to display characters not in the English alphabet.
+Note that this is where you will also set the charset to &ldquo;utf-8&rdquo; (&lt;meta 
+charset=&ldquo;utf-8&rdquo;&gt;). This shows that you saved the markup using the UTF-8 
+character encoding, which has many characters outside English, so it should be able to 
+display characters not in the English alphabet.
 
 ```
 <!DOCTYPE html>
@@ -1443,7 +1478,9 @@ Note that this is where you will also set the charset to &ldquo;utf-8&rdquo; (&l
 
 &lbrack;[*Documentation*](https://www.w3.org/TR/html52/sections.html#the-body-element)&rbrack;
 
-The section element that contains all the visible content for your site like your text, images, links etc. There should only be one body tag per document and it should come after the head tag.
+The section element that contains all the visible content for your site like your text, 
+images, links etc. There should only be one body tag per document and it should come 
+after the head tag.
 
 ```
 <!DOCTYPE html>
@@ -1463,11 +1500,14 @@ The section element that contains all the visible content for your site like you
 
 &lbrack;[*Documentation*](https://www.w3.org/TR/html52/grouping-content.html#the-p-element)&rbrack;
 
-&ldquo;p&rdquo; stands for &ldquo;paragraph&rdquo; which is a block of text that is physically separated from adjacent blocks through blank lines. This is the most basic way to group text content.
+&ldquo;p&rdquo; stands for &ldquo;paragraph&rdquo; which is a block of text that is physically 
+separated from adjacent blocks through blank lines. This is the most basic way to group text 
+content.
 
 ```
 <p>
-   This is my introductory paragraph to my Web page! This text will wrap around in a single block and then after the paragraph is done there will be a line of white space.
+This is my introductory paragraph to my Web page! This text will wrap around in a single 
+block and then after the paragraph is done there will be a line of white space.
 </p>
 ```
 
@@ -1475,7 +1515,11 @@ The section element that contains all the visible content for your site like you
 
 &lbrack;[*Documentation*](https://www.w3.org/TR/html52/textlevel-semantics.html#the-a-element)&rbrack;
 
-By surrounding text with an &lt;a&gt; tag you turn it into a hyperlink. You will want to use the &ldquo;href&rdquo; attribute to indicate to which target the link should take the user when clicked. The default style of the a tag is to turn the text blue and underlined, and then change the color to purple after you have clicked the link. You can adjust all these styles with CSS.
+By surrounding text with an &lt;a&gt; tag you turn it into a hyperlink. You will want to 
+use the &ldquo;href&rdquo; attribute to indicate to which target the link should take the 
+user when clicked. The default style of the a tag is to turn the text blue and underlined, 
+and then change the color to purple after you have clicked the link. You can adjust all 
+these styles with CSS.
 
 ```
 <a href="https://www.microsoft.com">Microsoft Main Page</a>
@@ -1513,9 +1557,9 @@ The OL tag works exactly like the UL tag, except that the list element order mat
 
 ```
 <ol>
-   <li>This is the first element</li>
-   <li>The second element</li>
-   <li>Finally, this is the third element</li>
+  <li>This is the first element</li>
+  <li>The second element</li>
+  <li>Finally, this is the third element</li>
 </ol>
 ```
 
@@ -1541,10 +1585,10 @@ The header tag is one of the section elements, it&#39;s role is to group other 
 
 ```
 <body>
-   <header>
-      <h1> Welcome to my page!</h1>
-      <h2> My very first web page</h2>
-   </header>
+  <header>
+    <h1> Welcome to my page!</h1>
+    <h2> My very first web page</h2>
+  </header>
 </body>
 ```
 
@@ -1702,8 +1746,9 @@ This rule tells the browser to make all text within a paragraph tag blue. A CSS 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. css selector rule (48) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028.png"
-   style="width:65%"
-   alt="CSS selector rule." />
+  style="width:65%"
+  title="CSS selector rule"
+  alt="CSS selector rule." />
 </p>
 
 <h4>Selector</h4>
@@ -1740,7 +1785,8 @@ through this course we will help you build up these rules to style your entire p
 <h3 id="ch2-3-3">2.3.3 Activity - Building your first CSS rule set</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Now that you have a basic understanding of how to put the pieces of a CSS rule together, let&#39;s do some practice. Here is some HTML for a page you will style:
+Now that you have a basic understanding of how to put the pieces of a CSS rule together, 
+let&#39;s do some practice. Here is some HTML for a page you will style:
 
 
 ```
@@ -1753,7 +1799,9 @@ Now that you have a basic understanding of how to put the pieces of a CSS rule t
    </head>
    <body>
       <h1>My H1 header</h1>
-      <p> This is a block of text to represent a paragraph that you will want to style. This might be an explanation of the list that follows, it is all contained within a single paragraph tag.
+      <p> This is a block of text to represent a paragraph that you will want to 
+        style. This might be an explanation of the list that follows, it is all 
+		contained within a single paragraph tag.
       </p>
       <ul>
          <li>This is list item 1</li>
@@ -1798,16 +1846,27 @@ And you will need the following properties:
 
 -   color: fuchsia; 
 
-Now it&#39;s up to you to combine these selectors and properties into 4 rules to achieve the final style. 
+Now it&#39;s up to you to combine these selectors and properties into 4 rules to 
+achieve the final style. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-1">2.4.1 What is a selector?</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style.
+In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the 
+browser on which HTML element to apply the defined style.
 
-When your HTML is simple, the selectors can be simple as well. The most basic selectors simply mirror the HTML tag. For example &ldquo;p&rdquo; attaches to all &lt;p&gt; tags, &ldquo;img&rdquo; will attach to all &lt;img&gt; tags and so on. As you can imagine, there will often be times when you don&#39;t want every single HTML element of a particular type to have identical style. In Module 3, we&#39;ll discuss a variety of ways to use selectors to attach to specific HTML elements. 
+When your HTML is simple, the selectors can be simple as well. The most basic selectors 
+simply mirror the HTML tag. For example &ldquo;p&rdquo; attaches to all &lt;p&gt; tags, 
+&ldquo;img&rdquo; will attach to all &lt;img&gt; tags and so on. As you can imagine, 
+there will often be times when you don&#39;t want every single HTML element of a 
+particular type to have identical style. In Module 3, we&#39;ll discuss a variety of 
+ways to use selectors to attach to specific HTML elements. 
 
-In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style. When choosing your selector you might want to keep the following aspects of an HTML element in mind:
+In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy 
+of HTML elements to which they are attached. This means that you will have to be very 
+careful which selectors you choose to use in combination with your chosen style. When 
+choosing your selector you might want to keep the following aspects of an HTML element 
+in mind:
 
 -   How many of these HTML elements are on my page? Do I want this style to apply to every one of these elements?
 
@@ -1815,7 +1874,9 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 
 -   Is this element a block element or an inline element, and does this style make sense in that context?
 
-It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we&#39;ll use in this module:
+It is possible to independently target every HTML element on the page using selectors, but 
+for this module we are going to stick to basics and only use selectors that match the HTML 
+tag name. For example, here are some example selectors we&#39;ll use in this module:
 
 ```
 a {
@@ -1831,7 +1892,8 @@ p {
 }
 ```
 
-This would affect the style of all paragraph tags on the page and the style of elements contained within the paragraph tag. 
+This would affect the style of all paragraph tags on the page and the style of elements 
+contained within the paragraph tag. 
 
 ```
 body {
@@ -1839,7 +1901,9 @@ body {
 }
 ```
 
-This would apply style to the body tag as well as allow the elements inside the body tag to inherit certain styles applied here (check the [related CodePen online](https://codepen.io/techie4good/pen/pEzLrd)). 
+This would apply style to the body tag as well as allow the elements inside the body tag 
+to inherit certain styles applied here (check the [related CodePen online]
+(https://codepen.io/techie4good/pen/pEzLrd)). 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. body style (51) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1876,11 +1940,15 @@ This would apply style to the body tag as well as allow the elements inside the 
 
 In Module 3, we'll discuss a variety of ways to use selectors to attach to specific HTML elements.
 
-In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style <br />
+In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy 
+of HTML elements to which they are attached. This means that you will have to be very 
+careful which selectors you choose to use in combination with your chosen style <br />
 
 <a href="http://www.w3.org">Check this out</a>
 
-It is possible to independently target every HTML element on the page using selectors, but for this module we are going to stick to basics and only use selectors that match the HTML tag name. For example, here are some example selectors we'll use in this module:
+It is possible to independently target every HTML element on the page using selectors, 
+but for this module we are going to stick to basics and only use selectors that match 
+the HTML tag name. For example, here are some example selectors we'll use in this module:
 
 ```
    </p>
@@ -1916,7 +1984,8 @@ li {
 <h3 id="ch2-4-2">2.4.2 Inheriting style</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Part of the reason a well structured HTML document is so important is because HTML elements inherit stylistic properties. 
+Part of the reason a well structured HTML document is so important is because HTML elements 
+inherit stylistic properties. 
 
 Let&#39;s say we have an HTML document (see the corresponding [Code Pen](https://codepen.io/techie4good/pen/mAVVkY?editors=1100#0)):
 
@@ -1945,7 +2014,9 @@ Let&#39;s say we have an HTML document (see the corresponding [Code Pen](https:
 </html>
 ```
 
-This is basic structure from the way I have formatted the tags with tabbing, but here is a more visual representation of the hierarchy of tags. Tags that contain other tags are parents, and the tags inside of them are their children in the following tree representation:
+This is basic structure from the way I have formatted the tags with tabbing, but here is 
+a more visual representation of the hierarchy of tags. Tags that contain other tags are 
+parents, and the tags inside of them are their children in the following tree representation:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. html inheritance structure (54) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1956,9 +2027,15 @@ This is basic structure from the way I have formatted the tags with tabbing, but
   alt="HTML Inheritance Structure." />
 </p>
 
-Through inheritance, CSS property values set on one element will be transferred down the tree to that element&#39;s children. In this example, every element gets the same font because we applied it to the body tag. Since the body element is a common parent for all visible elements is a convenient selector for when you want to set stylistic rules for the entire document.
+Through inheritance, CSS property values set on one element will be transferred down the 
+tree to that element&#39;s children. In this example, every element gets the same font 
+because we applied it to the body tag. Since the body element is a common parent for all 
+visible elements is a convenient selector for when you want to set stylistic rules for 
+the entire document.
 
-Then, we applied different styles at different levels of the tree so that the &ldquo;li&rdquo; or list element tag ends up with three different styles (font, underline and green) without us actually applying any style directly to that tag. 
+Then, we applied different styles at different levels of the tree so that the 
+&ldquo;li&rdquo; or list element tag ends up with three different styles (font, 
+underline and green) without us actually applying any style directly to that tag. 
 
 ```
 body {
@@ -1975,8 +2052,10 @@ ul {
 }
 ```
 
-Not every property is inherited, but many are. The CSS specification tell you, for each property, whether it is inheritable. It&#39;s a good idea to keep in mind the structure of your HTML document when choosing your selectors so you can use inheritance to your advantage by applying styles to the top most element and save yourself extra CSS code.
-
+Not every property is inherited, but many are. The CSS specification tell you, for each 
+property, whether it is inheritable. It&#39;s a good idea to keep in mind the structure 
+of your HTML document when choosing your selectors so you can use inheritance to your 
+advantage by applying styles to the top most element and save yourself extra CSS code.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. inheritance example image (55) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2031,9 +2110,15 @@ ul {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-3">2.4.3 Combining multiple selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-You can imagine that multiple HTML elements on your page will have similar style. If you write a separate CSS rule with the same properties for each of these elements, your CSS file can get very large and hard to manage. When designing CSS, the authors wanted to help make it as easy as possible to write and edit style sheets &ldquo;by hand&rdquo;, so there are a number of features that help keep your styles succinct.
+You can imagine that multiple HTML elements on your page will have similar style. If you 
+write a separate CSS rule with the same properties for each of these elements, your CSS 
+file can get very large and hard to manage. When designing CSS, the authors wanted to 
+help make it as easy as possible to write and edit style sheets &ldquo;by hand&rdquo;, 
+so there are a number of features that help keep your styles succinct.
 
-For example, what if you want to change the font that is consistent across many elements? You would have to change it in many places. Instead, you can combine multiple selectors on the same rule like so:
+For example, what if you want to change the font that is consistent across many elements? 
+You would have to change it in many places. Instead, you can combine multiple selectors 
+on the same rule like so:
 
 ```
 p, ul, ol {
@@ -2042,9 +2127,14 @@ p, ul, ol {
 }
 ```
 
-The comma means that each of these elements should have the same, duplicated style. No need to have repeated style! Of course, you could simply apply this style to an element that contains all of these, say the body element, but not all properties are inherited so using the comma is a direct way to apply consistent style across multiple categories of HTML elements.
+The comma means that each of these elements should have the same, duplicated style. No 
+need to have repeated style! Of course, you could simply apply this style to an element 
+that contains all of these, say the body element, but not all properties are inherited 
+so using the comma is a direct way to apply consistent style across multiple categories 
+of HTML elements.
 
-Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores using the comma to combine selectors.
+Here is a [CodePen](https://codepen.io/w3devcampus/pen/PVJLEm) that explores using the 
+comma to combine selectors.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. comma to combine selectors (56) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2128,11 +2218,20 @@ Let&#39;s say you have the following [CodePen](http://codepen.io/w3devcampus/pe
          <p>
 ```
 
-In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on which HTML element to apply the defined style. 
+In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the 
+browser on which HTML element to apply the defined style. 
 
-When your HTML is simple, the selectors can be simple as well. The most basic selectors simply mirror the HTML tag. For example &ldquo;p&rdquo; attaches to all &lt;p&gt; tags, &ldquo;img&rdquo; will attach to all &lt;img&gt; tags and so on. As you can imagine, there will often be times when you don&#39;t want every single HTML element of a particular type to have identical style. In Module 3, we&#39;ll discuss a variety of ways to use selectors to attach to specific HTML elements.
+When your HTML is simple, the selectors can be simple as well. The most basic selectors 
+simply mirror the HTML tag. For example &ldquo;p&rdquo; attaches to all &lt;p&gt; tags, 
+&ldquo;img&rdquo; will attach to all &lt;img&gt; tags and so on. As you can imagine, 
+there will often be times when you don&#39;t want every single HTML element of a 
+particular type to have identical style. In Module 3, we&#39;ll discuss a variety of 
+ways to use selectors to attach to specific HTML elements.
 
-In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of HTML elements to which they are attached. This means that you will have to be very careful which selectors you choose to use in combination with your chosen style. When choosing your selector you might want to keep the following aspects of an HTML element in mind
+In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy 
+of HTML elements to which they are attached. This means that you will have to be very 
+careful which selectors you choose to use in combination with your chosen style. When 
+choosing your selector you might want to keep the following aspects of an HTML element in mind
 
 ```
 </p>
@@ -2175,8 +2274,8 @@ In unit 2.2, we briefly mentioned the fact that properties apply to the entire h
 ```
 
 Note that there are HTML and some CSS rules, but the rules are missing their selectors.
-You will need to figure out which selectors belong on top of each of the 5 rules so that your final site looks exactly like this:
-
+You will need to figure out which selectors belong on top of each of the 5 rules so that 
+your final site looks exactly like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 34. final result after you apply your own selector image (59) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
