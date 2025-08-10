@@ -517,15 +517,16 @@ took over the role of European W3C Host from Inria. In 2013, W3C announced 
 <h4>Sir Tim Berners-Lee named recipient of the ACM A.M. Turing Award</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 16/17. picture of sr tim berners-lee (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center">
   <img alt="Picture of Sir Tim Berners-Lee."
     title="Picture of Sir Tim Berners-Lee"
-    src="./images/image016.webp" width="45%">
+    src="./images/image016.webp" 
+	style="width:45%;">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="Turing award." 
     title="Turing award"
-    src="./images/image017.png"45%">
+    src="./images/image017.png"
+	style="width:45%;">
 </p>
 
 On 4 April 2017, the ACM, the Association for Computing Machinery, named Sir 
@@ -595,22 +596,28 @@ Join our efforts to build an open web platform for the future.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-3">1.2.3 The invention of CSS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Before CSS, the appearance of a Web page was dictated by HTML, which had very few visual styling tools, meaning most Web pages looked simple.
+Before CSS, the appearance of a Web page was dictated by HTML, which had very few visual 
+styling tools, meaning most Web pages looked simple.
 
-Let&#39;s take the example of the MSN Web site. MSN is the web portal and related collection of Internet services and apps for Windows and mobile devices, provided by Microsoft and launched on August 24 1995, the same release date as Windows 95.
+Let&#39;s take the example of the MSN Web site. MSN is the web portal and related 
+collection of Internet services and apps for Windows and mobile devices, provided 
+by Microsoft and launched on August 24 1995, the same release date as Windows 95.
 
 In 1996, see what it looked like (or check it [online](https://web.archive.org/web/19961022175327/http:/msn.com/)):
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. image of msn.com from 1996 (17) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.png"
   style="width:40%"
+  title="Image of MSN.COM from 1996"
   alt="Image of MSN.COM from 1996." />
 </p>
 
-For a fun time, warp check out an <a href="https://web.archive.org/web/19961026005907/">archived version of that link above</a> for anyone &ldquo;new to the internet&rdquo;. See how this <a href="https://www.msn.com/">MSN Web site</a> (made with lots of CSS) looks like now!
+For a fun time, warp check out an <a href="https://web.archive.org/web/19961026005907/">
+archived version of that link above</a> for anyone &ldquo;new to the internet&rdquo;. 
+See how this <a href="https://www.msn.com/">MSN Web site</a> (made with lots of CSS) 
+looks like now!
 
 <h3>Before and after CSS</h3>
 
@@ -632,7 +639,6 @@ In the video below, you will hear from Bert Bos, the co-creator of CSS, about ho
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18b. css intro logo (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018b.webp"
    style="width:40%"
@@ -666,51 +672,71 @@ When Håkon Lie and I decided to combine our two proposals, in October 1994, it 
 
 We called it CSS.
 
-A style sheet language for the Web had to be simple to write: everybody who could write HTML should also be able to make style for it.
+A style sheet language for the Web had to be simple to write: everybody who could 
+write HTML should also be able to make style for it.
 
 It had to be efficient.
 
-Users have to download Web documents over a network, CSS allows to style many elements with one rule, and many documents with one style sheet.
+Users have to download Web documents over a network, CSS allows to style many elements 
+with one rule, and many documents with one style sheet.
 
-CSS also had to be efficient in the sense that it doesn&#39;t take noticeably more time to display a document with a style sheet.
+CSS also had to be efficient in the sense that it doesn&#39;t take noticeably more 
+time to display a document with a style sheet.
 
 We had to try and make CSS easy to maintain.
 
-Style may change, so they should not just be easy to write, but also easy to read and to modify.
+Style may change, so they should not just be easy to write, but also easy to read and 
+to modify.
 
-We wanted the language to be extensible: at the time HTML certainly wasn&#39;t finished yet and would probably not to be the only language on the Web, CSS itself also would not be complete right away.
+We wanted the language to be extensible: at the time HTML certainly wasn&#39;t finished 
+yet and would probably not to be the only language on the Web, CSS itself also would not 
+be complete right away.
 
-Maybe the most important characteristic of CSS is that it preserves the ability for the user to override or ignore the style of a document.
+Maybe the most important characteristic of CSS is that it preserves the ability for the 
+user to override or ignore the style of a document.
 
-We didn&#39;t see CSS as the final solution, certainly not the final solution for complex documents.
+We didn&#39;t see CSS as the final solution, certainly not the final solution for complex 
+documents.
 
-Although, already in 1996 we also wrote down some ideas for how to add layout templates and columns to CSS.
+Although, already in 1996 we also wrote down some ideas for how to add layout templates 
+and columns to CSS.
 
-Personally, I thought that CSS was a good start but would probably not be enough in the long term.
+Personally, I thought that CSS was a good start but would probably not be enough in the 
+long term.
 
-I expected that after a few years of gaining experience with CSS, we would start writing a better, more powerful style sheet language.
+I expected that after a few years of gaining experience with CSS, we would start writing 
+a better, more powerful style sheet language.
 
 So, that maybe, in ten years' time, CSS would be more or less forgotten.
 
 Indeed, in 1997 within W3C we started the XSL language for advanced layout.
 
-But CSS proved to be so extensible and so popular that now in 2016 (or 2022), it is still the primary style language of the Web and we are still adding new features to it.
+But CSS proved to be so extensible and so popular that now in 2016 (or 2022), it is 
+still the primary style language of the Web and we are still adding new features to 
+it.
 
 We must have done something right.
 
-I&#39;m especially happy that despite all the things we added to CSS over the years, the style sheets that that people made with CSS in 1996 are still valid and still work the same.
-
+I&#39;m especially happy that despite all the things we added to CSS over the years, 
+the style sheets that that people made with CSS in 1996 are still valid and still 
+work the same.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-4">1.2.4 Definitions</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+CSS, or **C**ascading **S**tyle Sheets, is a style sheet language used to describe the 
+way an HTML or XML document should look to a user. CSS is where you specify the color, 
+size, spacing, font and other visual aspects of the content that you create in your 
+markup language document.
 
-CSS, or **C**ascading **S**tyle Sheets, is a style sheet language used to describe the way an HTML or XML document should look to a user. CSS is where you specify the color, size, spacing, font and other visual aspects of the content that you create in your markup language document.
-
-Most often you will see CSS used alongside HTML to describe the way a Web page looks and feels. You can have a Web page without CSS, but it would be very difficult to make it look the way you want with just HTML. This is why almost every Web page is a combination of HTML and CSS.
+Most often you will see CSS used alongside HTML to describe the way a Web page looks and 
+feels. You can have a Web page without CSS, but it would be very difficult to make it 
+look the way you want with just HTML. This is why almost every Web page is a combination 
+of HTML and CSS.
 
 <b>CSS</b> • /si-ɛs-ɛs/ • <i>noun</i>
 
-Stands for &ldquo;**C**ascading **S**tyle **S**heets&rdquo;. A style sheet language for describing how to display an HTML document.
+Stands for &ldquo;**C**ascading **S**tyle **S**heets&rdquo;. A style sheet language for 
+describing how to display an HTML document.
 
 <h4>Sample CSS document:</h4>
 
@@ -771,19 +797,31 @@ examples: edge, chrome, Firefox, internet explorer, safari, opera
 
 <h4>HTTP</h4>
 
-Stands for &ldquo;**H**yper**t**ext **T**ransfer **P**rotocol&rdquo;. It is a protocol managed by the W3C to dictate the manner in which Web pages share data on the World Wide Web. You might recognize this from the start of many Web addresses.
+Stands for &ldquo;**H**yper**t**ext **T**ransfer **P**rotocol&rdquo;. It is a protocol 
+managed by the W3C to dictate the manner in which Web pages share data on the World 
+Wide Web. You might recognize this from the start of many Web addresses.
 
 <h4>HTTPS</h4>
 
-Stands for &ldquo;**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure&rdquo;. It  is the secure version of **HTTP**, the protocol over which data is sent between your browser and the Web site that you are connected to. It means all communications between your browser and the Web site are encrypted. A vast majority of Web site are now served by <a href="https://en.wikipedia.org/wiki/HTTPS">https</a>.
+Stands for &ldquo;**H**yper**t**ext **T**ransfer **P**rotocol **S**ecure&rdquo;. It is 
+the secure version of **HTTP**, the protocol over which data is sent between your 
+browser and the Web site that you are connected to. It means all communications between 
+your browser and the Web site are encrypted. A vast majority of Web site are now served 
+by <a href="https://en.wikipedia.org/wiki/HTTPS">https</a>.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2-5">1.2.5 Activity - The Web before CSS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Now it&#39;s your turn to do some exploration! For this activity, your job is to find examples of Web sites before and after CSS.
+Now it&#39;s your turn to do some exploration! For this activity, your job is to find 
+examples of Web sites before and after CSS.
 
-A great place to start is at [archive.org](https://archive.org/) (aka, the &ldquo;WayBack machine&rdquo;) which stores copies of web pages throughout history. You can search for some of your favorite websites and see if they have stored copies older than 1996. You should find that any Web page made before 1996 will look very different than Web sites we typically see today. When you find a real retro gem, please share it in this week&#39;s discussion (see below).
+A great place to start is at <a href="https://archive.org/">archive.org</a> (aka, the &ldquo;WayBack 
+machine&rdquo;) which stores copies of web pages throughout history. You can search for 
+some of your favorite websites and see if they have stored copies older than 1996. You 
+should find that any Web page made before 1996 will look very different than Web sites we 
+typically see today. When you find a real retro gem, please share it in this week&#39;s 
+discussion (see below).
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3-1">1.3.1 Why CSS is Important</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -902,11 +940,11 @@ Here is what it looks like when I view the source of [W3C&#39;s Web site](https
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~ 19. edge web browser with view source window open (25) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.png"
-   style="width:50%"
-   alt="Edge Web browser with view source window open." />
+  style="width:50%"
+  title="Edge Web browser with view source window open"
+  alt="Edge Web browser with view source window open." />
 </p>
 
 You can see a window that popped up from the bottom with all the HTML code for that site. Other Web browsers might pop this up in a separate window. 
@@ -915,11 +953,11 @@ You can also get more specific and look at individual HTML elements with the &ld
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~ 20. edge inspect element view highlighting a specific title (26) ~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.png"
-   style="width:50%"
-   alt="Edge inspect element view highlighting a specific title." />
+  style="width:50%"
+  title="Edge inspect element view highlighting a specific title"
+  alt="Edge inspect element view highlighting a specific title." />
 </p>
 
 As you can see, not only is the element highlighted on the page, but this also highlights the HTML code and shows you the CSS for that element on the right-hand side. In the video above, you can see me use this view to change the CSS and HTML real-time, which can be a very convenient way to play around with your designs.
@@ -943,7 +981,6 @@ For your chosen design, please answer the following questions:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-1">1.4.1 Hello beautiful world</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Now that you have plenty of context, it&#39;s time to dive in.
 
 We&#39;re going to start with a Hello World.
@@ -1085,11 +1122,11 @@ p {
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~ 21. 'hello beautiful world' in blue helvetica text (30) ~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.png"
-   style="width:29%"
-   alt="'Hello Beautiful World' in blue helvetica text." />
+  style="width:29%"
+  title="'Hello Beautiful World' in blue helvetica text"
+  alt="'Hello Beautiful World' in blue helvetica text." />
 </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4-2">1.4.2 Comments</h3>
@@ -1120,10 +1157,10 @@ to indicate that the computer ignores that code.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~ 22. comments in green (visual studio/notepad++) (30) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.png"
    style="width:45%"
+   title="Comments in green with visual studio and notepad++"
    alt="Comments in green with visual studio and notepad++." />
 </p>
 
@@ -1154,11 +1191,11 @@ saving it. For example, you could call it index.html
 Once you have your HTML document view it in a Web browser. It should look like this:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~ 23. an image of hello beautiful world in a web browser with black text (31) ~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png"
-   style="width:44%"
-   alt="An image of Hello Beautiful World in a web browser with black text." />
+  style="width:44%"
+  title="An image of Hello Beautiful World in a web browser with black text"
+  alt="An image of Hello Beautiful World in a web browser with black text." />
 </p>
 
 Now it's time to add some CSS. Here is the CSS we wrote in the &ldquo;Hello Beautiful 
