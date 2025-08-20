@@ -1,0 +1,1288 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta
+            name="description"
+            content="Five (5) module course on CSS (Cascade Style Sheets) &#xA;    given by W3C (World Wide Web Consortium). CSS is the language for describing the &#xA;    presentation of Web pages, including colors, layout, and fonts. CSS is independent &#xA;    of HTML and can be used with any XML-based markup language..."
+        />
+        <meta name="keywords" content="W3Cx,W3C,W3Cx-1of5-CSS.0x,CSS,CSS.0x,Cascade Style Sheets,CSS Basics" />
+        <meta name="generator" content="Aspose.Words for .NET 23.7.0" />
+        <title>w3cx-1of5-CSS.0x</title>
+    </head>
+    <body style="font-family: 'Times New Roman'; font-size: 12pt;">
+        <div>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;"><span>When you're designing your Web site, you might want to go out and look at some example sites and you're going to see a lot of patterns.</span></p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>You're going to see a lot of simple clean color schemes, you're not going to see very many drop shadows, and you're going to see a lot of long scrolling Web pages.</span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>You don't have to design your Web pages this way, but that's where things are going, and if you want a nice modern look, it's a good idea to kind of focus on these principals.</span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;"><span>The other thing that has come really into popularity is a focus on typography.</span></p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    These days, we have a lot of options for what fonts you can use on a page, not only are there the Web safe fonts we've been talking about all along, but there's a lot of new services that give you access to even more
+                    fonts.
+                </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>Now, don't go crazy, you're going to only want to pick one, maybe two fonts, for your page, but picking a nice font can have a real impact on how the user consumes your content.</span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;"><span>And you'll see that a lot of people sort of pick signature fonts especially for their title, or for their logo.</span></p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;"><span>If you keep these basic ideas in mind, long scrolling, flat designing and typography, you're probably going to end up with a really nice modern page.</span></p>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>5.5.2 Minimalism</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    This Web design trend is part fashion, part function. Since we always keep mobile devices in mind when designing, the "rich design" styles of the past (drop shadows, gradients, lots of images, colors, and fonts) have
+                    been replaced with the current trend "flat design".
+                </span>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>Flat design emphasizes:</span></h4>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman'; font-style: italic;">Simple elements</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">- grid layouts, limited number of elements,</span>
+                </li>
+                <li style="margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman'; font-style: italic;">Clean typography</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">- sans-serif fonts, large sized and lower case, and</span>
+                </li>
+                <li style="margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman'; font-style: italic;">Flat colors</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">- no drop shadows, no attempt to make 2D elements look 3D.</span>
+                </li>
+            </ul>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>Benefits of flat design:</span></h4>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman'; font-style: italic;">Low load times</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">- better for mobile network connections,</span>
+                </li>
+                <li style="margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman'; font-style: italic;">Responsiveness</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">- when there are a small number of elements, it is easier to</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">manage their relationships so that the overall layout can grow and shrink to accommodate different screen sizes, and</span>
+                </li>
+                <li style="margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman'; font-style: italic;">Intuitive experience</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">- research has shown that the cleaner a site, the easier it is for a user to find the information they are looking for.</span>
+                </li>
+            </ul>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>External resource</span></h4>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman';">A 2020 web.dev article:</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <a href="https://web.dev/one-line-layouts/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Times New Roman'; text-decoration: underline;">Ten modern layouts in one line of CSS</span></a>
+                    <span style="font-family: 'Times New Roman';">.</span>
+                </li>
+            </ul>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>5.5.3 Long scrolling</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    In the past, Web sites were comprised of many separate pages that you would navigate to, leaving behind the page you came from. These days, you'll often find pages that are comprised of a single long scrolling page with
+                    links that just jump to different portions of the page. The reason for this is less about fashion and more about technological developments. Especially on touch devices, scrolling is a more natural human way to interact
+                    with a page.
+                </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>This can be accomplished with something called "internal links". This is where you load the entire page as one long site</span><span>&#xa0;</span>
+                <span>and the links at the top simply jump to different locations within the site. To do this, you need to give the section you want to jump to an id, and then you use the</span><span>&#xa0;</span><span>id</span>
+                <span>&#xa0;</span><span>selector as the</span><span>&#xa0;</span><span>href</span><span>&#xa0;</span><span>setting on the anchor tag.</span><span>&#xa0;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt;">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBD6fLggAAAKVJREFUWIXtl0EKwzAMBL2l/7b9M/tl6qFsMSmFRWliHTSQQ0DYg1dEDszMykYA4LFTgKQESQkSQuKpFPXeXYvXWrVCE2itKWUfxhgmLm2lBIkjJYhPAng/v95vkeDMWzc/MQf9caybnhzEfoljHLdLrBGs0TiRvphfHI9/Wxx/JCWI3BNzzsskoNy24ex85SIPANJJXP1XEKInUoKkBEkJEkIiBC9JJJ3S2HCWxgAAAABJRU5ErkJggg=="
+                    width="33"
+                    height="33"
+                    alt="Sample 'internal link'."
+                    style="-aw-left-pos: 0pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 0pt; -aw-wrap-type: inline;"
+                />
+                <span> </span>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>CSS</span></h4>
+            <p style="margin-top: 0pt; margin-bottom: 0pt;"><span>CSS code extract!</span></p>
+            <p style="margin-top: 10pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">body {</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">width: 50%;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">margin-left: auto;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">margin-right: auto;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">}</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">ul {</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">list-style: none;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">padding: 50px;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">}</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">ul li {</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">float: left;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">width: 10%;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">}</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">section {</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">clear: both;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 10pt; font-size: 10pt;"><span style="font-family: 'Courier New';">}</span></p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>HTML</span></h4>
+            <p style="margin-top: 0pt; margin-bottom: 0pt;"><span>HTML code extract!</span></p>
+            <p style="margin-top: 10pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">&lt;!DOCTYPE html&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">&lt;!--It's a best practice to always declare DOCTYPE!--&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New';">&lt;html lang="en"&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;head&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;title&gt;Long Scrolling with Anchor Links&lt;/title&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;meta charset="utf-8"&gt;</span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;/head&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;body&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;nav&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;ul&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">&lt;li&gt;&lt;a href="#section1"&gt;section 1&lt;/a&gt;&lt;/li&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">&lt;li&gt;&lt;a href="#section2"&gt;section 2&lt;/a&gt;&lt;/li&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">&lt;li&gt;&lt;a href="#section3"&gt;section 3&lt;/a&gt;&lt;/li&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">&lt;li&gt;&lt;a href="#section4"&gt;section 4&lt;/a&gt;&lt;/li&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/ul&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/nav&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;section id="section1"&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;h1&gt;Section 1&lt;/h1&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. Integer </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec</span><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span>
+                <span style="font-family: 'Courier New';">maximus urna </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. Nullam pulvinar </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit ultricies, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">urna metus eleifend leo, et vestibulum dolor mi ut urna. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nulla volutpat posuere nibh ut ullamcorper. Suspendisse facilisis felis massa, vel </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">egestas ex faucibus a. Nunc vestibulum volutpat eros eu laoreet.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse potenti. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed enim pharetra </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">molestie. Curabitur dictum, libero eget congue porta, est massa bibendum enim, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce condimentum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">dictum purus nec porta. Aenean a velit in augue convallis malesuada non a </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, </span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">in lacinia eros augue ut risus. Maecenas sit amet metus finibus augue congue </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">sagittis nec mattis leo. Quisque venenatis a erat nec gravida. Nulla sit amet </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">pharetra risus. Nam sit amet nulla tellus. Pellentesque libero ex, ultrices eu </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">tristique ut, mattis eget augue. Cras ac dolor convallis, convallis tortor nec, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">rutrum eros. Nunc nisl est, efficitur sit amet lorem at, egestas vulputate augue. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque ac </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">commodo a, pretium vel enim. Phasellus finibus aliquam purus sit amet ultricies. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Vestibulum vitae libero scelerisque, maximus ex nec, pharetra orci. Nulla cursus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">volutpat nisl in dictum.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. Vivamus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae vestibulum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum sodales interdum. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Pellentesque in viverra nisi. Cum sociis natoque penatibus et magnis dis parturient </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">montes, nascetur ridiculus mus. In aliquam convallis lorem vel pellentesque. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis fermentum.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. Morbi placerat </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, ipsum mi </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;section&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;section id="section2"&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;h1&gt;Section 2&lt;/h1&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut </span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">nec maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">ullamcorper. Nullam pulvinar magna mi, eu volutpat metus pretium quis. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">In faucibus, leo in blandit ultricies, urna metus eleifend leo, et vestibulum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">dolor mi ut urna. Nulla eu neque nec justo cursus condimentum. Donec </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">pellentesque tempus iaculis. Nunc augue justo, tincidunt in euismod vitae, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">feugiat sed eros. Integer molestie sapien id aliquam fermentum. Duis rutrum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">sed orci ac aliquet. Nulla volutpat posuere nibh ut ullamcorper. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Suspendisse facilisis felis massa, vel egestas ex faucibus a. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nunc vestibulum volutpat eros eu laoreet.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">interdum varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">arcu. Aenean id tellus augue. Nunc egestas scelerisque fringilla. Suspendisse </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi sed </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. Fusce </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">non a mauris. Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">in lacinia eros augue ut risus. Maecenas sit amet metus finibus augue congue </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">sagittis nec mattis leo. Quisque venenatis a erat nec gravida. Nulla sit amet </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">pharetra risus. Nam sit amet nulla tellus. Pellentesque libero ex, ultrices </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">eu tristique ut, mattis eget augue. Cras ac dolor convallis, convallis tortor </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">nec, rutrum eros. Nunc nisl est, efficitur sit amet lorem at, egestas vulputate </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">augue. Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">ac commodo a, pretium vel enim. Phasellus finibus aliquam purus sit amet ultricies. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Vestibulum vitae libero scelerisque, maximus ex nec, pharetra orci. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nulla cursus volutpat nisl in dictum.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">dignissim pretium eros varius. Praesent dapibus tincidunt lectus, id tristique </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">arcu iaculis id. Mauris euismod placerat pellentesque. Proin ultricies porttitor </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">porttitor. Suspendisse vehicula arcu a finibus dapibus. Nam non urna nulla. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum ultrices ipsum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">lorem vel pellentesque. Curabitur id ante ac risus condimentum accumsan. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Aliquam venenatis facilisis fermentum.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Pellentesque habitant morbi tristique senectus et netus et malesuada fames </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">ac turpis egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">lacus. </span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nunc ut nisl rhoncus, elementum tortor sit amet, rutrum tellus. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">bibendum, ipsum mi egestas sem, a tempus sem orci et mi. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nullam sit amet consectetur mi.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;/section&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;section id="section3"&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;h1&gt;Section 3&lt;/h1&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">vulputate tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">maximus urna ligula vel purus. Cras a tortor ac nisl sollicitudin ullamcorper. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">blandit ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nunc augue justo, tincidunt in euismod vitae, feugiat sed eros. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nulla volutpat posuere nibh ut ullamcorper.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">volutpat eros eu laoreet.</span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">interdum varius. Phasellus auctor bibendum dignissim. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Pellentesque ut nulla arcu. Aenean id tellus augue. Nunc egestas scelerisque </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">fringilla. Suspendisse potenti. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Cras tempus diam lectus, a tempus eros maximus nec. Etiam facilisis erat turpis, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">in tincidunt leo condimentum sit amet. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Fusce eleifend nisi sed enim pharetra molestie. Curabitur dictum, libero eget </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">congue porta, est massa bibendum enim, sed semper arcu orci et arcu. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Praesent in cursus turpis. Fusce condimentum dictum purus nec porta. Aenean a velit </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">in augue convallis malesuada non a mauris. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Donec auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, in </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">lacinia eros augue ut risus. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Maecenas sit amet metus finibus augue congue sagittis nec mattis leo. Quisque </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">venenatis a erat nec gravida. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nulla sit amet pharetra risus. Nam sit amet nulla tellus. Pellentesque libero </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">ex, ultrices eu tristique ut, mattis eget augue. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Cras ac dolor convallis, convallis tortor nec, rutrum eros. Nunc nisl est, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">efficitur sit amet lorem at, egestas vulputate augue. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nunc sed ornare orci. Suspendisse potenti. Fusce risus dolor, pellentesque </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">ac commodo a, pretium vel enim. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Phasellus finibus aliquam purus sit amet ultricies. Vestibulum vitae libero </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">scelerisque, maximus ex nec, pharetra orci. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nulla cursus volutpat nisl in dictum.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">pretium eros varius. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris euismod </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">placerat pellentesque. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Proin ultricies porttitor porttitor. Suspendisse vehicula arcu a finibus dapibus. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nam non urna nulla. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Vivamus aliquet, ipsum et convallis blandit, mauris lacus malesuada dolor, vitae </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">vestibulum velit lectus vel lacus. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Phasellus eget ipsum ultrices ipsum sodales interdum. Pellentesque in viverra nisi. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">In aliquam convallis lorem vel pellentesque. Curabitur id ante ac risus condimentum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">accumsan. Aliquam venenatis facilisis fermentum.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">egestas. Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Curabitur eu venenatis urna. Nam auctor orci id dui condimentum convallis. Nunc ut </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">nisl rhoncus, elementum tortor sit amet, rutrum tellus. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">ipsum mi egestas sem, a tempus sem orci et mi. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">Nullam sit amet consectetur mi.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;/section&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;section id="section4"&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;h1&gt;Section 4&lt;/h1&gt;</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mattis, sem ut vulputate </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">tempus, leo urna fringilla dolor, sed mattis leo sem id ligula. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Integer efficitur, nulla eu scelerisque aliquam, arcu erat maximus ante, nec maximus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">urna ligula vel purus. Cras </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">a tortor ac nisl sollicitudin ullamcorper. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nullam pulvinar magna mi, eu volutpat metus pretium quis. In faucibus, leo in blandit </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">ultricies, urna metus eleifend leo, et vestibulum dolor mi ut urna. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nulla eu neque nec justo cursus condimentum. Donec pellentesque tempus iaculis. Nunc </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">augue justo, tincidunt in euismod vitae, feugiat sed eros. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Integer molestie sapien id aliquam fermentum. Duis rutrum sed orci ac aliquet. Nulla </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">volutpat posuere nibh ut ullamcorper. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Suspendisse facilisis felis massa, vel egestas ex faucibus a. Nunc vestibulum volutpat </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">eros eu laoreet.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Fusce sed pellentesque tellus, vitae accumsan elit. Vivamus porta in risus interdum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">varius. Phasellus auctor bibendum dignissim. Pellentesque ut nulla arcu. Aenean id </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">tellus augue. Nunc egestas scelerisque fringilla.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Suspendisse potenti. Cras tempus diam lectus, a tempus eros maximus nec. Etiam </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">facilisis erat turpis, in tincidunt leo condimentum sit amet. Fusce eleifend nisi </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">sed enim pharetra molestie. Curabitur dictum, libero eget congue porta, est massa </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">bibendum enim, sed semper arcu orci et arcu. Praesent in cursus turpis. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Fusce condimentum dictum purus nec porta. Aenean a velit in augue convallis malesuada </span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">non a mauris. Donec</span>
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">auctor risus quis libero accumsan suscipit. Fusce nec diam dolor.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Proin aliquet, diam ultricies dignissim lacinia, libero lectus semper est, in lacinia </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">eros augue ut risus. Maecenas sit amet metus finibus augue congue sagittis nec mattis </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">leo. Quisque venenatis a erat nec gravida. Nulla sit amet pharetra risus. Nam sit amet </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">nulla tellus. Pellentesque libero ex, ultrices eu tristique ut, mattis eget augue. Cras </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">ac dolor convallis, convallis tortor nec, rutrum eros. Nunc nisl est, efficitur sit </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">amet lorem at, egestas vulputate augue. Nunc sed ornare orci. Suspendisse potenti. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Fusce risus dolor, pellentesque ac commodo a, pretium vel enim. Phasellus finibus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">aliquam purus sit amet ultricies. Vestibulum vitae libero scelerisque, maximus ex </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">nec, pharetra orci. Nulla cursus volutpat nisl in dictum.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Phasellus quis lobortis orci. Nunc tincidunt lacus in sapien tristique, dignissim pretium </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">eros varius. Praesent dapibus tincidunt lectus, id tristique arcu iaculis id. Mauris </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">euismod placerat pellentesque. Proin ultricies porttitor porttitor. Suspendisse vehicula </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">arcu a finibus dapibus. Nam non urna nulla. Vivamus aliquet, ipsum et convallis blandit, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">mauris lacus malesuada dolor, vitae vestibulum velit lectus vel lacus. Phasellus eget ipsum </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">ultrices ipsum sodales interdum. Pellentesque in viverra nisi. Cum sociis natoque penatibus </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">et magnis dis parturient montes, nascetur ridiculus mus. In aliquam convallis lorem vel </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">pellentesque. Curabitur id ante ac risus condimentum accumsan. Aliquam venenatis facilisis </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">fermentum.</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nulla in sapien ac dolor venenatis fermentum et porttitor lacus. Curabitur eu venenatis urna. </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">Nam auctor orci id dui condimentum convallis. Nunc ut nisl rhoncus, elementum tortor sit amet, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">rutrum tellus. Morbi placerat neque id urna maximus interdum. Sed volutpat, nisl ut tempor bibendum, </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;">
+                <span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span>
+                <span style="font-family: 'Courier New';">ipsum mi egestas sem, a tempus sem orci et mi. Nullam sit amet consectetur mi.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/p&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0;&#xa0;&#xa0; </span><span style="font-family: 'Courier New';">&lt;/section&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt; font-size: 10pt;"><span style="font-family: 'Courier New'; -aw-import: spaces;">&#xa0; </span><span style="font-family: 'Courier New';">&lt;/body&gt;</span></p>
+            <p style="margin-top: 0pt; margin-bottom: 10pt; font-size: 10pt;"><span style="font-family: 'Courier New';">&lt;/html&gt;</span></p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>There are other methods that are more advanced that save you from loading the entire page.</span><span>&#xa0;</span>
+                <span>One technique under development to make scrolling easier and more accurate is a module called "</span>
+                <a href="https://www.w3.org/TR/css-scroll-snap-1/" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">CSS Scroll Snap</span></a><span>".</span>
+            </p>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>5.5.4 New layout techniques</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>Web layout is always constrained by the limitations of CSS, but future trends will be able to make use of new tools, such as CSS Flexbox (officially: CSS Flexible Box Layout) and CSS Grid.</span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>Since the summer of 2017, the major browsers support this module of CSS, which provides the beginnings of something professional designers have long been waiting for:</span><span>&#xa0;</span>
+                <a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">a design grid</span></a><span>.</span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt;">
+                <img
+                    src="data:image/png;base64,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"
+                    width="200"
+                    height="200"
+                    alt="CSS flexbox and grid layout differences."
+                    style="-aw-left-pos: 0pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 0pt; -aw-wrap-type: inline;"
+                />
+                <span> </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    It's been a few years now that the CSS Flexbox module gives advanced control over alignment and spacing of elements on a line or in a stack. The Grid module now allows alignment in two dimensions: to elements on the same
+                    line and to elements in the same column.
+                </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    Grid doesn't replace Flexbox. There is some flexibility when placing elements in one line that you lose when you add a second dimension. At the same time there are layouts that were difficult or impossible even with
+                    Flexbox and are now easy with Grid.
+                </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    The Grid module is only a first step. Level 1 has a number of limitations (just like Flexbox), due to issues around complexity and performance. For example, you can currently only align elements that have the same
+                    parent. That said, for laying out graphical user interfaces (GUIs), Flexbox and Grid work very well.
+                </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;"><span>We briefly present them below, and give a few resources at the bottom of the page so that you can explore more.</span></p>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>CSS Flexbox</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>Since its introduction in 2012, CSS Flexbox has become widely used and its</span><span>&#xa0;</span>
+                <a href="https://caniuse.com/flexbox" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">browser support</span></a><span>&#xa0;</span>
+                <span>is really good. Flexbox made a lot of complex layout tasks easier, like equidistant spacing between elements, top-to-bottom layouts or the</span><span>&#xa0;</span>
+                <a href="https://en.wikipedia.org/wiki/Holy_Grail_(web_design)" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">holy grail</span></a>
+                <span>. Find out about Flexbox and how to use it in the last section of the</span><span>&#xa0;</span>
+                <a href="https://www.edx.org/course/html5-and-css-fundamentals" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">W3C HTML5 and CSS Fundamentals course</span></a><span>!</span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>Despite the similarities in concept and syntax, Flexbox and Grid are not competing layout techniques. Grid arranges in two dimensions, while Flexbox lays out in one. There is synergy when using the two together.</span>
+            </p>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>CSS Grid</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>CSS Grid</span><span>&#xa0;</span>
+                <span>
+                    is a CSS module that defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of an element (the ‘grid container’) can be positioned into arbitrary
+                    slots in a predefined flexible or fixed-size layout grid.
+                </span>
+            </p>
+            <p style="margin-top: 0pt; margin-bottom: 0pt;">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBD6fLggAAAKVJREFUWIXtl0EKwzAMBL2l/7b9M/tl6qFsMSmFRWliHTSQQ0DYg1dEDszMykYA4LFTgKQESQkSQuKpFPXeXYvXWrVCE2itKWUfxhgmLm2lBIkjJYhPAng/v95vkeDMWzc/MQf9caybnhzEfoljHLdLrBGs0TiRvphfHI9/Wxx/JCWI3BNzzsskoNy24ex85SIPANJJXP1XEKInUoKkBEkJEkIiBC9JJJ3S2HCWxgAAAABJRU5ErkJggg=="
+                    width="33"
+                    height="33"
+                    alt="Grid module."
+                    style="-aw-left-pos: 0pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 0pt; -aw-wrap-type: inline;"
+                />
+                <span> </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;"><span>The Grid module provides several different ways to define such a grid and to place the child elements. Too many, in fact, to present here.</span></p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    Because they can refer to a previously defined grid of horizontal and vertical lines, the properties from the CSS Grid module provide more control over the alignment of elements than most other properties in CSS, such as
+                    the table-related properties or the 'float' and 'clear' properties, while also allowing elements to be displayed out of order. As such they are especially appreciated for (Web) applications with user interfaces that are
+                    made with HTML and CSS. The Grid module is not yet the ‘
+                </span>
+                <a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">design grid</span></a>
+                <span>
+                    ’ that typographers want for the layout of magazines and books, but it is a first step. (E.g., one obvious thing to do, applying grid properties to an HTML table, doesn't work, because the properties do not handle nested
+                    elements yet.) Even though this is only level
+                </span>
+                <span>&#xa0;</span><span>1 of the module, it is well worth trying out.</span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>The properties from the Grid module have only been available in major browsers since mid 2017 (see the</span><span>&#xa0;</span>
+                <a href="https://caniuse.com/css-grid" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">status of browser support</span></a>
+                <span>). But the ideas behind the Grid module aren't new. From the start of CSS, there have been proposals to use CSS properties to define a template or matrix to guide the layout of elements, e.g.:</span><span>&#xa0;</span>
+                <a href="http://www.w3.org/TR/WD-layout" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Frame-based layout</span></a><span>,</span><span>&#xa0;</span>
+                <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Advanced Layout</span></a><span>&#xa0;</span><span>(later called</span>
+                <span>&#xa0;</span><a href="http://www.w3.org/TR/css-template-3/" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Template Layout</span></a><span>),</span><span>&#xa0;</span>
+                <a href="https://github.com/gss" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Grid Style Sheets</span></a><span>&#xa0;</span><span>and</span><span>&#xa0;</span><span> </span>
+                <a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Constraint CSS</span></a>
+                <span>. But only recently has technology become good enough to support some (not all!) of those ideas.</span>
+            </p>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>A few resources</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    If you look at the CSS Grid module, you may notice that it has rather a large number of properties: 18. That is because it tries to allow different manners of writing style sheets. There are many shorthand properties and
+                    many alternative ways to define the same grid. In practice, most style sheet writers will select a set of just three or four properties that suits their way of working.
+                </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    When considering the CSS Grid module, also look at the CSS Flexible Box module. It only provides for alignment of elements in a single row or column, but has some features that Grid doesn't have (and it has been around
+                    longer and works in older browsers). On the other hand, even for a single row or column, the Grid properties may turn out easier in some cases.
+                </span>
+            </p>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>CSS Layout</span></h3>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <a href="https://csslayout.news/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Times New Roman'; text-decoration: underline;">CSS Layout News</span></a>
+                    <span style="font-family: 'Times New Roman';">&#xa0;</span><span style="font-family: 'Times New Roman';"> - A weekly collection of tutorials, news and information on all things CSS Layout, by</span>
+                    <span style="font-family: 'Times New Roman';">&#xa0;</span><span style="font-family: 'Times New Roman';"> </span>
+                    <a href="https://rachelandrew.co.uk/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Times New Roman'; text-decoration: underline;">Rachel Andrew</span></a>
+                    <span style="font-family: 'Times New Roman';">.</span>
+                </li>
+            </ul>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>CSS grid resources</span></h3>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" style="text-decoration: none;">
+                        <span style="font-family: 'Times New Roman'; text-decoration: underline;">A complete guide to Grid</span>
+                    </a>
+                    <span style="font-family: 'Times New Roman';">&#xa0;</span><span style="font-family: 'Times New Roman';">(CSS Tricks),</span>
+                </li>
+                <li style="margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <a href="https://www.w3.org/TR/css-grid-1/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Times New Roman'; text-decoration: underline;">CSS Grid</span></a>
+                    <span style="font-family: 'Times New Roman';">, the W3C specification, and</span>
+                </li>
+                <li style="margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <a href="https://gridbyexample.com/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Times New Roman'; text-decoration: underline;">Grid by example</span></a>
+                    <span style="font-family: 'Times New Roman';">: this site is a collection of</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman'; font-style: italic;">example</span><span style="font-family: 'Times New Roman';">, video and other information to help you learn CSS</span>
+                    <span style="font-family: 'Times New Roman';">&#xa0;</span><span style="font-family: 'Times New Roman'; font-style: italic;">Grid</span><span style="font-family: 'Times New Roman';">&#xa0;</span>
+                    <span style="font-family: 'Times New Roman';">Layout.</span>
+                </li>
+            </ul>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>CSS flexbox resources</span></h3>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" style="text-decoration: none;">
+                        <span style="font-family: 'Times New Roman'; text-decoration: underline;">A complete guide to Flexbox</span>
+                    </a>
+                    <span style="font-family: 'Times New Roman';">&#xa0;</span><span style="font-family: 'Times New Roman';">(CSS Tricks),</span>
+                </li>
+                <li style="margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <a href="https://www.w3.org/TR/css-flexbox/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Times New Roman'; text-decoration: underline;">CSS Flexible Box Layout</span></a>
+                    <span style="font-family: 'Times New Roman';">, the W3C specification, and</span>
+                </li>
+                <li style="margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <a href="https://flexboxfroggy.com/" target="_blank" style="text-decoration: none;"><span style="font-family: 'Times New Roman'; text-decoration: underline;">Flexbox froggy</span></a>
+                    <span style="font-family: 'Times New Roman';">&#xa0;</span><span style="font-family: 'Times New Roman';">(game to practice CSS flexbox code).</span>
+                </li>
+            </ul>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>5.5.5 CSS Grid layout</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;"><span>Self-gratification. ie, busting their arms patting themselves on the back.</span></p>
+            <h3 style="margin-top: 14.05pt; margin-bottom: 14.05pt; font-size: 14pt;"><span>5.5.6 Activity - Best design</span></h3>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>For this activity, go out and find what you think is the best-designed Web page! Post a link to it in the discussion along with the answers to the following questions:</span>
+            </p>
+            <ol type="1" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 36pt;"><span>Why do you like the design of this Web page?</span></li>
+                <li style="margin-left: 36pt;"><span>What is one aspect of this Web page you would like to use in your own design?</span></li>
+                <li style="margin-left: 36pt; margin-bottom: 12pt;"><span>Is this Web page accessible?</span></li>
+            </ol>
+            <p style="margin-top: 0pt; margin-bottom: 0pt;">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBD6fLggAAAKVJREFUWIXtl0EKwzAMBL2l/7b9M/tl6qFsMSmFRWliHTSQQ0DYg1dEDszMykYA4LFTgKQESQkSQuKpFPXeXYvXWrVCE2itKWUfxhgmLm2lBIkjJYhPAng/v95vkeDMWzc/MQf9caybnhzEfoljHLdLrBGs0TiRvphfHI9/Wxx/JCWI3BNzzsskoNy24ex85SIPANJJXP1XEKInUoKkBEkJEkIiBC9JJJ3S2HCWxgAAAABJRU5ErkJggg=="
+                    width="33"
+                    height="33"
+                    alt="Sample web pages from students."
+                    style="-aw-left-pos: 0pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 0pt; -aw-wrap-type: inline;"
+                />
+                <span> </span>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>A wonderful web page</span></h4>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>discussion posted</span><span>&#xa0;</span><span>about 20 hours ago</span><span>&#xa0;</span><span>by</span><span>&#xa0;</span>
+                <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/2254953" target="_blank" style="text-decoration: none;">
+                    <span style="font-weight: bold; text-decoration: underline;">AllaPetr</span>
+                </a>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <a href="https://www.joshwcomeau.com/" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Josh W Comeau</span></a><span>&#xa0;</span>
+                <span>
+                    I just discovered this web page among the comments below. I think this is one of the most attractive and balanced websites I have seen. I like the choice of colors because it is both simple and warm. Sometimes web pages
+                    can feel cold and not welcoming. This one's doesn't. I also love the attention to details shown by the use of animations in the logo. It adds the extra little something that makes it very appealing. The one thing I would
+                    use in my own web page is the animated logo combined with the neat and minimalist design of the page. Yes, I think it is accessible.
+                </span>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>Apple</span></h4>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>discussion posted</span><span>&#xa0;</span><span>a day ago</span><span>&#xa0;</span><span>by</span><span>&#xa0;</span>
+                <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/42009473" target="_blank" style="text-decoration: none;">
+                    <span style="font-weight: bold; text-decoration: underline;">LauraLucie</span>
+                </a>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <a href="https://www.apple.com/" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Apple.com</span></a><span>&#xa0;</span>
+                <span> For me they are doing the best - as one of the first, they simplified their website, as much as their products. I would love to have my website as simply and clean designed.</span>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>Helpful website for all here</span></h4>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>discussion posted</span><span>&#xa0;</span><span>23 days ago</span><span>&#xa0;</span><span>by</span><span>&#xa0;</span>
+                <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/9451919" target="_blank" style="text-decoration: none;">
+                    <span style="font-weight: bold; text-decoration: underline;">therockitscientist</span>
+                </a>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <a href="https://www.joshwcomeau.com/blog/how-i-built-my-blog/" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Josh W Comeau How I Built My Blog</span></a>
+                <span> always have great advice on how he design his own site.</span>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>Milk! Records</span></h4>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>discussion posted</span><span>&#xa0;</span><span>2 months ago</span><span>&#xa0;</span><span>by</span><span>&#xa0;</span>
+                <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/6016861" target="_blank" style="text-decoration: none;">
+                    <span style="font-weight: bold; text-decoration: underline;">blither</span>
+                </a>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <a href="https://milk.milkrecords.com.au/" target="_blank" style="text-decoration: none;"><span style="text-decoration: underline;">Milk Records</span></a><span>&#xa0;</span>
+                <span>
+                    homepage is a nice, simple design. The whole scope of the site is immediately obvious from the navigation bar, and links to social media are artfully displayed. Each artist has a photo to click on to find out more, and
+                    are presented in a nice spaced out grid. However, I looked at the HTML and there are no alt texts for the artist photos. I opened up the Windows Narrator to see if the site could be screen read and it only read out the
+                    text in the header.
+                </span>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>Something that I use frequently was part of a best design choice for me. Check out zillow.com</span></h4>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>discussion posted</span><span>&#xa0;</span><span>about a month ago</span><span>&#xa0;</span><span>by</span><span>&#xa0;</span><span> </span>
+                <a href="https://courses.edx.org/courses/course-v1:W3Cx+CSS.0x+3T2020/discussion/forum/users/39571304" target="_blank" style="text-decoration: none;">
+                    <span style="font-weight: bold; text-decoration: underline;">MattN77</span>
+                </a>
+            </p>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;">
+                <span>Site Chosen</span><span>&#xa0;</span><span>-&gt; </span><a href="www.zillow.com" style="text-decoration: none;"><span style="text-decoration: underline;">www.zillow.com</span></a>
+            </h4>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman';">
+                        Zillow is a residential real estate information provider that covers the United States, both for sale and for rent. For buyers and sellers there is information such as area statistics, pricing, finance snapshots to
+                        purchase, school ratings, walkable ratings, data about past sales, mapping, street views, you name it, there is a lot of useful stuff here. They also provide tools for prospective owners that need help with renting
+                        their property, short of providing property management services. They provide what one would need to list, screen tenants, set up and sign a lease, as well as many tips on getting important things done.
+                    </span>
+                </li>
+            </ul>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>1. Why do you like the design of this Web page?</span></h4>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman';">
+                        I chose this as my favorite site based on the fact I use it frequently. The overall design of the site is easy to use, and presents information that I am looking for in a well laid out format, as Kasey Champion put
+                        it, information that is easy to consume or take in. There are many impressive facets to this site that are practical, relevant, intuitive, and all are managed well.
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>2. What is one aspect of this Web page you would like to use in your own design?</span></h4>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman';">
+                        The ease and intuitive use are number one for me, and it is facilitated by a simple uncluttered well organized layout and menu's that make finding information easy, and quickly understand the presentation of it.
+                        Another important aspect of this site I noticed behind the scenes are flexbox is used extensively, not grid. Zillow seems to work flawlessly on any device.
+                    </span>
+                </li>
+            </ul>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>3. Is this Web page accessible?</span></h4>
+            <ul type="disc" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 35.98pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman';">Yes, this site seemed to address many accessibility needs or points, and</span>
+                </li>
+                <li style="margin-left: 35.98pt; margin-bottom: 12pt; padding-left: 0.02pt; font-family: serif; -aw-font-family: 'Symbol'; -aw-font-weight: normal; -aw-number-format: '';">
+                    <span style="font-family: 'Times New Roman';">
+                        There are many keyboard focusable points so the keyboard can be used without a mouse, color contrast is rated in many spots that are good, there is enough white space so information is not cluttered. The site seems
+                        to be organized very well, so it is easy to navigate logically. The screen reader I used seemed to work well with this site. The site seemed to adjust easily to screen zoom. Images also have alt text for screen
+                        readers.
+                    </span>
+                </li>
+            </ul>
+            <h4 style="margin-top: 15.95pt; margin-bottom: 15.95pt; font-size: 12pt;"><span>Continue your studies</span></h4>
+            <p style="margin-top: 0pt; margin-bottom: 0pt;">
+                <img
+                    src="data:image/png;base64,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"
+                    width="150"
+                    height="150"
+                    alt="W3Cx FEWD program image."
+                    style="-aw-left-pos: 0pt; -aw-rel-hpos: column; -aw-rel-vpos: paragraph; -aw-top-pos: 0pt; -aw-wrap-type: inline;"
+                />
+                <span> </span>
+            </p>
+            <p style="margin-top: 12pt; margin-bottom: 12pt;">
+                <span>
+                    Hopefully at this point you feel comfortable with all the basics of CSS, but, as mentioned throughout this course, there is still a lot more to learn. Here are some courses we recommend you check out next as part of the
+                </span>
+                <span>&#xa0;</span><span> </span>
+                <a href="https://www.edx.org/professional-certificate/w3cx-front-end-web-developer" target="_blank" style="text-decoration: none;">
+                    <span style="text-decoration: underline;">W3C "Front-End Web Developer" Professional Certificate</span>
+                </a>
+                <span>&#xa0;</span><span>program:</span>
+            </p>
+            <ol start="2" type="1" style="margin: 0pt; padding-left: 0pt;">
+                <li style="margin-top: 12pt; margin-left: 36pt;"><span>HTML5 &amp; CSS Fundamentals,</span></li>
+                <li style="margin-left: 36pt;"><span>HTML5 Coding Essentials and Best Practices,</span></li>
+                <li style="margin-left: 36pt;"><span>HTML5 Apps and Games, and</span></li>
+                <li style="margin-left: 36pt; margin-bottom: 12pt;"><span>JavaScript Introduction.</span></li>
+            </ol>
+            <p style="margin-top: 12pt; margin-bottom: 0pt;">
+                <span>Last Updated: 1.3.2024 Wed 10:27am</span><br />
+                <span>Last Updated: 4.23.2024 Tue 12:33pm</span><br />
+                <span>Last Updated: 6.16.2024 Sun 1:04am</span><br />
+                <span>Last Updated: 7.22.2024 Thu 3:35pm</span><br />
+                <span>Last Updated: 9.16.2024 Mon 12:10pm</span><br />
+                <span>Last Updated: 9.28.2024 Sat 1:57pm</span><br />
+                <span>Last Updated: 10.01.2024 Tue 11:33am</span><br />
+                <span>Last Updated: 11.05.2024 Tue 12:41am</span><br />
+                <span style="-aw-import: ignore;">&#xa0;</span>
+            </p>
+        </div>
+        <br style="page-break-before: always; clear: both; mso-break-type: section-break;" />
+        <div>
+            <p style="margin-top: 0pt; margin-bottom: 12pt;">
+                <span>Last Updated: 5.23.2025 Fri 11:59pm</span><br />
+                <span>Last Updated: 5.24.2025 Sat 2:03pm</span>
+            </p>
+        </div>
+    </body>
+</html>
