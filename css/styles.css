@@ -100,7 +100,7 @@ details > p {
   box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
 }
 details[open] > summary {
-  background-color: yellow;
+  background-color: #ffff00;  /* yellow */
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
@@ -135,17 +135,17 @@ body {
 }
 
 th, td {
-  border: 1px solid #000;
+  border: 1px solid #000;  /* black */
 }
 table {
   border-collapse: collapse;
   margin-left: 15px;
-  border: 1px solid #000;
+  border: 1px solid #000;  /* black */
 }
 
 pre {
   font: normal normal 10px/12px consolas,Courier,Monospace;
-  background-color: #eee;
+  background-color: #eee;  /* very light gray */
   overflow: auto;
   margin: 0 0 1em;
   padding: .5em 1em;
@@ -201,7 +201,7 @@ pre:hover, pre:focus {
   div.example {
     font-size: 50px;
     padding: 50px;
-    border: 8px solid black;
-    background: yellow;
+    border: 8px solid #000;  /* black */
+    background: #ffff00;  /* yellow */
   }
 }
