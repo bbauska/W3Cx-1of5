@@ -1,4 +1,4 @@
-/* styles.css of W3Cx-1of5 making W3Cx-1of5.bauska.org */
+/* css/styles.css of bbauska/W3Cx-1of5 making W3Cx-1of5.bauska.org */
 img.displayed {
   display: block;
   margin: 0 auto; 
@@ -41,7 +41,7 @@ a:hover {
 }
 a[href]:hover {
   text-decoration: underline; 
-  text-decoration-color: 0000ff;
+  text-decoration-color: 0000ff;  /* pure (or mostly pure) blue */
 }
 
 div {
