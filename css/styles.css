@@ -30,18 +30,18 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: #037d50;  /* green, next: 0000ff: pure (or mostly pure) blue, was: dark red: #a5682a */
+  color: #037d50;  /* deep, highly saturated shade of green, next: 0000ff: pure (or mostly pure) blue, was: dark red: #a5682a */
   background-color: transparent;
   text-decoration: none;
 }
 a:hover {
-  color: #00000;
+  color: #000000;  /* black */
   background-color: #ffff00;  /* yellow */
   text-decoration: underline;
 }
 a[href]:hover {
   text-decoration: underline; 
-  text-decoration-color: 0000ff;  /* pure (or mostly pure) blue */
+  text-decoration-color: #0000ff;  /* pure (or mostly pure) blue */
 }
 
 div {
@@ -149,7 +149,7 @@ pre {
   overflow: auto;
   margin: 0 0 1em;
   padding: .5em 1em;
-  white-space: pre-wraps;
+  white-space: pre-wrap;
   overflow-x: auto;
 }
 pre > code {
