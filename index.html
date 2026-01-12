@@ -1840,7 +1840,7 @@ page stacks up against Web Standards. If you pass in https://www.w3.org (the W3C
 see the following:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 26. html validator output for w3.org (48) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<a href="https://www.w3.org" target="_blank"
+<a href="https://validator.w3.org/nu/" target="_blank"
   rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image026.webp?raw=true"
@@ -1993,7 +1993,7 @@ title="CodePen.io example HTML code">HTML in Code Pen</a></p>
   alt="CodePen resulting image (Activity 2.3).">
 </a>
 
-<p>To do so, you will need to write 4 CSS Rules. You will need to use the following 4 selectors:</p>
+<p>To do so, you will need to write 4 CSS Rules. You will need to use the following 4 selectors:</p>
 
 <ul>
   <li>body</li>
@@ -2011,18 +2011,19 @@ title="CodePen.io example HTML code">HTML in Code Pen</a></p>
   <li>color: fuchsia;</li>
 </ul>
 
-<p>Now it's up to you to combine these selectors and properties into 4 rules to achieve the final style.</p>
+<p>Now it's up to you to combine these selectors and properties into 4 rules to achieve the final 
+style.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-1">2.4.1 Attaching CSS using a selector</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In unit 2.3, we defined a CSS selector as the portion of the CSS rule that tells the browser on 
-which HTML element to apply the defined style.</p>
+which HTML element to apply the defined style.</p>
 
 <p>When your HTML is simple, the selectors can be simple as well. The most basic selectors simply 
 mirror the HTML tag. For example "p" attaches to all &lt;p&gt; tags, "img" will attach to all 
-&lt;img&gt; tags and so on. As you can imagine, there will often be times when you don't want 
-every single HTML element of a particular type to have identical style. In Module 3, we'll 
-discuss a variety of ways to use selectors to attach to specific HTML elements.</p>
+&lt;img&gt; tags and so on. As you can imagine, there will often be times when you don't want every 
+single HTML element of a particular type to have identical style. In Module 3, we'll discuss a variety 
+of ways to use selectors to attach to specific HTML elements.</p>
 
 <p>In unit 2.2, we briefly mentioned the fact that properties apply to the entire hierarchy of 
 HTML elements to which they are attached. This means that you will have to be very careful which 
@@ -2030,7 +2031,7 @@ selectors you choose to use in combination with your chosen style. When choosing
 you might want to keep the following aspects of an HTML element in mind:</p>
 
 <ul>
-  <li>How many of these HTML elements are on my page? Do I want this style to apply to every one of 
+  <li>How many of these HTML elements are on my page? Do I want this style to apply to every one of 
     these elements?</li>
   <li>What are this HTML element's children, and do I want this style to apply to them as well?</li>
   <li>Is this element a block element or an inline element, and does this style make sense in that 
@@ -2059,7 +2060,7 @@ within the paragraph tag.</p>
 }</pre>
 
 <p>This would apply style to the body tag as well as allow the elements inside the body tag to 
-inherit certain styles applied here (check the 
+inherit certain styles applied here (check the 
 <a href="https://codepen.io/techie4good/pen/pEzLrd" target="_blank" rel="noopener noreferrer" 
 title="CodePen.io example body style">related CodePen online</a>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2248,12 +2249,14 @@ choosing your selectors so you can use inheritance to your advantage by applying
 most element and save yourself extra CSS code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. inheritance example image (60) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="https://codepen.io/BBauska/pen/MYejBmO" target="_blank" rel="noopener noreferrer">
 <img class="displayed"
   src="./images/image032.webp?raw=true"
   loading="lazy"
   style="width:35%;"
   title="Example using inheritance"
   alt="Example using inheritance.">
+</a>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2305,14 +2308,14 @@ ul {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-3">2.4.3 Combining multiple selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can imagine that multiple HTML elements on your page will have similar style. If you write a 
+<p>You can imagine that multiple HTML elements on your page will have similar style. If you write a 
 separate CSS rule with the same properties for each of these elements, your CSS file can get very 
-large and hard to manage. When designing CSS, the authors wanted to help make it as easy as possible 
+large and hard to manage. When designing CSS, the authors wanted to help make it as easy as possible 
 to write and edit style sheets "by hand", so there are a number of features that help keep your 
 styles succinct.</p>
 
 <p>For example, what if you want to change the font that is consistent across many elements? You 
-would have to change it in many places. Instead, you can combine multiple selectors on the same 
+would have to change it in many places. Instead, you can combine multiple selectors on the same 
 rule like so:</p>
 
 <pre>p, ul, ol {
@@ -2325,9 +2328,9 @@ have repeated style! Of course, you could simply apply this style to an element 
 of these, say the body element, but not all properties are inherited so using the comma is a direct 
 way to apply consistent style across multiple categories of HTML elements.</p>
 
-<p>Here is a <a
-href="https://codepen.io/w3devcampus/pen/PVJLEm" target="_blank" rel="noopener noreferrer">CodePen</a> that
-explores using the comma to combine selectors.</p>
+<p>Here is a <a
+href="https://codepen.io/w3devcampus/pen/PVJLEm" target="_blank" rel="noopener noreferrer">CodePen</a> 
+that explores using the comma to combine selectors.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. comma to combine selectors (62) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/PVJLEm" target="_blank" rel="noopener noreferrer">
@@ -2396,9 +2399,9 @@ h3,ol {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-4-4">2.4.4 Activity - Apply your own selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Now it's your turn to practice with some selectors of your own. </p>
+<p>Now it's your turn to practice with some selectors of your own.</p>
 
-<p>Let's say you have the following <a
+<p>Let's say you have the following <a
 href="http://codepen.io/w3devcampus/pen/RoKLKE/" target="_blank" rel="noopener noreferrer">CodePen</a>:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HTML</h4>
@@ -2502,8 +2505,8 @@ looks exactly like this:</p>
 browser how to style specific aspects of the selected HTML element.</p>
 
 <p>There is a huge array of different aspects you can style: color, font, size, spacing and much 
-more! You can find the complete <a href="https://www.w3.org/Style/CSS/all-properties.en.html" 
-target="_blank" rel="noopener noreferrer">list of CSS properties</a> (from W3C's Web site). Every 
+more! You can find the complete <a href="https://www.w3.org/Style/CSS/all-properties.en.html" 
+target="_blank" rel="noopener noreferrer">list of CSS properties</a> (from W3C's Web site). Every 
 property has its own collection of possible values. Some require text input, some specific keywords, 
 some numerical input, etc.</p>
 
@@ -2516,7 +2519,7 @@ some numerical input, etc.</p>
   font-size: 20pt; /* Numerical value */
 }</pre>
 
-<p>The above style is put into action in the 
+<p>The above style is put into action in the 
 <a href="https://codepen.io/techie4good/pen/bwbLJP" target="_blank" rel="noopener noreferrer">
 following CodePen</a>:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2564,14 +2567,15 @@ and watch the Web site update dynamically.</p>
 <h3 id="ch2-5-2">2.5.2 Color properties</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Color is one of the first things you'll want to explore when designing your Web site. Thankfully, 
-CSS provides a wide array of tools for you to control the color of different HTML elements. There 
+CSS provides a wide array of tools for you to control the color of different HTML elements. There 
 are basic color properties:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>color</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
-href="https://www.w3.org/TR/css3-color/#foreground" target="_blank" 
-rel="noopener noreferrer"><i>Documentation</i></a>]</p>
+href="https://www.w3.org/TR/css3-color/#foreground" target="_blank" rel="noopener noreferrer" 
+title="W3's foreground color property documentation">
+<i>Documentation</i></a>]</p>
 
 <p>This property sets the foreground color of an element's text content. By default, all text 
 content will be set to black. If you set the color on one HTML element it will be inherited by 
@@ -2582,25 +2586,27 @@ property that will override it.</p>
 <h4>background-color</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
-href="https://www.w3.org/TR/css3-background/#the-background-color" 
-target="_blank" rel="noopener noreferrer"><i>Documentation</i></a>]</p>
+href="https://www.w3.org/TR/css3-background/#the-background-color" target="_blank" rel="noopener 
+noreferrer" title="W3's background-color property documentation">
+<i>Documentation</i></a>]</p>
 
 <p>This property sets the background color of an element. This color then represents the exact 
-space the element takes up, which is always a rectangular area. The default value is 'transparent' 
+space the element takes up, which is always a rectangular area. The default value is 'transparent' 
 which means whatever is behind the element will shine through.</p>
 
-<p>Note that background-color is one example of a property that is <i>not</i> inherited, so you 
+<p>Note that background-color is one example of a property that is <i>not</i> inherited, so you 
 will have to directly set the background-color on each element. To set the overall color of your 
 page, apply a background color to the body tag, and since all other element's background colors 
 will be transparent by default, it will appear as if everything has that same background color.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>color as a value</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>[<a href="https://www.w3.org/TR/CSS22/syndata.html#value-def-color" 
-  target="_blank" rel="noopener noreferrer"><i>Documentation</i></a>]</p>
+<p>[<a href="https://www.w3.org/TR/CSS22/syndata.html#value-def-color" target="_blank" rel="noopener 
+noreferrer" title="W3's color as a value documentation">
+<i>Documentation</i></a>]</p>
   
 <p>These color properties take in a color as their value, and there are three different ways you 
-can define that color: keyword, a HEX code or an rgb value.</p>
+can define that color: keyword, a HEX code or an rgb value.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>keyword</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2612,9 +2618,9 @@ of the predefined colors like "blue" or "green".</p>
 }</pre>
 
 <p>The list of color keywords is: aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, 
-olive, orange, purple, red, silver, teal, white, and yellow. You can read more about 
+olive, orange, purple, red, silver, teal, white, and yellow. You can read more about 
 <a href="https://www.w3.org/TR/CSS22/syndata.html#value-def-color" target="_blank" 
-rel="noopener noreferrer" title="Keyword colors">these keyword colors here.</a></p>
+rel="noopener noreferrer" title="W3's keyword colors documentation">these keyword colors here.</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>HEX</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2624,8 +2630,7 @@ either red, green or blue that makes up the color. These sets are hexadecimal nu
 means that each ranges between 00 to FF where 00 means no color and FF means all of that color. 
 Thus #000000 represents pure black and #FFFFFF represents pure white.</p>
 
-<p>When using a hex code in CSS you must put a hash character in front of the 6 characters like 
-so:</p>
+<p>When using a hex code in CSS you must put a hash character in front of the 6 characters like so:</p>
 
 <pre>body {
    background-color: #00CC00; /* Green */
@@ -2633,7 +2638,7 @@ so:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>decimal</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>You can also specify colors using rgb in decimal form like so:</p>
+<p>You can also specify colors using rgb in decimal form like so:</p>
 
 <pre>body {
    background-color: rgb(0,204,0); /* Same green as above. */
@@ -2645,15 +2650,15 @@ you which method of specifying colors you prefer.</p>
 <p>Here are some of the colors you can use, and the three different ways you can set their value 
 in the color or color-background property:</p>
 
-<p><b>maroon</b> #800000 <b>red</b> #ff0000 <b>orange</b> #ffa500
-   <b>yellow</b> #ffff00 <b>olive</b> #808000</p>
-<p><b>purple</b> #800080 <b>fuchsia</b> #ff00ff <b>white</b> #ffffff
-   <b>lime</b> #00ff00 <b>green</b> #008000</p>
-<p><b>navy</b> #000080 <b>blue</b> #0000ff <b>aqua</b> #00ffff
-   <b>teal</b> #008080</p>
-<p><b>black</b> #000000 <b>silver</b> #c0c0c0 <b>gray</b> #808080</p>
+<p><b>maroon</b> #800000 <b>red</b> #ff0000 <b>orange</b> #ffa500 <b>yellow</b> #ffff00 <b>olive</b> #808000</p>
 
-<p>You can see these color properties in action using all three approaches to setting the value 
+<p><b>purple</b> #800080 <b>fuchsia</b> #ff00ff <b>white</b> #ffffff <b>lime</b> #00ff00 <b>green</b> #008000</p>
+
+<p><b>navy</b> #000080 <b>blue</b> #0000ff <b>aqua</b> #00ffff<b>teal</b> #008080</p>
+
+<p><b>black</b> #000000 <b>silver</b> #c0c0c0 <b>gray</b> #808080</p>
+
+<p>You can see these color properties in action using all three approaches to setting the value 
 <a href="https://codepen.io/techie4good/pen/PGYRYL" target="_blank" rel="noopener noreferrer" 
 title="Codepen.io color properties">in this CodePen.</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2669,9 +2674,9 @@ title="Codepen.io color properties">in this CodePen.</a></p>
 
 <ul>
   <li>We will discuss how to pick a good color palette for your site in Module 5, but in the 
-    meantime, <a href="https://www.w3.org/wiki/Colour_theory" target="_blank" rel="noopener noreferrer">
-    here is a good wiki article from the W3C</a> discussing the general use of colors on the Web, and</li>
-  <li>More color units are described in the <a href="https://www.w3.org/TR/css3-color/#colorunits" 
+    meantime, <a href="https://www.w3.org/wiki/Colour_theory" target="_blank" rel="noopener noreferrer">
+    here is a good wiki article from the W3C</a> discussing the general use of colors on the Web, and</li>
+  <li>More color units are described in the <a href="https://www.w3.org/TR/css3-color/#colorunits" 
     target="_blank" rel="noopener noreferrer">CSS Color Module Level 3 specification.</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2682,18 +2687,19 @@ title="Codepen.io color properties">in this CodePen.</a></p>
 <h4>font-family</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
-href="https://www.w3.org/TR/css-fonts-4/#font-family-prop" 
-  target="_blank" rel="noopener noreferrer"><i>Documentation</i></a>]</p>
+href="https://www.w3.org/TR/css-fonts-4/#font-family-prop" target="_blank" rel="noopener 
+noreferrer title="W3's font-family property documentation">
+<i>Documentation</i></a>]</p>
   
 <p>Since not all fonts are available on all computers (there are thousands of fonts, and most are 
-not free), CSS provides a system of <i>fallbacks</i>. You list the font that you want first, then 
+not free), CSS provides a system of <i>fallbacks</i>. You list the font that you want first, then 
 any fonts that might fill in for the first if it is unavailable, and you should end the list with 
-a <i>generic font,</i> of which are: <b><a href="https://www.w3.org/TR/css-fonts/#serif-def" 
-target="_blank" rel="noopener noreferrer">serif</a>, 
+a <i>generic font,</i> of which are: <b><a href="https://www.w3.org/TR/css-fonts/#serif-def" 
+target="_blank" rel="noopener noreferrer">serif</a>, 
 <a href="https://www.w3.org/TR/css-fonts/#sans-serif-def" target="_blank" rel="noopener noreferrer">
-sans-serif</a>, <a href="https://www.w3.org/TR/css-fonts/#monospace-def" target="_blank" rel="noopener 
-noreferrer">monospace</a>, <a href="https://www.w3.org/TR/css-fonts/#cursive-def" 
-target="_blank" rel="noopener noreferrer">cursive</a></b> and <b>
+sans-serif</a>, <a href="https://www.w3.org/TR/css-fonts/#monospace-def" target="_blank" rel="noopener 
+noreferrer">monospace</a>, <a href="https://www.w3.org/TR/css-fonts/#cursive-def" 
+target="_blank" rel="noopener noreferrer">cursive</a></b> and <b>
 <a href="https://www.w3.org/TR/css-fonts/#fantasy-def" target="_blank" rel="noopener noreferrer">
 fantasy</a>.</b></p>
 
@@ -2713,9 +2719,9 @@ sans-serif font it does support. You should always end your font family with fon
 likely to be supported by the browser, this way you are guaranteed to have control over the
 font-family.</p>
 
-<p>See this <a href="https://www.w3.org/Style/Examples/007/fonts" 
-target="_blank" rel="noopener noreferrer">
-quick reference</a> listing what the fonts look like with different properties.</p>
+<p>See this <a href="https://www.w3.org/Style/Examples/007/fonts" 
+target="_blank" rel="noopener noreferrer" title="W3's Web Style Sheets: CSS tips &amp; tricks">
+quick reference</a> listing what the fonts look like with different properties.</p>
 
 <p>Something to keep in mind: some fonts have names with multiple words like "Times New Roman" or 
 "Century Gothic". When using these fonts you'll need to surround the entire name with quotes so 
@@ -2728,8 +2734,9 @@ the browser understands that is a single font name like so:</p>
 <h4>font-size</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
-href="https://www.w3.org/TR/css-fonts-4/#font-size-prop" target="_blank" 
-rel="noopener noreferrer"><i>Documentation</i></a>]</p>
+href="https://www.w3.org/TR/css-fonts-4/#font-size-prop" target="_blank" rel="noopener 
+noreferrer" title="W3's font-size property documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>h1 {
   font-size: 2.5em;
@@ -2737,44 +2744,45 @@ rel="noopener noreferrer"><i>Documentation</i></a>]</p>
 
 <p>CSS offers a number of different units for expressing length. Font-size sets the overall scale 
 of your text. You can use a lot of different units to set the font size. Some of these units you 
-are probably familiar with if you have used text editors before such as pt size or you can use px 
+are probably familiar with if you have used text editors before such as pt size or you can use px 
 size. However, these methods are not advised because they are static and will not adapt based on 
-screen size. It's better to use relative units, such as em, instead.</p>
+screen size. It's better to use relative units, such as em, instead.</p>
 
-<p>Use ems to make scalable style sheets! This is especially important for users who have special 
-font preferences due to accessibility requirements. To use em, do not set font-size on the body 
-tag, but instead set the size for each element in relation to the user's default. For example, 
-1em is the default, 2em is twice as big, 0.5em is half as big etc.</p>
+<p>Use ems to make scalable style sheets! This is especially important for users who have special 
+font preferences due to accessibility requirements. To use em, do not set font-size on the body 
+tag, but instead set the size for each element in relation to the user's default. For example, 
+1em is the default, 2em is twice as big, 0.5em is half as big etc.</p>
 
-<p>For curious people (i.e. non mandatory material), here is an excerpt from 
+<p>For curious people (i.e. non mandatory material), here is an excerpt from 
 <a href="https://www.w3.org/Style/LieBos3e/em.en.html" 
-target="_blank" rel="noopener noreferrer">
-"The amazing em unit and other best practices"</a> (Chapter 3 of the book "Cascading Style Sheet - 
+target="_blank" rel="noopener noreferrer" title="W3 em unit and other best practices">
+"The amazing em unit and other best practices"</a> (Chapter 3 of the book "Cascading Style Sheet - 
 designing for the Web" 3rd edition, by Håkon Wium Lie &amp; Bert Bos):</p>
 
-<p>Named after the letter "M", the em unit has a long-standing tradition in typography where it has 
+<p>Named after the letter "M", the em unit has a long-standing tradition in typography where it has 
 been used to measure horizontal widths. For example, the long dash (—) often found in American texts 
 is known as an "em dash" because historically, it has had the same width as the letter "M". Its 
 narrower cousin (–), often found in European texts, is similarly referred to as "en dash".</p>
 
-<p>The meaning of em has changed over the years. Not all fonts have the letter "M" in them (for 
+<p>The meaning of em has changed over the years. Not all fonts have the letter "M" in them (for 
 example, Chinese), but all fonts have a height. The term has therefore come to mean the height of 
 the font – not the width of the letter "M".</p>
 
-<p>In CSS, the em unit is a general unit for measuring lengths (for example, page margins and 
+<p>In CSS, the em unit is a general unit for measuring lengths (for example, page margins and 
 padding around elements). You can use it both horizontally and vertically, and this shocks 
 traditional typographers who have always used the em exclusively for horizontal measurements. 
 By extending the em unit to also work vertically, it has become a very powerful unit – so powerful 
 that you seldom have to use other units of length.</p>
 
-<p>Another great resource is this article on 
+<p>Another great resource is this article on 
 <a href="https://www.w3.org/Style/Examples/007/units.en.html" target="_blank" rel="noopener 
-noreferrer" title="Font sizing tips and tricks">font sizing tips and tricks</a>.</p>
+noreferrer" title="W3's font sizing tips and tricks">font sizing tips and tricks</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>font-weight</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>[<a href="https://www.w3.org/TR/css-fonts-4/#font-weight-prop" 
-target="_blank" rel="noopener noreferrer"><i>Documentation</i></a>]</p>
+<p>[<a href="https://www.w3.org/TR/css-fonts-4/#font-weight-prop" target="_blank" rel="noopener 
+noreferrer" title="W3's font-weight property documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>p {
    font-weight: bold;
@@ -2787,16 +2795,16 @@ represented as 400, whereas bold is 700.</p>
 
 <p>Note that few fonts have settings for all values. If the value is not available, the browser 
 will use the nearest available one. For example, if 800 is not available but 700 is, then the 
-browser will display 700. Please try different fonts in 
+browser will display 700. Please try different fonts in 
 <a href="https://codepen.io/techie4good/pen/XNdrMw" target="_blank" rel="noopener noreferrer" 
-title="Codepen.io weight setting">this Codepen</a> to see how they look at each weight setting.</p>
-
+title="Codepen.io weight setting">this Codepen</a> to see how they look at each weight setting.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>font-style</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
 href="https://www.w3.org/TR/css-fonts-4/#font-style-prop" target="_blank" 
-rel="noopener noreferrer" title="font-style documentation"><i>Documentation</i></a>]</p>
+rel="noopener noreferrer" title="W3's font-style property documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>p {
   font-style: italic;
@@ -2810,7 +2818,8 @@ the regular face.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
 href="https://www.w3.org/TR/css-text-decor-3/#text-decoration-property" target="_blank" 
-  rel="noopener noreferrer" title="text-decoration documentation"><i>Documentation</i></a>]</p>
+rel="noopener noreferrer" title="W3's text-decoration property documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>p {
   text-decoration: underline;
@@ -2821,7 +2830,7 @@ href="https://www.w3.org/TR/css-text-decor-3/#text-decoration-property" target="
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Here is a <a href="https://codepen.io/w3devcampus/pen/ExNExxq" target="_blank" rel="noopener 
+<p>Here is a <a href="https://codepen.io/w3devcampus/pen/ExNExxq" target="_blank" rel="noopener 
 noreferrer" title="Codepen.io exploring styles">CodePen exploring each of these styles</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. text-decoration example (73) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2896,19 +2905,19 @@ p {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Resources</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>There are even more ways to adjust text appearance and you can read more about them here: </p>
+<p>There are even more ways to adjust text appearance and you can read more about them here:</p>
 
 <ul>
   <li><a href="https://www.w3.org/TR/css-fonts/" target="_blank" rel="noopener noreferrer" 
-    title="CSS fonts module level 4">CSS Fonts Module Level 4</a></li>
+    title="W3's CSS fonts module level 4">CSS Fonts Module Level 4</a></li>
   <li><a href="https://www.w3.org/TR/css-text-decor-4/" target="_blank" rel="noopener noreferrer" 
-    title="CSS text decoration module level 4">CSS Text Decoration Module Level 4</a>.</li>
+    title="W3's CSS text decoration module level 4">CSS Text Decoration Module Level 4</a>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5-4">2.5.4 Spacing properties</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>CSS provides a great set of tools to help you position the HTML elements on your page, and we 
-will cover that in depth in Module 4. For now we will talk about how to apply white space around 
+will cover that in depth in Module 4. For now we will talk about how to apply white space around 
 individual HTML elements.</p>
 
 <p>There are two different ways you can define white space:</p>
@@ -2940,28 +2949,31 @@ like so:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
 href="https://www.w3.org/TR/CSS2/box.html#propdef-padding-top" 
-target="_blank" rel="noopener noreferrer" title="Padding documentation"><i>Documentation</i></a>]</p>
+target="_blank" rel="noopener noreferrer" title="W3's padding property documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>p {
   padding: 20px;
 }</pre>
 
 <p>"Padding" is the white space that sits closest to an HTML element. Many elements already have 
-a default padding defined. For example, ul elements by default are indented to the left a bit 
+a default padding defined. For example, ul elements by default are indented to the left a bit 
 because they have a left padding.</p>
 
-<p>You can set the padding on an element's four sides independently using padding-top, padding-right, padding-bottom and padding-left. Or you can use the more compact padding: 10px 15px 20px 25px. In 
-this case, the order of the numbers sets the top, right, bottom and left paddings. In the example 
-below, I collapsed all of these and just set the padding on all four sides to be 20px. Here is a 
-<a href="https://codepen.io/w3devcampus/pen/zeEXao" target="_blank" rel="noopener noreferrer" 
-title="Codepen.io displaying padding">CodePen that demonstrates all these different ways to set 
-padding</a>.</p>
+<p>You can set the padding on an element's four sides independently using padding-top, padding-
+right, padding-bottom and padding-left. Or, you can use the more compact padding: 
+10px 15px 20px 25px. In this case, the order of the numbers sets the top, right, bottom and left 
+paddings. In the example below, I collapsed all of these and just set the padding on all four 
+sides to be 20px. Here is a <a href="https://codepen.io/w3devcampus/pen/zeEXao" target="_blank" 
+rel="noopener noreferrer" title="Codepen.io displaying padding">CodePen that demonstrates all these 
+different ways to set padding</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Border</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
 href="https://www.w3.org/TR/css3-background/#borders" target="_blank" 
-rel="noopener noreferrer" title="Border documentation"><i>Documentation</i></a>]</p>
+rel="noopener noreferrer" title="W3's border property documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>p {
   border: 1px black solid;
@@ -2978,7 +2990,8 @@ single simple property and value set.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
 href="https://www.w3.org/TR/CSS2/box.html#propdef-margin" target="_blank" rel="noopener noreferrer"
-title="Margin documentation"><i>Documentation</i></a>]</p>
+title="W3's margin property documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>p {
   margin-bottom: 50px;
@@ -2992,7 +3005,7 @@ A lot of elements have default margins applied.</p>
 way to the extreme edge of the page. Be careful, margins can be tricky. When two margins touch they 
 "collapse" such that the space between the elements is equivalent to the larger of the two margins. 
 Like the above properties, you can also set the margins on each side independently using margin-top,
-margin-left, margin-bottom and margin-right. </p>
+margin-left, margin-bottom and margin-right.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3049,7 +3062,7 @@ p {
 <p>Now that you have a few properties in your CSS toolbox, let's practice using them.</p>
 
 <p>Here is some HTML and CSS, but as you can see the CSS rules have selectors but no properties. 
-Check also the corresponding <a href="https://codepen.io/w3devcampus/pen/WNozNxK" target="_blank"
+Check also the corresponding <a href="https://codepen.io/w3devcampus/pen/WNozNxK" target="_blank"
 rel="noopener noreferrer" title="Codepen.io CSS selectors">Codepen</a>:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 42. example using selectors but no properties (78) ~~~~~~~~~~~~~~~~~~~~~-->
@@ -3160,7 +3173,7 @@ correct properties and set their values appropriately to achieve this final styl
 are on Windows or MacOS, you almost certainly have all three of them. But Linux, Android and 
 others usually do not offer Impact and Courier New. Microsoft made free versions available and 
 on most Linux distributions there is an easy way to install them: look in your package manager 
-for a package called <i>ttf-mscorefonts-installer</i> (or similar). If you don't want to install 
+for a package called <i>ttf-mscorefonts-installer</i> (or similar). If you don't want to install 
 fonts and you are on Linux, you can try Courier instead of Courier New. Availability of other 
 fonts differs a lot. Maybe you can look in the system settings to see if there is an interesting 
 font available to use instead of Impact.</p>
@@ -3180,10 +3193,9 @@ styles.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-2">2.6.2 Titles</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>There are a couple different categories of text on a Web page: titles, body text, links, 
-captions, etc. You'll want to style each of these differently to help your user understand the 
-proper context for your text. One of the most important categories of text to stand out are your 
-titles.</p>
+<p>There are a couple different categories of text on a Web page: titles, body text, links, captions, 
+etc. You'll want to style each of these differently to help your user understand the proper context 
+for your text. One of the most important categories of text to stand out are your titles.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>There are different aspects of text you can alter to make it stand out</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3302,9 +3314,9 @@ contrast colors.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Title 3</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>This design is based on pastel primary colors and uses color as a highlight against the default 
+<p>This design is based on pastel primary colors and uses color as a highlight against the default 
 white background. We have achieved the separation between title and body text by setting its 
-background color separately and giving it a bottom border. </p>
+background color separately and giving it a bottom border.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. example using pastel (85) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <a href="https://codepen.io/w3devcampus/pen/LYWRVvP" 
@@ -3341,10 +3353,8 @@ target="_blank" rel="noopener noreferrer">
 
 </details>
 
-<p><a href="https://codepen.io/w3devcampus/pen/LYWRVvP" 
-target="_blank" rel="noopener noreferrer">
-Here is a CodePen of all the above examples of different title designs for you 
-to play around with</a>.</p>
+<p><a href="https://codepen.io/w3devcampus/pen/LYWRVvP" target="_blank" rel="noopener noreferrer">
+Here is a CodePen of all the above examples of different title designs for you to play around with</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-3">2.6.3 Buttons</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3358,7 +3368,7 @@ accomplish this you'll want to set the left and right padding to be greater than
 paddings.</p>
 
 <!-- missing codepen -->
-<p>Here is an example (to come) of a button where it's not immediately clear that it is actually a 
+<p>Here is an example (to come) of a button where it's not immediately clear that it is actually a 
 button ("click here").</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. button example (86) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3409,9 +3419,9 @@ color to help it stand out from both the background and the body text.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This is a more modern button design where there is no distinct border, but just a flat color 
 background. You'll note the poor accessibility of the text and button (for example, no sufficient 
-contrast between foreground and background - find out more in these 
+contrast between foreground and background - find out more in these 
 <a href="https://www.w3.org/WAI/tips/designing/" target="_blank" rel="noopener noreferrer" 
-title="Tips for designing">tips for designing</a>).</p>
+title="W3's tips for designing">tips for designing</a>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. modern button (87) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3444,8 +3454,7 @@ title="Tips for designing">tips for designing</a>).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Button 3</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>This is a big graphic button that uses border-radius to give the
-button rounded corners.</p>
+<p>This is a big graphic button that uses border-radius to give the button rounded corners.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 51. big graphic button using border-radius (88) ~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3476,32 +3485,27 @@ button rounded corners.</p>
 
 </details>
 
-<p>In summary, here are <a
-href="https://codepen.io/techie4good/pen/ORXzoo?editors=1100#0" target="_blank" rel="noopener noreferrer">three
-different ways to style buttons you can play around with</a>.</p>
+<p>In summary, here are 
+<a href="https://codepen.io/techie4good/pen/ORXzoo?editors=1100#0" target="_blank" rel="noopener 
+noreferrer">three different ways to style buttons you can play around with</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-6-4">2.6.4 Activity - Titles and buttons</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Now that you know a bit more about how CSS is written, you will start
-to understand and notice more of the design elements as you navigate
-around the Web.</p>
+<p>Now that you know a bit more about how CSS is written, you will start to understand and notice 
+more of the design elements as you navigate around the Web.</p>
 
-<p>In this module's style studies section, you learned some effective
-ways to style titles and buttons. You also learned about some design
-choices that make your titles and buttons not as effective...</p>
+<p>In this module's style studies section, you learned some effective ways to style titles and buttons. 
+You also learned about some design choices that make your titles and buttons not as effective...</p>
 
 <ul>
-  <li>Titles shouldn't be overly styled. They should only have a few properties set 
-    to help them stand out from body text, but not too many otherwise they will be too 
-   busy, and</li>
-  <li>Buttons should send a clear message that they need to be interacted with. If 
-    a button doesn't show up as a rectangle, a user typically won't understand that 
-    it's a button.</li>
+  <li>Titles shouldn't be overly styled. They should only have a few properties set to help them 
+    stand out from body text, but not too many otherwise they will be too busy, and</li>
+  <li>Buttons should send a clear message that they need to be interacted with. If a button doesn't 
+    show up as a rectangle, a user typically won't understand that it's a button.</li>
 </ul>
 
-<p>For this activity, please find a Web page that has either titles or
-buttons and discuss how effectively they are styled. In the discussion
-below, answer the following questions:</p>
+<p>For this activity, please find a Web page that has either titles or buttons and discuss how 
+effectively they are styled. In the discussion below, answer the following questions:</p>
 
 <ul>
   <li>Which Web page are you evaluating?</li>
@@ -3512,13 +3516,11 @@ below, answer the following questions:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-7-1">2.7.1 Module 2 project - About me page</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Now that you have played around with applying selectors and
-properties, you have the tools to make a much more sophisticated Web
-page than "Hello Your World".</p>
+<p>Now that you have played around with applying selectors and properties, you have the tools to 
+make a much more sophisticated Web page than "Hello Your World".</p>
 
-<p>For your module project, you are going to create a page describing
-yourself using your favorite colors. Your Web page must have the
-following content:</p>
+<p>For your module project, you are going to create a page describing yourself using your favorite 
+colors. Your Web page must have the following content:</p>
 
 <ul>
   <li>an h1 title with your name,</li>
@@ -3552,17 +3554,14 @@ following content:</p>
   title="Codepen resulting image (Module 2 project)"
   alt="Codepen resulting image (Module 2 project).">
 
-<p>Note that you are welcome to look up other styles and apply them
-however you like as long as you at least have the above requirements
-met. We've set up a discussion forum below, in case you want to share
-your work!</p>
+<p>Note that you are welcome to look up other styles and apply them however you like as long as you 
+at least have the above requirements met. We've set up a discussion forum below, in case you want 
+to share your work!</p>
 
-<p>Remember that if you want to post an assignment
-without personal information of yours in, feel free to change the
-content of the assignment to anything you like, so long as you
-incorporate the required code features. For example, you could instead
-create a profile page for an imagined character, or a brief biography of
-someone you admire.</p>
+<p>Remember that if you want to post an assignment without personal information of yours in, feel 
+free to change the content of the assignment to anything you like, so long as you incorporate the 
+required code features. For example, you could instead create a profile page for an imagined 
+character, or a brief biography of someone you admire.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-8-1">2.8.1 Module 2 learnings</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3587,14 +3586,12 @@ someone you admire.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>In this module, we're going to be talking about selectors.</p>
 
-<p>At this point, we've seen basic selectors, but we're starting to have a 
-slightly more complex HTML document. We’re going to need a lot more tools than 
-just the HTML tag name.</p>
+<p>At this point, we've seen basic selectors, but we're starting to have a slightly more complex 
+HTML document. We’re going to need a lot more tools than just the HTML tag name.</p>
 
-<p>In this module, we're going to talk about classes and IDs,
-pseudo-classes, contextual selectors, and then how you combine all these
-selectors together and understand the Cascading part of Cascading style
-sheets.</p>
+<p>In this module, we're going to talk about classes and IDs, pseudo-classes, contextual selectors, 
+and then how you combine all these selectors together and understand the Cascading part of Cascading 
+style sheets.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-2">3.1.2 Module 3 outline</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3602,39 +3599,38 @@ sheets.</p>
 
 <ul>
   <li>How to use classes and IDs to independently target HTML elements of the same type,</li>
-  <li>How to apply different style to the same element based on the way the user 
-    interacts with that element using pseudo-classes,</li>
-  <li>How to scope style rules using contextual selectors and the HTML inheritance 
-    structure of your document, and</li>
+  <li>How to apply different style to the same element based on the way the user interacts with 
+    that element using pseudo-classes,</li>
+  <li>How to scope style rules using contextual selectors and the HTML inheritance structure of 
+    your document, and</li>
   <li>What the "Cascading" part of "Cascading Style Sheets" means.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-1-3">3.1.3 The power of selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In our last module (2), we learned about something called Selectors. This entire module 
-is all about exactly that: Selectors. Because so far, we've actually seen pretty simple 
-ones. They probably look something like this, and as you can see, this portion before the 
-open curly brace, that's what we call Selector. And so far, we've only used ones that 
-match the name of the HTML tag, which is totally fine. If you want every single paragraph 
-to look exactly the same, or say you only have one header on your page.</p>
+<p>In our last module (2), we learned about something called Selectors. This entire module is all 
+about exactly that: Selectors. Because so far, we've actually seen pretty simple ones. They probably 
+look something like this, and as you can see, this portion before the open curly brace, that's what 
+we call Selector. And so far, we've only used ones that match the name of the HTML tag, which is 
+totally fine. If you want every single paragraph to look exactly the same, or say you only have one 
+header on your page.</p>
 
-<p>As our Web pages get a lot more complicated, we have a lot more of the same HTML 
-element and chances are we're going to want them to look different from one another.
-Thankfully, there's a whole list of different types of Selectors that we can use to 
-specifically target each one of these HTML elements.</p>
+<p>As our Web pages get a lot more complicated, we have a lot more of the same HTML element and 
+chances are we're going to want them to look different from one another. Thankfully, there's a whole 
+list of different types of Selectors that we can use to specifically target each one of these HTML 
+elements.</p>
 
-<p>In this module, we're going to talk about things like classes, IDs, contextual 
-selectors, pseudo-classes. All those things are going to help us really narrow our CSS.
-For example, we've probably written some CSS like this for this HTML page.</p>
+<p>In this module, we're going to talk about things like classes, IDs, contextual selectors, pseudo-
+classes. All those things are going to help us really narrow our CSS. For example, we've probably 
+written some CSS like this for this HTML page.</p>
 
-<p>But, as you can see, every single one of the paragraphs ends up looking exactly the 
-same. Because as long as I use the selector P for paragraph, it applies to every paragraph.
-Here is a preview of some of the things we're going to learn in this module.</p>
+<p>But, as you can see, every single one of the paragraphs ends up looking exactly the same. Because 
+as long as I use the selector P for paragraph, it applies to every paragraph. Here is a preview of 
+some of the things we're going to learn in this module.</p>
 
-<p>Now, I have three different rules, for each of my three paragraphs. And they all look 
-completely different which makes my Web site a lot more dynamic. Learning to properly 
-select your HTML elements through CSS is crucially important to making sure that you get 
-the most out of CSS.</p>
+<p>Now, I have three different rules, for each of my three paragraphs. And they all look completely 
+different which makes my Web site a lot more dynamic. Learning to properly select your HTML elements 
+through CSS is crucially important to making sure that you get the most out of CSS.</p>
 
 <p>The CSS code mentioned in above lesson:</p>
 
@@ -3664,39 +3660,37 @@ the most out of CSS.</p>
 <h3 id="ch3-2-1">3.2.1 Using HTML Classes and IDs</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Often, a single page will have a whole bunch of the same html tag, but that doesn't necessarily 
-mean you want each tag of that type to look exactly the same. Say, for example, you have 
-lots of different links on your page. Things that take you to different pages, things that 
-take you back, and things that navigate you around the site. You might want to make the ones 
-that take you back to your home page a little more noticeable. But how do you do that?</p>
+mean you want each tag of that type to look exactly the same. Say, for example, you have lots of 
+different links on your page. Things that take you to different pages, things that take you back, 
+and things that navigate you around the site. You might want to make the ones that take you back to 
+your home page a little more noticeable. But how do you do that?</p>
 
-<p>They're all link tags. The answer? Classes and IDs! Classes and IDs are special names 
-that you create and you assign to specific HTML tags. Once you've got these names attached, 
-you can use those as selectors for your CSS rules. Assign an element ID when you're only 
-going to assign it to a single thing.</p>
+<p>They're all link tags. The answer? Classes and IDs! Classes and IDs are special names that you 
+create and you assign to specific HTML tags. Once you've got these names attached, you can use those 
+as selectors for your CSS rules. Assign an element ID when you're only going to assign it to a single 
+thing.</p>
 
-<p>Say for example, you have lots of buttons on your page but you want to make the one that 
-charges the user's credit card extra noticeable. You can use that by giving it an id of say 
-"pay button", and then you can make sure you user knows exactly what that button is going 
-to do when they click it. Assign a class when you want a whole group of elements to all look
-the same.</p>
+<p>Say for example, you have lots of buttons on your page but you want to make the one that charges 
+the user's credit card extra noticeable. You can use that by giving it an id of say "pay button", and 
+then you can make sure you user knows exactly what that button is going to do when they click it. 
+Assign a class when you want a whole group of elements to all look the same.</p>
 
-<p>Say for example, you want your navigation bar to be filled with links that all look very 
-similar. If you assign a class, that then say puts them all in the same place and gives them 
-the same font, your user will know which links are actually navigating them around the site, 
-and which ones are going to take them away from your site to a different one. Now, let’s 
-take a look at a whole bunch of different examples of how you can use classes and ids to 
-target exactly what you want.</p>
+<p>Say for example, you want your navigation bar to be filled with links that all look very similar. 
+If you assign a class, that then say puts them all in the same place and gives them the same font, 
+your user will know which links are actually navigating them around the site, and which ones are 
+going to take them away from your site to a different one. Now, let’s take a look at a whole bunch 
+of different examples of how you can use classes and ids to target exactly what you want.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Classes and IDs</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Classes and IDs are "attribute selectors". This means that you can attach style to HTML 
-elements based on that element's attributes. This empowers you to apply different style to 
-items of the same HTML type.</p>
+<p>Classes and IDs are "attribute selectors". This means that you can attach style to HTML elements 
+based on that element's attributes. This empowers you to apply different style to items of the same 
+HTML type.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Classes</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class" 
-target="_blank" rel="noopener noreferrer">Definition</a> and <a href=
+target="_blank" rel="noopener noreferrer">Definition</a> and <a href=
 "https://www.w3.org/TR/html52/dom.html#element-attrdef-global-class" 
 target="_blank" rel="noopener noreferrer">documentation</a>]</p>
 
@@ -3716,22 +3710,21 @@ class, you must precede its name by a period ("."), like in the code below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>IDs</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>[<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" 
-target="_blank" rel="noopener noreferrer">Definition</a> and 
-<a href="https://www.w3.org/TR/html52/dom.html#element-attrdef-global-id" 
-target="_blank" rel="noopener noreferrer">documentation</a>]</p>
+<p>[<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id" target="_blank" 
+rel="noopener noreferrer">Definition</a> and 
+<a href="https://www.w3.org/TR/html52/dom.html#element-attrdef-global-id" target="_blank" rel="noopener 
+noreferrer">documentation</a>]</p>
 
-<p>An ID is an HTML attribute that specifies a name or unique identifier for a particular 
-HTML element. They are like classes with a very important distinction: the value of the 
-ID attribute must be unique throughout the document. This lets you target a single HTML 
-element for styling. You set the id of an HTML element like so:</p>
+<p>An ID is an HTML attribute that specifies a name or unique identifier for a particular HTML 
+element. They are like classes with a very important distinction: the value of the ID attribute 
+must be unique throughout the document. This lets you target a single HTML element for styling. 
+You set the id of an HTML element like so:</p>
 
 <pre>&lt;p id=&quot;MyFirstId&quot;&gt; This is an extra special paragraph &lt;/p&gt;</pre>
 
-<p>ID names have the same rules as class names: start with a letter, can include numbers 
-and dashes, no spaces. The way to create a selector for an ID is also similar to how you 
-create a selector for a class, except you replace the period with a hash symbol ("#") 
-like in the code below:</p>
+<p>ID names have the same rules as class names: start with a letter, can include numbers and dashes, 
+no spaces. The way to create a selector for an ID is also similar to how you create a selector for a 
+class, except you replace the period with a hash symbol ("#") like in the code below:</p>
 
 <pre>#MyFirstId {
   color: blue;
@@ -3845,8 +3838,8 @@ p,h2 {
 
 </details>
 
-<p>As you can note, it's not too interesting because not all of the styles are applied to 
-the HTML as shown in the pen below:</p>
+<p>As you can note, it's not too interesting because not all of the styles are applied to the HTML 
+as shown in the pen below:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. more class and id examples (98) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3857,8 +3850,8 @@ the HTML as shown in the pen below:</p>
   alt="More examples of class and id.">
 <!-- {width="6.9375in" height="2.609027777777778in"} -->
 
-<p>In this activity, your job is to add the HTML id and class attributes to the correct 
-elements so that you get a final result that looks like this:</p>
+<p>In this activity, your job is to add the HTML id and class attributes to the correct elements so 
+that you get a final result that looks like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. welcome to my page (99) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -3871,18 +3864,18 @@ elements so that you get a final result that looks like this:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-1">3.3.1 CSS pseudo-classes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Sometimes, you'll want to adjust the style of an element, based on how the user has 
-interacted with it. The best example of this is links. Often times, you'll notice a link 
-is blue, and then after you click on it it turns purple.</p>
+<p>Sometimes, you'll want to adjust the style of an element, based on how the user has interacted 
+with it. The best example of this is links. Often times, you'll notice a link is blue, and then after 
+you click on it it turns purple.</p>
 
-<p>This is the default style for the pseudo class visited. There's also a bunch of other 
-pseudo-classes that let you manipulate whether the user is hovering over it with their 
-cursor, or they're focusing on it and other such activity.</p>
+<p>This is the default style for the pseudo class visited. There's also a bunch of other pseudo-classes 
+that let you manipulate whether the user is hovering over it with their cursor, or they're focusing on 
+it and other such activity.</p>
 
-<p>Let’s take a look at the different pseudo-classes and how you can design a really 
-interactive Web site. Pseudo-classes are a way to select HTML elements based on their 
-state as opposed to their HTML structure. Pseudo-classes must always be applied to an 
-existing selector. Their "flag character" is the colon (":").</p>
+<p>Let’s take a look at the different pseudo-classes and how you can design a really interactive Web 
+site. Pseudo-classes are a way to select HTML elements based on their state as opposed to their HTML 
+structure. Pseudo-classes must always be applied to an existing selector. Their "flag character" is 
+the colon (":").</p>
 
 <p>Here are some of the most popular pseudo-classes:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3890,7 +3883,8 @@ existing selector. Their "flag character" is the colon (":").</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
 href="https://www.w3.org/TR/CSS22/selector.html#link-pseudo-classes" target="_blank" 
-rel="noopener noreferrer">Documentation</a>]</p>
+rel="noopener noreferrer" title="W3's :link and :visited documentation">
+<i>Documentation</i></a>]</p>
 
 <pre>a:visited {
   color: gray;
@@ -3910,14 +3904,13 @@ These two states are mutually exclusive, meaning a link cannot be both at the sa
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>[<a
 href="https://www.w3.org/TR/CSS22/selector.html#dynamic-pseudo-classes" 
-target="_blank" rel="noopener noreferrer">Documentation</a>]</p>
+target="_blank" rel="noopener noreferrer" title="W3's :hover, :focus, and :inactive documentation">
+<i>Documentation</i></a>]</p>
 
-<p>The hover pseudo-class is applied when the user points at an object
-but doesn't activate it, most commonly when they let their mouse cursor
-lay on top of an element without clicking. Some form factors don't
-support this, such as touch devices or pen surfaces. This is a really
-good way to encourage a user to click a link and you will often see it
-used in navigation bars.</p>
+<p>The hover pseudo-class is applied when the user points at an object but doesn't activate it, most 
+commonly when they let their mouse cursor lay on top of an element without clicking. Some form factors 
+don't support this, such as touch devices or pen surfaces. This is a really good way to encourage a 
+user to click a link and you will often see it used in navigation bars.</p>
 
 <pre>li:hover {
   background-color: yellow;
@@ -3957,7 +3950,7 @@ target="_blank" rel="noopener noreferrer">MDN "Pseudo-classes"</a> document.</p
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3-2">3.3.2 Activity - Applying pseudo classes</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Now it's your turn to try out some pseudo classes. Here is a Web page (see the CodePen <a
+<p>Now it's your turn to try out some pseudo classes. Here is a Web page (see the CodePen <a
 href="https://codepen.io/techie4good/pen/rraNJr/" target="_blank" rel="noopener noreferrer">Practice with
 Pseudoclasses</a>) and the CSS code:</p>
 
@@ -4010,9 +4003,8 @@ a {
 
 </details>
 
-<p>If you look at the CSS for this page you'll notice there are multiple
-CSS rules with the same selectors. That is because some of these rules
-need to have pseudo classes applied.</p>
+<p>If you look at the CSS for this page you'll notice there are multiple CSS rules with the same 
+selectors. That is because some of these rules need to have pseudo classes applied.</p>
 
 <p>Please add pseudo-classes to the existing rules so that:</p>
 
@@ -4020,18 +4012,19 @@ need to have pseudo classes applied.</p>
   <li>The title is underlined when the user hovers their mouse over the text,</li>
   <li>The input box gets a yellow border when the user hovers their mouse over the box,</li>
   <li>The input box has a yellow background when the user clicks inside the box,</li>
-  <li>When the user hovers over the button it gets a background color of #006666 (dark green) 
-    and a text color of white,</li>
+  <li>When the user hovers over the button it gets a background color of #006666 (dark green) and a 
+    text color of white,</li>
   <li>When the user clicks the button it gets a background color of #33cc99 (light green),</li>
-  <li>The background color of the list elements turns white and the text turns #006666 
-    (dark green) when the user hover overs them,</li>
-  <li>When clicked, the list elements get a background color of #33cc99 (light green) 
-    while the text stays white, and</li>
-  <li>The links at the bottom of the page start out as white in color and then when they 
-    are clicked they turn #33cc99 (light green).</li>
+  <li>The background color of the list elements turns white and the text turns #006666 (dark green) 
+    when the user hover overs them,</li>
+  <li>When clicked, the list elements get a background color of #33cc99 (light green) while the text 
+    stays white, and</li>
+  <li>The links at the bottom of the page start out as white in color and then when they are clicked 
+    they turn #33cc99 (light green).</li>
 </ul>
 
-<p>The resulting output should look like this when the user has not interacted with the page in any way:</p>
+<p>The resulting output should look like this when the user has not interacted with the page in any 
+way:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 57. resulting my page in green (104) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4074,15 +4067,15 @@ the following HTML:</p>
   &lt;/body&gt;
 &lt;/html&gt;</pre>
 
-<p>If we applied the following CSS rule then the images INSIDE the paragraph would be set 
-to a width of 100px, but that rule would not apply to the images outside the paragraph.</p>
+<p>If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width 
+of 100px, but that rule would not apply to the images outside the paragraph.</p>
 
 <pre>p img {
   width: 100px;
 }</pre>
 
-<p>Below is a diagram of the given HTML with the two images that will be styled by the above 
-rule are indicated by the red arrows.</p>
+<p>Below is a diagram of the given HTML with the two images that will be styled by the above rule 
+are indicated by the red arrows.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~ 58. diagram pointing out which img tags will be styled (106) ~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -4108,8 +4101,8 @@ styles of the paragraphs and lists in the following example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-2">3.4.2 Activity - Contextual selectors</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>For practice, we are going to learn how to better scope CSS without the crutch of classes 
-and IDs.</p>
+<p>For practice, we are going to learn how to better scope CSS without the crutch of classes and 
+IDs.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 60. scoping css w/o classes & ids (107) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4161,10 +4154,9 @@ ol {
 
 </details>
 
-<p>So, there are CSS rules with duplicate selectors. You'll need to add some extra selectors 
-to the existing CSS rules so that instead of duplicate rules, you have rules that address 
-different instances of the HTML elements based on the structure of the HTML.</p>
-
+<p>So, there are CSS rules with duplicate selectors. You'll need to add some extra selectors to the 
+existing CSS rules so that instead of duplicate rules, you have rules that address different instances 
+of the HTML elements based on the structure of the HTML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Your final site should look like this:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4194,63 +4186,60 @@ different instances of the HTML elements based on the structure of the HTML.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4-3">3.4.3 Cascading styles</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Hopefully, at this point, it's become very clear why what we're working on is called a 
-style sheet. But where is the cascading part coming? CSS has a very specific hierarchy of 
-style. So that you can write multiple rules that apply to the same HTML tag but the browser 
-will still know how to make it look.</p>
+<p>Hopefully, at this point, it's become very clear why what we're working on is called a style 
+sheet. But where is the cascading part coming? CSS has a very specific hierarchy of style. So that 
+you can write multiple rules that apply to the same HTML tag but the browser will still know how to 
+make it look.</p>
 
-<p>But how does the browser decide when there's multiple rules? The answer: the most specific 
-rule wins. But then, why would you want to have multiple rules for the same tag?</p>
+<p>But how does the browser decide when there's multiple rules? The answer: the most specific rule 
+wins. But then, why would you want to have multiple rules for the same tag?</p>
 
-<p>A lot of times, you're going to have multiple style sheets. Imagine you have one parent 
-style sheet that applies to your whole Web site, but then you have individual smaller style 
-sheets that apply to the different pieces of it, like say, your blog or your gallery.</p>
+<p>A lot of times, you're going to have multiple style sheets. Imagine you have one parent style 
+sheet that applies to your whole Web site, but then you have individual smaller style sheets that 
+apply to the different pieces of it, like say, your blog or your gallery.</p>
 
-<p>Imagine, you want to highlight a specific piece of text. You could either write individual 
-rules for each piece of text in your whole Web site —most of which will be very similar and 
-then one would be different— or, you can write one style apply it to the body tag, so that 
-every single piece of text is affected and then use an ID to target the exceptions.</p>
+<p>Imagine, you want to highlight a specific piece of text. You could either write individual rules 
+for each piece of text in your whole Web site —most of which will be very similar and then one would 
+be different— or, you can write one style apply it to the body tag, so that every single piece of text 
+is affected and then use an ID to target the exceptions.</p>
 
-<p>Because the ID tag is so much more specific than the body that rule
-wins. As you can imagine this is going to save you a lot of time and a lot
-of typing. And I'm sure you know computer scientists are all about efficiency.</p>
+<p>Because the ID tag is so much more specific than the body that rule wins. As you can imagine this 
+is going to save you a lot of time and a lot of typing. And I'm sure you know computer scientists 
+are all about efficiency.</p>
 
-<p>Now let's take a closer look at how you can use the cascading nature of CSS to optimize 
-your style. Now that you've learned all these different selectors, you've probably noticed 
-that there is nothing preventing one from creating rules that overlap, meaning creating rules 
-that apply style to the same HTML elements. In fact, it's very common for HTML elements on 
-a page to have multiple CSS rules competing for importance.</p>
+<p>Now let's take a closer look at how you can use the cascading nature of CSS to optimize your style. 
+Now that you've learned all these different selectors, you've probably noticed that there is nothing 
+preventing one from creating rules that overlap, meaning creating rules that apply style to the same 
+HTML elements. In fact, it's very common for HTML elements on a page to have multiple CSS rules 
+competing for importance.</p>
 
-<p>Thanks to the "cascading" part of "Cascading Style Sheets", this isn't a problem. That 
-is because CSS has a way to figure out which rule "wins" when styles are conflicting. CSS 
-actually computes a "weight" for each style rule and the one with the greatest weight wins. 
-If you want all the 
+<p>Thanks to the "cascading" part of "Cascading Style Sheets", this isn't a problem. That is because 
+CSS has a way to figure out which rule "wins" when styles are conflicting. CSS actually computes a 
+"weight" for each style rule and the one with the greatest weight wins. If you want all the 
 <a href="https://www.w3.org/TR/CSS22/cascade.html" target="_blank" rel="noopener noreferrer">
-specifics on how this weight is computed you can read more here</a>. For simplicity's sake, 
-the most specific rule wins!</p>
+specifics on how this weight is computed you can read more here</a>. For simplicity's sake, the most 
+specific rule wins!</p>
 
 <ul>
-  <li>A rule is generally more specific if it applies to a fewer number of elements than 
-    another rule that encompasses those elements. The more facets a rule has the more specific 
-    it is,<br>
+  <li>A rule is generally more specific if it applies to a fewer number of elements than another 
+    rule that encompasses those elements. The more facets a rule has the more specific it is,<br>
   <ul>
-    <li>When pseudo-classes are applied this is more specific than without the pseudo-class. 
-      For example, p:hover will win over just p,</li>
-    <li>Contextual selection is more specific because it scopes the rule to elements within 
-      a certain subset of those on the page. For example, a rule that applies to all the 
-      paragraphs within articles is more specific than a rule that applies to all the paragraphs 
-      on the page,</li>
-    <li>IDs are most specific because you are directly applying them to the desired HTML element. 
+    <li>When pseudo-classes are applied this is more specific than without the pseudo-class. For 
+	  example, p:hover will win over just p,</li>
+    <li>Contextual selection is more specific because it scopes the rule to elements within a certain 
+	  subset of those on the page. For example, a rule that applies to all the paragraphs within 
+	  articles is more specific than a rule that applies to all the paragraphs on the page,</li>
+    <li>IDs are most specific because you are directly applying them to the desired HTML element. 
       The rule based on an ID will always win over other rules.</li>
   </ul></li>
   <li>If two rules have the exact same weight, the one that comes later in the CSS document is 
     what is applied, and</li>
-  <li>You can use the "!important" modifier on a CSS property so that it will guarantee that 
-    style will be applied. This is a way for you to override the calculated weight.</li>
+  <li>You can use the "!important" modifier on a CSS property so that it will guarantee that 
+    style will be applied. This is a way for you to override the calculated weight.</li>
 </ul>
 
-<p>Look at the corresponding HTML and CSS, where code showing how Cascading order applies 
-with many overlapping rules:</p>
+<p>Look at the corresponding HTML and CSS, where code showing how Cascading order applies with many 
+overlapping rules:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. overlapping rules example (111) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4335,9 +4324,9 @@ p {
 
 </details>
 
-<p>Note that there are a lot of repeat CSS rules. For this activity, you cannot change 
-any of the HTML (meaning you cannot add any IDs), but you'll need to change the CSS to 
-make some of the rules more specific so that you achieve this final result:</p>
+<p>Note that there are a lot of repeat CSS rules. For this activity, you cannot change any of the 
+HTML (meaning you cannot add any IDs), but you'll need to change the CSS to make some of the rules 
+more specific so that you achieve this final result:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. cascading order solution (113) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -4386,36 +4375,33 @@ p:hover {
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-5-1">3.5.1 Images</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Images are an extremely important part of your page, not only as part
-of your content but as a key way to help style your page. Before you
-even get to styling them you need to put considerable thought into what
-type of images to include in your page. One of the easiest ways to slow
-down your site's performance is to include lots of large, high-quality
-images. There are two general things to consider when picking your
-images: what format and how large are they? </p>
+<p>Images are an extremely important part of your page, not only as part of your content but as a 
+key way to help style your page. Before you even get to styling them you need to put considerable 
+thought into what type of images to include in your page. One of the easiest ways to slow down your 
+site's performance is to include lots of large, high-quality images. There are two general things to 
+consider when picking your images: what format and how large are they?</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Formats</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>JPEG - Possibly the most common image format used on the web, because it does a 
-    good job of compressing colorful, complex images into reasonably sized files. JPEG is 
-   often used for photos because otherwise, photos can take a very long time to load,</li>
-  <li>PNG - Provides a higher quality image, but you pay for it with a larger file 
-    size. PNG also has the ability to have transparent backgrounds, so you'll often see 
-   this used for graphics as part of the page's layout, and</li>
-  <li>GIF - Supports moving images and transparent backgrounds. These can be especially 
-    large files so try to use sparingly!</li>
+  <li>JPEG - Possibly the most common image format used on the web, because it does a good job of 
+    compressing colorful, complex images into reasonably sized files. JPEG is often used for photos 
+	because otherwise, photos can take a very long time to load,</li>
+  <li>PNG - Provides a higher quality image, but you pay for it with a larger file size. PNG also 
+    has the ability to have transparent backgrounds, so you'll often see this used for graphics as 
+	part of the page's layout, and</li>
+  <li>GIF - Supports moving images and transparent backgrounds. These can be especially large files 
+    so try to use sparingly!</li>
   <li>WEBP - Increases Website performance, Saves bandwidth, increases search engine optimization, yet
-    still shows high-quality images, supports both transparent and animated images.
-    Offers 25-34% smaller file size at an equivalent SSIM quality index to PNG & JPEG.</li>
+    still shows high-quality images, supports both transparent and animated images. Offers 25-34% 
+	smaller file size at an equivalent SSIM quality index to PNG & JPEG.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Sizing</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>It's important to format and size your image before uploading it to
-your site, because while you can use CSS to resize it, the browser will
-download the full image even if you've chosen to display it smaller than
-it is. You can resize images using the width or height properties of CSS
+<p>It's important to format and size your image before uploading it to your site, because while 
+you can use CSS to resize it, the browser will download the full image even if you've chosen to 
+display it smaller than it is. You can resize images using the width or height properties of CSS
 like so:</p>
 
 <pre>img {
@@ -4423,51 +4409,44 @@ like so:</p>
   height: 100px;
 }</pre>
 
-<p>In Module 4, we will discuss width and height in detail, but for the
-purpose of images, know that if you only set one of these two properties
-the image will scale according to its original dimensions. If you set
-both width and height, CSS will stretch your image to fit whatever you
-specify. </p>
+<p>In Module 4, we will discuss width and height in detail, but for the purpose of images, know that 
+if you only set one of these two properties the image will scale according to its original dimensions. 
+If you set both width and height, CSS will stretch your image to fit whatever you specify.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Spacing</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Rarely does it look nice when your content images touch your text
-content. You'll often want to give your images a good amount of white
-space surrounding them, and you can do this with padding and/or margin.
-In the examples below, you can see how you can even use padding and
-margin to achieve some interesting stylistic effects with your
-images.</p>
+<p>Rarely does it look nice when your content images touch your text content. You'll often want to 
+give your images a good amount of white space surrounding them, and you can do this with padding 
+and/or margin. In the examples below, you can see how you can even use padding and margin to achieve 
+some interesting stylistic effects with your images.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Border Radius</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In Module 2, we saw how you can use the "border-radius" property to
-make a button with rounded corners. You can do the same to images. You
-might even notice that it has become popular to turn square images into
-perfect circles, especially for icons or profile photos.</p>
+<p>In Module 2, we saw how you can use the "border-radius" property to make a button with rounded 
+corners. You can do the same to images. You might even notice that it has become popular to turn 
+square images into perfect circles, especially for icons or profile photos.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Images as design elements</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>When you see complicated styles as part of a Web page's design,
-chances are there are images as a foundational element. For example, you
-will often see images set as backgrounds or as a link. Remember that you
-can put an &lt;img&gt; tag within an anchor tag to turn it into a link.
-You can also use the background-image CSS property to set an image as a
-background instead of just using a solid color. You can <a
+<p>When you see complicated styles as part of a Web page's design, chances are there are images as 
+a foundational element. For example, you will often see images set as backgrounds or as a link. 
+Remember that you can put an &lt;img&gt; tag within an anchor tag to turn it into a link. You can 
+also use the background-image CSS property to set an image as a background instead of just using a 
+solid color. You can <a
 href="https://www.w3.org/wiki/CSS_background_images" target="_blank" rel="noopener noreferrer">
 read more about background images here</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Text in images</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>It is best to overlay real text rather than use pixelated text. This
-makes it possible to search, copy and style the text, as well as making
-translation much easier. It also has <a href="https://www.w3.org/WAI/tutorials/images/textual/" 
-target="_blank" rel="noopener noreferrer">accessibility benefits</a> and makes translation much easier.</p>
+<p>It is best to overlay real text rather than use pixelated text. This makes it possible to search, 
+copy and style the text, as well as making translation much easier. It also has 
+<a href="https://www.w3.org/WAI/tutorials/images/textual/" target="_blank" rel="noopener noreferrer">
+accessibility benefits</a> and makes translation much easier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Examples</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>As you can see, there are a lot of things to consider, and if you do
-not plan your images carefully, they can end up looking very disruptive,
-like this "Bad Image" example:</p>
+<p>As you can see, there are a lot of things to consider, and if you do not plan your images 
+carefully, they can end up looking very disruptive, like this "Bad Image" example:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. bad image example (116) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
