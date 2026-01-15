@@ -2694,12 +2694,12 @@ target="_blank" rel="noopener noreferrer" title="W3&apos;s serif"><b>serif</b></
 title="W3&apos;s sans-serif"><b>sans-serif</b></a>, <a href="https://www.w3.org/TR/css-fonts/#monospace-def" 
 target="_blank" rel="noopener noreferrer" title="W3&apos;s monospace"><b>monospace</b></a>, 
 <a href="https://www.w3.org/TR/css-fonts/#cursive-def" target="_blank" rel="noopener noreferrer" 
-title="W3&apos;s cursive"><b>cursive</b></a> and <b><a href="https://www.w3.org/TR/css-fonts/#fantasy-def" 
+title="W3&apos;s cursive"><b>cursive</b></a> and <a href="https://www.w3.org/TR/css-fonts/#fantasy-def" 
 target="_blank" rel="noopener noreferrer" title="W3&apos;s fantasy"><b>fantasy</b></a>.</p>
 
-<pre>p {
+<pre><code>p {
   font-family: Helvetica, Verdana, sans-serif;
-}</pre>
+}</code></pre>
 
 <p>This property sets the font face. There is a collection of Web safe fonts that generally each 
 browser has agreed to support, but there are an unlimited number of different fonts. The problem 
@@ -9169,66 +9169,40 @@ rel="noopener noreferrer">Wiki How Main Page</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-1">5.5.1 The current state of Web design</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Now, it&apos;s 2016. And I say the year because the design trends I am
-going to talk about are really specific to this time period now.</p>
+<p>Now, it&apos;s 2016. And I say the year because the design trends I am going to talk about are 
+really specific to this time period now. Like anything, design grows with time. And something new 
+will come along pretty soon. But I want to talk about current design trends so you have a snapshot 
+of where we are at now and where we might be going. These days, the big ticket item is flat design, 
+minimalism. We just came out of the era of a lot of drop shadows, and beveled edges, and now 
+everybody wants very nice clean Web sites. You&apos;ll also see a lot of very simplistic interaction 
+models.</p>
 
-<p>Like anything, design grows with time. And something new will come
-along pretty soon.</p>
+<p>A lot of Web pages are just one long scroll. That&apos;s because, if you think about your Web 
+page on any screen, a long scroll does a really good job adapting, because it optimizes for vertical 
+space, which works on your mobile phone or your desktop, and it doesn&apos;t put a lot of pressure 
+on horizontal space, which can be so varied based on the screen. When you&apos;re designing your Web 
+site, you might want to go out and look at some example sites and you&apos;re going to see a lot of 
+patterns. You&apos;re going to see a lot of simple clean color schemes, you&apos;re not going to see 
+very many drop shadows, and you&apos;re going to see a lot of long scrolling Web pages. You don&apos;t 
+have to design your Web pages this way, but that&apos;s where things are going, and if you want a nice 
+modern look, it&apos;s a good idea to kind of focus on these principals.</p>
 
-<p>But I want to talk about current design trends so you have a snapshot
-of where we are at now and where we might be going.</p>
+<p>The other thing that has come really into popularity is a focus on typography. These days, we have 
+a lot of options for what fonts you can use on a page, not only are there the Web safe fonts 
+we&apos;ve been talking about all along, but there&apos;s a lot of new services that give you 
+access to even more fonts. Now, don&apos;t go crazy, you&apos;re going to only want to pick one, maybe 
+two fonts, for your page, but picking a nice font can have a real impact on how the user consumes your 
+content. And you&apos;ll see that a lot of people sort of pick signature fonts especially for their 
+title, or for their logo.</p>
 
-<p>These days, the big ticket item is flat design, minimalism. We just
-came out of the era of a lot of drop shadows, and beveled edges, and now
-everybody wants very nice clean Web sites.</p>
-
-<p>You&apos;ll also see a lot of very simplistic interaction models.</p>
-
-<p>A lot of Web pages are just one long scroll.</p>
-
-<p>That&apos;s because, if you think about your Web page on any screen, a
-long scroll does a really good job adapting, because it optimizes for
-vertical space, which works on your mobile phone or your desktop, and it
-doesn&apos;t put a lot of pressure on horizontal space, which can be so
-varied based on the screen.</p>
-
-<p>When you&apos;re designing your Web site, you might want to go out and
-look at some example sites and you&apos;re going to see a lot of
-patterns.</p>
-
-<p>You&apos;re going to see a lot of simple clean color schemes, you&apos;re not
-going to see very many drop shadows, and you&apos;re going to see a lot of
-long scrolling Web pages.</p>
-
-<p>You don&apos;t have to design your Web pages this way, but that&apos;s where
-things are going, and if you want a nice modern look, it&apos;s a good idea
-to kind of focus on these principals.</p>
-
-<p>The other thing that has come really into popularity is a focus on
-typography.</p>
-
-<p>These days, we have a lot of options for what fonts you can use on a
-page, not only are there the Web safe fonts we&apos;ve been talking about all
-along, but there&apos;s a lot of new services that give you access to even
-more fonts.</p>
-
-<p>Now, don&apos;t go crazy, you&apos;re going to only want to pick one, maybe two
-fonts, for your page, but picking a nice font can have a real impact on
-how the user consumes your content.</p>
-
-<p>And you&apos;ll see that a lot of people sort of pick signature fonts
-especially for their title, or for their logo.</p>
-
-<p>If you keep these basic ideas in mind, long scrolling, flat designing
-and typography, you&apos;re probably going to end up with a really nice
-modern page.</p>
+<p>If you keep these basic ideas in mind, long scrolling, flat designing and typography, you&apos;re 
+probably going to end up with a really nice modern page.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-2">5.5.2 Minimalism</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>This Web design trend is part fashion, part function. Since we always
-keep mobile devices in mind when designing, the "rich design" styles of
-the past (drop shadows, gradients, lots of images, colors, and fonts)
-have been replaced with the current trend "flat design".</p>
+<p>This Web design trend is part fashion, part function. Since we always keep mobile devices in 
+mind when designing, the "rich design" styles of the past (drop shadows, gradients, lots of images, 
+colors, and fonts) have been replaced with the current trend "flat design".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Flat design emphasizes:</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -9242,11 +9216,11 @@ have been replaced with the current trend "flat design".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li><i>Low load times</i> - better for mobile network connections,</li>
-  <li><i>Responsiveness</i> - when there are a small number of elements, it is easier 
-  to manage their relationships so that the overall layout can grow and shrink to accommodate 
+  <li><i>Responsiveness</i> - when there are a small number of elements, it is easier to manage their 
+    relationships so that the overall layout can grow and shrink to accommodate 
   different screen sizes, and</li>
-  <li><i>Intuitive experience</i> - research has shown that the cleaner a site, the easier 
-  it is for a user to find the information they are looking for.</li>
+  <li><i>Intuitive experience</i> - research has shown that the cleaner a site, the easier it is for 
+    a user to find the information they are looking for.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>External resource</h4>
@@ -9258,21 +9232,18 @@ have been replaced with the current trend "flat design".</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5.5.3 long scrolling ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-3">5.5.3 Long scrolling</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In the past, Web sites were comprised of many separate pages that you
-would navigate to, leaving behind the page you came from. These days,
-you&apos;ll often find pages that are comprised of a single long scrolling
-page with links that just jump to different portions of the page. The
-reason for this is less about fashion and more about technological
-developments. Especially on touch devices, scrolling is a more natural
-human way to interact with a page.</p>
+<p>In the past, Web sites were comprised of many separate pages that you would navigate to, leaving 
+behind the page you came from. These days, you&apos;ll often find pages that are comprised of a 
+single long scrolling page with links that just jump to different portions of the page. The reason 
+ for this is less about fashion and more about technological developments. Especially on touch 
+ devices, scrolling is a more natural human way to interact with a page.</p>
 
-<p>This can be accomplished with something called "internal links". This
-is where you load the entire page as one long site and the links at the
-top simply jump to different locations within the site. To do this, you
-need to give the section you want to jump to an id, and then you use
-the id selector as the href setting on the anchor tag. </p>
+<p>This can be accomplished with something called "internal links". This is where you load the 
+entire page as one long site and the links at the top simply jump to different locations within 
+the site. To do this, you need to give the section you want to jump to an id, and then you use the 
+id selector as the href setting on the anchor tag. </p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 114. sample &apos;internal link&apos; (226) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 114. sample &apos;internal link&apos; (226) ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
   src="./images/image114.webp?raw=true"
   loading="lazy"
@@ -9537,33 +9508,31 @@ performance. For example, you can currently only align elements that
 have the same parent. That said, for laying out graphical user
 interfaces (GUIs), Flexbox and Grid work very well.</p>
 
-<p>We briefly present them below, and give a few resources at the bottom
-of the page so that you can explore more.</p>
+<p>We briefly present them below, and give a few resources at the bottom of the page so that you 
+can explore more.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>CSS Flexbox</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Since its introduction in 2012, CSS Flexbox has become widely used
-and its <a href="https://caniuse.com/flexbox" target="_blank" 
-rel="noopener noreferrer">browser support</a> is
-really good. Flexbox made a lot of complex layout tasks easier, like
-equidistant spacing between elements, top-to-bottom layouts or the <a
-href="https://en.wikipedia.org/wiki/Holy_Grail_(web_design)" target="_blank" 
-rel="noopener noreferrer">holy grail</a>. Find out about Flexbox and how to 
-use it in the last section of the <a
+<p>Since its introduction in 2012, CSS Flexbox has become widely used and its 
+<a href="https://caniuse.com/flexbox" target="_blank" rel="noopener noreferrer" title="Can I use?">
+browser support</a> is really good. Flexbox made a lot of complex layout tasks easier, like equidistant 
+spacing between elements, top-to-bottom layouts or the 
+<a href="https://en.wikipedia.org/wiki/Holy_Grail_(web_design)" target="_blank" 
+rel="noopener noreferrer" title="Wiki holy grail web design">
+holy grail</a>. Find out about Flexbox and how to use it in the last section of the <a
 href="https://www.edx.org/course/html5-and-css-fundamentals" 
-target="_blank" rel="noopener noreferrer">W3C HTML5 and CSS Fundamentals course</a>!</p>
+target="_blank" rel="noopener noreferrer title="W3C&apos;s HTML5 and CSS Fundamentals course">
+W3C HTML5 and CSS Fundamentals course</a>!</p>
 
-<p>Despite the similarities in concept and syntax, Flexbox and Grid are
-not competing layout techniques. Grid arranges in two dimensions, while
-Flexbox lays out in one. There is synergy when using the two together.</p>
+<p>Despite the similarities in concept and syntax, Flexbox and Grid are not competing layout 
+techniques. Grid arranges in two dimensions, while Flexbox lays out in one. There is synergy 
+when using the two together.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>CSS Grid</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>CSS Grid is a CSS module that defines a two-dimensional grid-based
-layout system, optimized for user interface design. In the grid layout
-model, the children of an element (the ‘grid container’) can be
-positioned into arbitrary slots in a predefined flexible or fixed-size
-layout grid.</p>
+<p>CSS Grid is a CSS module that defines a two-dimensional grid-based layout system, optimized for 
+user interface design. In the grid layout model, the children of an element (the ‘grid container’) 
+can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 116. grid module (234) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed"
@@ -9573,8 +9542,8 @@ layout grid.</p>
   title="Grid module"
   alt="Grid module.">
 
-<p>The Grid module provides several different ways to define such a grid and to place the 
-child elements. Too many, in fact, to present here.</p>
+<p>The Grid module provides several different ways to define such a grid and to place the child 
+elements. Too many, in fact, to present here.</p>
 
 <p>Because they can refer to a previously defined grid of horizontal and vertical lines, 
 the properties from the CSS Grid module provide more control over the alignment of elements 
@@ -9588,59 +9557,66 @@ to an HTML table, doesn&apos;t work, because the properties do not handle nested
 though this is only level 1 of the module, it is well worth trying out.</p>
 
 <p>The properties from the Grid module have only been available in major browsers since mid 2017 
-(see the <a href="https://caniuse.com/css-grid" target="_blank" rel="noopener noreferrer">status of 
-browser support</a>). But the ideas behind the Grid module aren&apos;t new. From the start of CSS, there 
-have been proposals to use CSS properties to define a template or matrix to guide the layout of elements, 
-e.g.: <a href="http://www.w3.org/TR/WD-layout" target="_blank" rel="noopener noreferrer">Frame-based 
-layout</a>, <a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" rel="noopener 
-noreferrer">Advanced Layout</a> (later called <a href="http://www.w3.org/TR/css-template-3/" 
-target="_blank" rel="noopener noreferrer">Template Layout</a>), <a href="https://github.com/gss" 
-target="_blank" rel="noopener noreferrer">Grid Style Sheets</a> and 
-<a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" target="_blank" rel="noopener noreferrer">
-Constraint CSS</a>. But only recently has technology become good enough to support some (not all!) of those 
-ideas.</p>
+(see the <a href="https://caniuse.com/css-grid" target="_blank" rel="noopener noreferrer" 
+title="Status of browser support for css-grid layout">status of browser support</a>). But the ideas 
+behind the Grid module aren&apos;t new. From the start of CSS, there have been proposals to use 
+CSS properties to define a template or matrix to guide the layout of elements, 
+e.g.: <a href="http://www.w3.org/TR/WD-layout" target="_blank" rel="noopener noreferrer" 
+title="W3&apos;s frame-based layout">Frame-based layout</a>, 
+<a href="http://www.w3.org/TR/2005/WD-css3-layout-20051215/" target="_blank" rel="noopener noreferrer" 
+title="Advanced layout">Advanced Layout</a> (later called <a href="http://www.w3.org/TR/css-template-3/" 
+target="_blank" rel="noopener noreferrer" title="Template layout">Template Layout</a>), 
+<a href="https://github.com/gss" 
+target="_blank" rel="noopener noreferrer" title="Grid style sheets">Grid Style Sheets</a> and 
+<a href="https://constraints.cs.washington.edu/web/ccss-uwtr.pdf" target="_blank" rel="noopener noreferrer" 
+title="No longer mainted">Constraint CSS</a>. But only recently has technology become good enough to 
+support some (not all!) of those ideas.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>A few resources</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>If you look at the CSS Grid module, you may notice that it has rather a large number of properties: 
-18. That is because it tries to allow different manners of writing style sheets. There are many shorthand
-properties and many alternative ways to define the same grid. In practice, most style sheet writers will 
-select a set of just three or four properties that suits their way of working.</p>
+<p>If you look at the CSS Grid module, you may notice that it has rather a large number of 
+properties: 18. That is because it tries to allow different manners of writing style sheets. 
+There are many shorthand properties and many alternative ways to define the same grid. In 
+practice, most style sheet writers will select a set of just three or four properties that 
+suits their way of working.</p>
 
-<p>When considering the CSS Grid module, also look at the CSS Flexible Box module. It only provides for 
-alignment of elements in a single row or column, but has some features that Grid doesn&apos;t have (and it 
-has been around longer and works in older browsers). On the other hand, even for a single row or column, 
-the Grid properties may turn out easier in some cases.</p>
+<p>When considering the CSS Grid module, also look at the CSS Flexible Box module. It only provides 
+for alignment of elements in a single row or column, but has some features that Grid doesn&apos;t 
+have (and it has been around longer and works in older browsers). On the other hand, even for a 
+single row or column, the Grid properties may turn out easier in some cases.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>CSS Layout</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li><a href="https://csslayout.news/" target="_blank" rel="noopener noreferrer">CSS Layout News</a> 
-  - A weekly collection of tutorials, news and information on all things CSS Layout, by 
-  <a href="https://rachelandrew.co.uk/" target="_blank" rel="noopener noreferrer">Rachel Andrew</a>.</li>
+  <li><a href="https://csslayout.news/" target="_blank" rel="noopener noreferrer" 
+    title="CSS layout news">CSS Layout News</a> - A weekly collection of tutorials, news and 
+	information on all things CSS Layout, by <a href="https://rachelandrew.co.uk/" target="_blank" 
+	rel="noopener noreferrer" title="Rachel Andrew">Rachel Andrew</a>.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>CSS grid resources</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank" 
-  rel="noopener noreferrer">A complete guide to Grid</a> (CSS Tricks),</li>
-  <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener noreferrer">
-  CSS Grid</a>, the W3C specification, and</li>
-  <li><a href="https://gridbyexample.com/" target="_blank" rel="noopener noreferrer">
-  Grid by example</a>: this site is a collection of <i>example</i>, video and other information 
-  to help you learn CSS <i>Grid</i> Layout.</li>
+    rel="noopener noreferrer" title="A complete guide to Grid">
+    A complete guide to Grid</a> (CSS Tricks),<br><br></li>
+  <li><a href="https://www.w3.org/TR/css-grid-1/" target="_blank" rel="noopener noreferrer" 
+    title="CSS Grid">CSS Grid</a>, the W3C specification, and<br><br></li>
+  <li><a href="https://gridbyexample.com/" target="_blank" rel="noopener noreferrer" 
+    title="Grid by example">Grid by example</a>: this site is a collection of <i>example</i>, 
+	video and other information to help you learn CSS <i>Grid</i> Layout.</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>CSS flexbox resources</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" 
-  rel="noopener noreferrer">A complete guide to Flexbox</a> (CSS Tricks),</li>
-  <li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank" rel="noopener noreferrer">
-  CSS Flexible Box Layout</a>, the W3C specification, and</li>
-  <li><a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">
-  Flexbox froggy</a> (game to practice CSS flexbox code).</li>
+    rel="noopener noreferrer" title="A complete guide to flexbox">
+	A complete guide to Flexbox</a> (CSS Tricks),<br><br></li>
+  <li><a href="https://www.w3.org/TR/css-flexbox/" target="_blank" rel="noopener noreferrer" 
+    title="CSS flexible box layout">CSS Flexible Box Layout</a>, the W3C specification, and<br><br></li>
+  <li><a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer" 
+    title="Flexbox froggy game">Flexbox froggy</a> (game to practice CSS flexbox code).</li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 5.5.5 css grid layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch5-5-5">5.5.5 CSS Grid layout</h3>
