@@ -97,7 +97,7 @@ details > p {
   background-color: #fff;  /* white */
   padding: 2px 6px;
   margin: 0;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
 }
 details[open] > summary {
   background-color: #ffff00;  /* yellow */
