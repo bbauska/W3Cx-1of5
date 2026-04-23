@@ -1,4 +1,5 @@
-#  Module 4: Layout and positioning   4.1 Introduction
+#  Module 4: Layout and positioning
+## 4.1 Introduction
 <p>In this module, we're going to talk about layout and positioning using CSS.</p>
 <p>We're going to start by understanding the ‘Box model’ or the white space around each and every HTML element.</p>
 <p>Then we're going to learn about ‘Relative positioning’.
