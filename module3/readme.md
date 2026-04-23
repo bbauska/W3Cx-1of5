@@ -1,6 +1,6 @@
-# Module 3: Specific HTML element targeting with CSS selectors   3.1 Introduction   Welcome to Module 3
+# Module 3: Specific HTML element targeting with CSS selectors
 
-# Welcome to Module 3
+# 3.1 Introduction   Welcome to Module 3
 
 In this module, we'll learn:
 
